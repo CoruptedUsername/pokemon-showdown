@@ -26,11 +26,11 @@ export interface SpeciesData extends Partial<Species> {
 export type ModdedSpeciesData = SpeciesData | Partial<Omit<SpeciesData, 'name'>> & { inherit: true };
 
 export interface SpeciesFormatsData {
-	doublesTier?: TierTypes.Doubles | TierTypes.Other;
+	doublesTier?: TierTypes.Doubles | TierTypes.Other | TierTypes.DNUDoubles;
 	gmaxUnreleased?: boolean;
 	isNonstandard?: Nonstandard | null;
-	natDexTier?: TierTypes.Singles | TierTypes.Other;
-	tier?: TierTypes.Singles | TierTypes.Other;
+	natDexTier?: TierTypes.Singles | TierTypes.Other | TierTypes.DNUSingles;
+	tier?: TierTypes.Singles | TierTypes.Other | TierTypes.DNUSingles;
 }
 
 export type ModdedSpeciesFormatsData = SpeciesFormatsData & { inherit?: true };
@@ -262,15 +262,15 @@ export class Species extends BasicEffect implements Readonly<BasicEffect & Speci
 	/**
 	 * Singles Tier. The Pokemon's location in the Smogon tier system.
 	 */
-	readonly tier: TierTypes.Singles | TierTypes.Other;
+	readonly tier: TierTypes.Singles | TierTypes.Other | TierTypes.DNUSingles;
 	/**
 	 * Doubles Tier. The Pokemon's location in the Smogon doubles tier system.
 	 */
-	readonly doublesTier: TierTypes.Doubles | TierTypes.Other;
+	readonly doublesTier: TierTypes.Doubles | TierTypes.Other | TierTypes.DNUDoubles;
 	/**
 	 * National Dex Tier. The Pokemon's location in the Smogon National Dex tier system.
 	 */
-	readonly natDexTier: TierTypes.Singles | TierTypes.Other;
+	readonly natDexTier: TierTypes.Singles | TierTypes.Other | TierTypes.DNUSingles;
 
 	constructor(data: AnyObject) {
 		super(data);

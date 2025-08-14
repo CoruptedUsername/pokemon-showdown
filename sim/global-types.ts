@@ -43,6 +43,8 @@ declare namespace TierTypes {
 		"(NU)" | "PUBL" | "PU" | "(PU)" | "ZUBL" | "ZU" | "NFE" | "LC";
 	export type Doubles = "DUber" | "(DUber)" | "DOU" | "(DOU)" | "DBL" | "DUU" | "(DUU)" | "NFE" | "LC";
 	export type Other = "Unreleased" | "Illegal" | "CAP" | "CAP NFE" | "CAP LC";
+	export type DNUSingles = "DoNU AG" | "DoNU Uber" | "DoNU OU" | "DoNU UUBL" | "DoNU UU" | "DoNU RUBL" | "DoNU RU";
+	export type DNUDoubles = "DoNU Restricted" | "DoNU Unrestricted";
 }
 
 interface EventInfo {

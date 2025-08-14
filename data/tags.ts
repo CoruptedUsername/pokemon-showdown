@@ -266,6 +266,54 @@ export const Tags: { [id: IDEntry]: TagData } = {
 		name: "ND LC",
 		speciesFilter: species => species.natDexTier === 'LC',
 	},
+	// DNU Tags
+	dnuag: {
+		name: "DNU AG",
+		speciesFilter: species => species.tier === 'DoNU AG',
+	},
+	dnuuber: {
+		name: "DNU Uber",
+		speciesFilter: species => species.tier === 'DoNU Uber',
+	},
+	dnuou: {
+		name: "DNU OU",
+		speciesFilter: species => species.tier === 'DoNU OU',
+	},
+	dnuuubl: {
+		name: "DNU UUBL",
+		speciesFilter: species => species.tier === 'DoNU UUBL',
+	},
+	dnuuu: {
+		name: "DNU UU",
+		speciesFilter: species => species.tier === 'DoNU UU',
+	},
+	dnurubl: {
+		name: "DNU RUBL",
+		speciesFilter: species => species.tier === 'DoNU RUBL',
+	},
+	dnuru: {
+		name: "DNU RU",
+		speciesFilter: species => species.tier === 'DoNU RU',
+	},
+	dnurestricted: {
+		name: "DNU Restricted",
+		speciesFilter: species => species.doublesTier === 'DoNU Restricted',
+	},
+	dnuunrestricted: {
+		name: "DNU Unrestricted",
+		speciesFilter: species => species.doublesTier === 'DoNU Unrestricted',
+	},
+	nondnus: {
+		name: "NotDNUS",
+		speciesFilter: species => species.tier !== 'DoNU AG' && species.tier !== 'DoNU Uber' &&
+			species.tier !== 'DoNU OU' && species.tier !== 'DoNU UUBL' && species.tier !== 'DoNU UU' &&
+			species.tier !== 'DoNU RUBL' && species.tier !== 'DoNU RU',
+	},
+	nondnud: {
+		name: "NotDNUD",
+		speciesFilter: species => species.doublesTier !== 'DoNU Unrestricted' &&
+			species.doublesTier !== 'DoNU Restricted',
+	},
 
 	// Legality tags
 	past: {

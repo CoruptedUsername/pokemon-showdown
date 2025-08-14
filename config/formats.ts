@@ -30,8 +30,8 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		desc: "<b>Do Not Use</b>: A National Dex metagame where only Pokemon with 280 BST or less are allowed.",
 		mod: "gen9dnu",
 		ruleset: ['Standard NatDex', 'Mega Rayquaza Clause', 'Terastal Clause', 'Z-Move Clause'],
-		banlist: ['All Pokemon', 'Huge Power', 'Pure Power', 'Shadow Tag', 'Arena Trap', 'Baton Pass', 'Moody', 'Cute Charm', 'Hustle'],
-		unbanlist: ['Assist', 'DNU OU', 'DNU UUBL', 'DNU UU', 'DNU RUBL', 'DNU RU'],
+		// banlist: ['Huge Power', 'Pure Power', 'Shadow Tag', 'Arena Trap', 'Baton Pass', 'Moody', 'Cute Charm', 'Hustle'],
+		// unbanlist: ['Assist', 'DNU OU', 'DNU UUBL', 'DNU UU', 'DNU RUBL', 'DNU RU'],
 	},
 	{
 		name: "[Gen 9] Do Not Use UU",

@@ -483,7 +483,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: "DoNU Uber",
 	},
 	wattrel: {
-		tier: "OU",
+		tier: "DoNU Uber",
 		doublesTier: "DoNU Restricted",
 	},
 	wingull: {

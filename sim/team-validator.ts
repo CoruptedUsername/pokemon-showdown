@@ -1861,6 +1861,7 @@ export class TeamValidator {
 	checkItem(set: PokemonSet, item: Item, setHas: { [k: string]: true }) {
 		const dex = this.dex;
 		const ruleTable = this.ruleTable;
+		console.log(ruleTable);
 
 		setHas['item:' + item.id] = true;
 

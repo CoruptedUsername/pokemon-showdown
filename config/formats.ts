@@ -48,18 +48,6 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		unbanlist: ['Assist', 'DNU RU'],
 	},
 	{
-		name: "[Gen 9] Do Not Use Ubers",
-		mod: "gen9dnu",
-		ruleset: ['Standard NatDex', '!Evasion Clause', 'Evasion Moves Clause', 'Evasion Items Clause', 'Mega Rayquaza Clause', 'Terastal Clause', 'Z-Move Clause'],
-		banlist: ['DNU AG', 'Huge Power', 'Pure Power', 'Baton Pass'],
-		unbanlist: ['Assist', 'DNU Uber', 'DNU OU', 'DNU UUBL', 'DNU UU', 'DNU RUBL', 'DNU RU'],
-	},
-	{
-		name: "[Gen 9] Do Not Use AG",
-		mod: "gen9dnu",
-		ruleset: ['Standard AG', 'NatDex Mod'],
-	},
-	{
 		name: "[Gen 9] Do Not Use VGC",
 		mod: "gen9dnu",
 		gameType: 'doubles',
@@ -67,5 +55,32 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		restricted: ['Cottonee', 'Dewpider', 'Diglett-Alola', 'Flittle', 'Nidoran-M', 'Wattrel', 'Wingull', 'Zigzagoon'],
 		banlist: ['All Pokemon', 'Huge Power', 'Pure Power'],
 		unbanlist: ['Assist', 'DNU Restricted', 'DNU Unrestricted'],
+	},
+	{
+		section: "Do Not Use OMs",
+	},
+	{
+		name: "[Gen 9] Do Not Use AG",
+		mod: "gen9dnu",
+		ruleset: ['Standard AG', 'NatDex Mod'],
+	},
+	{
+		name: "[Gen 9] Do Not Use Ubers",
+		mod: "gen9dnu",
+		ruleset: ['Standard NatDex', '!Evasion Clause', 'Evasion Moves Clause', 'Evasion Items Clause', 'Mega Rayquaza Clause', 'Terastal Clause', 'Z-Move Clause'],
+		banlist: ['DNU AG', 'Huge Power', 'Pure Power', 'Baton Pass'],
+		unbanlist: ['Assist', 'DNU Uber', 'DNU OU', 'DNU UUBL', 'DNU UU', 'DNU RUBL', 'DNU RU'],
+	},
+	{
+		name: "[Gen 9] Do Not Use Legacy",
+		mod: "gen9dnulegacy",
+		ruleset: ['Standard NatDex', 'Mega Rayquaza Clause', 'Terastal Clause', 'Z-Move Clause'],
+		banlist: ['Huge Power', 'Pure Power', 'Shadow Tag', 'Arena Trap', 'Baton Pass', 'Moody'],
+	},
+	{
+		name: "[Gen 9] Do Not Use RU Legacy",
+		mod: "gen9dnulegacy",
+		ruleset: ['Standard NatDex', 'Mega Rayquaza Clause', 'Terastal Clause', 'Z-Move Clause'],
+		banlist: ['DNU OU', 'DNU UUBL', 'DNU UU', 'DNU RUBL', 'Huge Power', 'Pure Power', 'Shadow Tag', 'Arena Trap', 'Baton Pass', 'Moody'],
 	},
 ];

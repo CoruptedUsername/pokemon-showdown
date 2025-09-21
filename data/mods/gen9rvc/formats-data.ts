@@ -72,7 +72,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: "RVC LC",
 	},
 	moltresgalar: {
-		tier: "RVC LC",
+		tier: "RVC",
 	},
 	mukalola: {
 		tier: "RVC",

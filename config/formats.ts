@@ -92,4 +92,9 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		teraPreviewDefault: true,
 		ruleset: ['Standard Draft', '+Unobtainable', '+Past', 'Min Source Gen = 1'],
 	},
+	{
+		name: "[Gen 9] Natalie Used",
+		mod: "gen9natu",
+		ruleset: ['Standard Draft', '+Unobtainable', '+Past', 'Min Source Gen = 1', '!Species Clause', 'Rellor Clause', 'Paralysis Clause', 'Z-Move Clause', 'Terastal Clause'],
+	},
 ];

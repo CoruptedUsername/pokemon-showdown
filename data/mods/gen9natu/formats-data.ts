@@ -158,7 +158,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	impidimp: {
 		tier: "NatU LC",
 	},
-	indeedeefemale: {
+	indeedeef: {
 		tier: "NatU",
 	},
 	joltik: {

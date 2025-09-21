@@ -11,8 +11,7 @@ export const Rulesets: import('../../../sim/dex-formats').FormatDataTable = {
 			for (const set of team) {
 				const species = this.dex.species.get(set.species);
 				if (speciesTable.has(species.num) && species.num !== 953) {
-					return [`You are limited to one of each non-Rellor Pokémon by Species Clause.`, `(You have more than one
-					${species.baseSpecies})`];
+					return [`You are limited to one of each non-Rellor Pokémon by Species Clause.`, `(You have more than one	${species.baseSpecies})`];
 				}
 				speciesTable.add(species.num);
 			}

@@ -1,7 +1,7 @@
 export const Rulesets: import('../../../sim/dex-formats').FormatDataTable = {
 	dnumons: {
 		effectType: 'ValidatorRule',
-		name: 'DNU Clause',
+		name: 'DNU Mons Clause',
 		desc: "Enforces tier mons only",
 		onValidateTeam(team) {
 			const bannedMons = [];

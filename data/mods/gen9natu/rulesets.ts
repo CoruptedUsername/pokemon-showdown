@@ -26,4 +26,19 @@ export const Rulesets: import('../../../sim/dex-formats').FormatDataTable = {
 			this.add('rule', 'Paralysis Clause: Effects with high chance to paralyze are banned');
 		},
 	},
+	natumons: {
+		effectType: 'ValidatorRule',
+		name: 'NatU Mons Clause',
+		desc: "Enforces tier mons only",
+		onValidateTeam(team) {
+			const bannedMons = [];
+			for (const set of team) {
+				const species = this.dex.species.get(set.species);
+				if (!(species.tier in ['NatU', 'NatU NFE', 'NatU LC'])) bannedMons.push(species.name);
+			}
+			if (bannedMons.length > 0) {
+				return [`You may not use Pok\u00E9mon not part of Natalie Used (you have: ${bannedMons.join(', ')})`];
+			}
+		},
+	},
 };

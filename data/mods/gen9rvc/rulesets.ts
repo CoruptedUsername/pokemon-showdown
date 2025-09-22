@@ -1,4 +1,4 @@
-export const Rulesets: import('../../../sim/dex-formats').FormatDataTable = {
+export const Rulesets: import('../../../sim/dex-formats').ModdedFormatDataTable = {
 	rvcmons: {
 		effectType: 'ValidatorRule',
 		name: 'RVC Mons Clause',

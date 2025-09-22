@@ -1,4 +1,4 @@
-export const Rulesets: import('../../../sim/dex-formats').FormatDataTable = {
+export const Rulesets: import('../../../sim/dex-formats').ModdedFormatDataTable = {
 	dnulegacymons: {
 		effectType: 'ValidatorRule',
 		name: 'DNU Legacy Mons Clause',

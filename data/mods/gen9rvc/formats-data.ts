@@ -20,6 +20,9 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	cursola: {
 		tier: "RVC",
 	},
+	darmanitangalar: {
+		tier: "RVC",
+	},
 	darumakagalar: {
 		tier: "RVC LC",
 	},

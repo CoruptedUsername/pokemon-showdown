@@ -53,8 +53,8 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		gameType: 'doubles',
 		ruleset: ['Standard Doubles', 'NatDex Mod', 'Item Clause = 1', 'Adjust Level = 50', 'Picked Team Size = 4', 'VGC Timer', 'Force Open Team Sheets', 'Terastal Clause', 'Z-Move Clause', 'Best of = 3', 'Limit One Restricted', '!OHKO Clause', '!Evasion Moves Clause', '!Gravity Sleep Clause'],
 		restricted: ['Cottonee', 'Dewpider', 'Diglett-Alola', 'Flittle', 'Nidoran-M', 'Wattrel', 'Wingull', 'Zigzagoon'],
-		banlist: ['Vanilla', 'All Pokemon', 'Huge Power', 'Pure Power'],
-		unbanlist: ['Assist', 'DNU Restricted', 'DNU Unrestricted'],
+		banlist: ['Vanilla Doubles', 'Huge Power', 'Pure Power'],
+		unbanlist: ['Assist'],
 	},
 	{
 		section: "Do Not Use OMs",

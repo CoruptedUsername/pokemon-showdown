@@ -236,6 +236,12 @@ export const Tags: { [id: IDEntry]: TagData } = {
 		name: "DNU",
 		speciesFilter: species => species.doublesTier === '(DUU)',
 	},
+	vanilladoubles: {
+		name: "Vanilla Doubles",
+		speciesFilter: species => species.doublesTier === 'DUber' || species.doublesTier === '(DUber)' ||
+			species.doublesTier === 'DOU' || species.doublesTier === '(DOU)' || species.doublesTier === 'DBL' ||
+			species.doublesTier === 'DUU' || species.doublesTier === '(DUU)',
+	},
 
 	// Nat Dex tiers
 	// -------------

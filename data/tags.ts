@@ -204,6 +204,15 @@ export const Tags: { [id: IDEntry]: TagData } = {
 		name: "AG",
 		speciesFilter: species => species.tier === 'AG',
 	},
+	vanilla: {
+		name: "Vanilla",
+		speciesFilter: species => species.tier === 'Uber' || species.tier === '(Uber)' || species.tier === 'AG' ||
+			species.tier === 'OU' || species.tier === '(OU)' || species.tier === 'UUBL' || species.tier === 'UU' ||
+			species.tier === 'RUBL' || species.tier === 'RU' || species.tier === 'NUBL' || species.tier === 'NU' ||
+			species.tier === 'PUBL' || species.tier === 'PU' || species.tier === '(NU)' || species.tier === 'ZUBL' ||
+			species.tier === 'ZU' || species.tier === '(PU)' || species.tier === 'NFE' || species.tier === 'LC' ||
+			species.tier === 'CAP' || species.tier === 'CAP LC' || species.tier === 'CAP NFE',
+	},
 
 	// Doubles tiers
 	// -------------

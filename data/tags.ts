@@ -211,7 +211,8 @@ export const Tags: { [id: IDEntry]: TagData } = {
 			species.tier === 'RUBL' || species.tier === 'RU' || species.tier === 'NUBL' || species.tier === 'NU' ||
 			species.tier === 'PUBL' || species.tier === 'PU' || species.tier === '(NU)' || species.tier === 'ZUBL' ||
 			species.tier === 'ZU' || species.tier === '(PU)' || species.tier === 'NFE' || species.tier === 'LC' ||
-			species.tier === 'CAP' || species.tier === 'CAP LC' || species.tier === 'CAP NFE',
+			species.tier === 'CAP' || species.tier === 'CAP LC' || species.tier === 'CAP NFE' ||
+			species.doublesTier === 'Illegal',
 	},
 
 	// Doubles tiers
@@ -240,7 +241,7 @@ export const Tags: { [id: IDEntry]: TagData } = {
 		name: "Non-Mod", // If you think of a better way to differentiate these, please let me know
 		speciesFilter: species => species.doublesTier === 'DUber' || species.doublesTier === '(DUber)' ||
 			species.doublesTier === 'DOU' || species.doublesTier === '(DOU)' || species.doublesTier === 'DBL' ||
-			species.doublesTier === 'DUU' || species.doublesTier === '(DUU)',
+			species.doublesTier === 'DUU' || species.doublesTier === '(DUU)' || species.doublesTier === 'Illegal',
 	},
 
 	// Nat Dex tiers

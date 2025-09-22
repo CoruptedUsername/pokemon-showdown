@@ -205,7 +205,7 @@ export const Tags: { [id: IDEntry]: TagData } = {
 		speciesFilter: species => species.tier === 'AG',
 	},
 	vanilla: {
-		name: "Not in Mod",
+		name: "Non-Mod",
 		speciesFilter: species => species.tier === 'Uber' || species.tier === '(Uber)' || species.tier === 'AG' ||
 			species.tier === 'OU' || species.tier === '(OU)' || species.tier === 'UUBL' || species.tier === 'UU' ||
 			species.tier === 'RUBL' || species.tier === 'RU' || species.tier === 'NUBL' || species.tier === 'NU' ||
@@ -237,7 +237,7 @@ export const Tags: { [id: IDEntry]: TagData } = {
 		speciesFilter: species => species.doublesTier === '(DUU)',
 	},
 	vanilladoubles: {
-		name: "Not in the Mod", // If you think of a better way to differentiate these, please let me know
+		name: "Non-Mod", // If you think of a better way to differentiate these, please let me know
 		speciesFilter: species => species.doublesTier === 'DUber' || species.doublesTier === '(DUber)' ||
 			species.doublesTier === 'DOU' || species.doublesTier === '(DOU)' || species.doublesTier === 'DBL' ||
 			species.doublesTier === 'DUU' || species.doublesTier === '(DUU)',

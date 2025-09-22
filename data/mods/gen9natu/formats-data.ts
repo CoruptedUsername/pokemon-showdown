@@ -128,6 +128,9 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	groudon: {
 		tier: "NatU",
 	},
+	groudonprimal: {
+		tier: "NatU",
+	},
 	hariyama: {
 		tier: "NatU",
 	},

@@ -50,7 +50,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	camerupt: {
 		tier: "NatU",
 	},
-	chimeco: {
+	chimecho: {
 		tier: "NatU",
 	},
 	chinchou: {

@@ -95,6 +95,9 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	persianalola: {
 		tier: "RVC",
 	},
+	poltchageist: {
+		tier: "RVC LC",
+	},
 	ponytagalar: {
 		tier: "RVC LC",
 	},
@@ -123,6 +126,9 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: "RVC LC",
 	},
 	sandslashalola: {
+		tier: "RVC",
+	},
+	sinistcha: {
 		tier: "RVC",
 	},
 	sirfetchd: {
@@ -155,6 +161,12 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	taurospaldeacombat: {
 		tier: "RVC",
 	},
+	toedscool: {
+		tier: "RVC LC",
+	},
+	toedscruel: {
+		tier: "RVC",
+	},
 	typhlosionhisui: {
 		tier: "RVC",
 	},
@@ -165,6 +177,12 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: "RVC LC",
 	},
 	weezinggalar: {
+		tier: "RVC",
+	},
+	wiglett: {
+		tier: "RVC LC",
+	},
+	wugtrio: {
 		tier: "RVC",
 	},
 	wooperpaldea: {

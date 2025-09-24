@@ -97,6 +97,6 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		name: "[Gen 9] Natalie Used",
 		mod: "gen9natu",
 		ruleset: ['Standard Draft', '+Unobtainable', '+Past', 'Min Source Gen = 1', 'Rellor Clause', 'Paralysis Clause', 'Z-Move Clause', 'Terastal Clause'],
-		banlist: ['Vanilla'],
+		banlist: ['Vanilla', 'Copycat', 'Toxic', 'Last Respects', 'NatU Ubers'],
 	},
 ];

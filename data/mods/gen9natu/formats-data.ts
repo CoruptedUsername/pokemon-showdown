@@ -354,7 +354,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: "NatU",
 	},
 	rellor: {
-		tier: "NatU LC",
+		tier: "NatU Ubers",
 	},
 	reuniclus: {
 		tier: "NatU",

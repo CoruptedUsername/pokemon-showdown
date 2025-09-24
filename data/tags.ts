@@ -330,6 +330,11 @@ export const Tags: { [id: IDEntry]: TagData } = {
 		speciesFilter: species => species.doublesTier !== 'DoNU Unrestricted' &&
 			species.doublesTier !== 'DoNU Restricted',
 	},
+	// Natalie Used Tags
+	natubers: {
+		name: "NatU Ubers",
+		speciesFilter: species => species.tier === 'NatU Ubers',
+	},
 
 	// Legality tags
 	past: {

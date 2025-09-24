@@ -46,7 +46,7 @@ declare namespace TierTypes {
 	export type DNUSingles = "DoNU AG" | "DoNU Uber" | "DoNU OU" | "DoNU UUBL" | "DoNU UU" | "DoNU RUBL" | "DoNU RU";
 	export type DNUDoubles = "DoNU Restricted" | "DoNU Unrestricted";
 	export type RVC = "RVC" | "RVC NFE" | "RVC LC";
-	export type NatU = "NatU" | "NatU NFE" | "NatU LC";
+	export type NatU = "NatU Ubers" | "NatU" | "NatU NFE" | "NatU LC";
 }
 
 interface EventInfo {

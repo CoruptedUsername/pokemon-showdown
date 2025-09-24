@@ -290,6 +290,9 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	palossand: {
 		tier: "NatU",
 	},
+	palpitoad: {
+		tier: "NatU NFE",
+	},
 	panpour: {
 		tier: "NatU LC",
 	},
@@ -395,6 +398,9 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	sealeo: {
 		tier: "NatU NFE",
 	},
+	seismitoad: {
+		tier: "NatU",
+	},
 	shiinotic: {
 		tier: "NatU",
 	},
@@ -487,6 +493,9 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	},
 	tsareena: {
 		tier: "NatU",
+	},
+	tympole: {
+		tier: "NatU LC",
 	},
 	tynamo: {
 		tier: "NatU LC",

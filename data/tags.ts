@@ -331,7 +331,7 @@ export const Tags: { [id: IDEntry]: TagData } = {
 			species.doublesTier !== 'DoNU Restricted',
 	},
 	// Natalie Used Tags
-	natubers: {
+	natuubers: {
 		name: "NatU Ubers",
 		speciesFilter: species => species.tier === 'NatU Ubers',
 	},

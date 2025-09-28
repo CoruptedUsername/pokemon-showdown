@@ -91,7 +91,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		mod: "gen9rvc",
 		teraPreviewDefault: true,
 		ruleset: ['Standard Draft', '+Unobtainable', '+Past', 'Min Source Gen = 1'],
-		banlist: ['Vanilla', 'Gorilla Tactics'],
+		banlist: ['Vanilla', 'Gorilla Tactics', 'Last Respects'],
 	},
 	{
 		name: "[Gen 9] Natalie Used",

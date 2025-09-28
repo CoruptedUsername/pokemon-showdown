@@ -185,9 +185,6 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	krookodile: {
 		tier: "NatU",
 	},
-	kyurem: {
-		tier: "NatU",
-	},
 	kyuremblack: {
 		tier: "NatU",
 	},

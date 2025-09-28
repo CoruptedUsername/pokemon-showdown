@@ -45,7 +45,7 @@ declare namespace TierTypes {
 	export type Other = "Unreleased" | "Illegal" | "CAP" | "CAP NFE" | "CAP LC" | "Vanilla";
 	export type DNUSingles = "DoNU AG" | "DoNU Uber" | "DoNU OU" | "DoNU UUBL" | "DoNU UU" | "DoNU RUBL" | "DoNU RU";
 	export type DNUDoubles = "DoNU Restricted" | "DoNU Unrestricted";
-	export type RVC = "RVC" | "RVC NFE" | "RVC LC";
+	export type RVC = "RVC Ubers" | "RVC" | "RVC NFE" | "RVC LC";
 	export type NatU = "NatU Ubers" | "NatU" | "NatU NFE" | "NatU LC";
 }
 

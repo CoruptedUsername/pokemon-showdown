@@ -8,6 +8,12 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	avalugghisui: {
 		tier: "RVC",
 	},
+	basculegion: {
+		tier: "RVC",
+	},
+	basculegionf: {
+		tier: "RVC",
+	},
 	braviaryhisui: {
 		tier: "RVC",
 	},
@@ -149,6 +155,9 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	sneaselhisui: {
 		tier: "RVC LC",
 	},
+	sneasler: {
+		tier: "RVC Ubers",
+	},
 	stunfiskgalar: {
 		tier: "RVC",
 	},
@@ -169,6 +178,9 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	},
 	typhlosionhisui: {
 		tier: "RVC",
+	},
+	ursalunabloodmoon: {
+		tier: "RVC Ubers",
 	},
 	voltorbhisui: {
 		tier: "RVC LC",

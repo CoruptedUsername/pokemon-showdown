@@ -226,14 +226,17 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	kyurem: {
 		inherit: true,
 		types: ['Dragon', 'Ice', 'Fairy'],
+		abilities: { 0: 'Snow Warning' },
 	},
 	kyuremblack: {
 		inherit: true,
 		types: ['Dragon', 'Ice', 'Fairy'],
+		abilities: { 0: 'Snow Warning' },
 	},
 	kyuremwhite: {
 		inherit: true,
 		types: ['Dragon', 'Ice', 'Fairy'],
+		abilities: { 0: 'Snow Warning' },
 	},
 	lairon: {
 		inherit: true,
@@ -351,6 +354,10 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		inherit: true,
 		types: ['Ghost', 'Flying', 'Fairy'],
 	},
+	palossand: {
+		inherit: true,
+		types: ['Ghost', 'Ground', 'Fairy'],
+	},
 	panpour: {
 		inherit: true,
 		types: ['Water', 'Fairy'],
@@ -442,6 +449,10 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	ribombee: {
 		inherit: true,
 		types: ['Bug', 'Fairy'],
+	},
+	rotomwash: {
+		inherit: true,
+		types: ['Electric', 'Ice', 'Fairy'],
 	},
 	sableye: {
 		inherit: true,

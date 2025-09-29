@@ -125,12 +125,6 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	grimmsnarl: {
 		tier: "NatU",
 	},
-	groudon: {
-		tier: "NatU",
-	},
-	groudonprimal: {
-		tier: "NatU",
-	},
 	hariyama: {
 		tier: "NatU",
 	},
@@ -354,7 +348,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: "NatU",
 	},
 	rellor: {
-		tier: "NatU Ubers",
+		tier: "NatU",
 	},
 	reuniclus: {
 		tier: "NatU",

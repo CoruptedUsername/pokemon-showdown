@@ -71,6 +71,10 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		inherit: true,
 		types: ['Water', 'Electric', 'Fairy'],
 	},
+	chimecho: {
+		inherit: true,
+		types: ['Psychic', 'Fairy'],
+	},
 	chingling: {
 		inherit: true,
 		types: ['Psychic', 'Fairy'],

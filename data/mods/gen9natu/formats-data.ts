@@ -35,7 +35,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	basculegion: {
 		tier: "NatU",
 	},
-	basculinwhite: {
+	basculinwhitestriped: {
 		tier: "NatU LC",
 	},
 	beldum: {

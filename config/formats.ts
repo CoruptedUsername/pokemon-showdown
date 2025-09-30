@@ -89,7 +89,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 	{
 		name: "[Gen 9] Caveman Used",
 		mod: "gen9cmu",
-		ruleset: ['Standard AG', 'NatDex Mod', 'Godly Gift Mod', 'Species Clause', 'Nickname Clause', 'OHKO Clause', 'Evasion Abilities Clause', 'Evasion Items Clause', 'Evasion Moves Clause', "Overflow Stat Mod', 'Sleep Moves Clause', 'Terastal Clause', 'Mega Rayquaza Clause'"],
+		ruleset: ['Standard AG', 'NatDex Mod', 'Godly Gift Mod', 'Species Clause', 'Nickname Clause', 'OHKO Clause', 'Evasion Abilities Clause', 'Evasion Items Clause', 'Evasion Moves Clause', 'Overflow Stat Mod', 'Sleep Moves Clause', 'Terastal Clause', 'Mega Rayquaza Clause'],
 		banlist: ['Power Construct', 'Arena Trap', 'Huge Power', 'Moody', 'Pure Power', 'Shadow Tag', 'Assist', 'Baton Pass', 'Last Respects', 'Shed Tail'],
 		restricted: ['CMU Lord'],
 	},

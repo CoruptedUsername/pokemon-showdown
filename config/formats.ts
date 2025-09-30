@@ -87,16 +87,23 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		section: "Other Solomods",
 	},
 	{
-		name: "[Gen 9] Regional Variants Cup",
-		mod: "gen9rvc",
-		teraPreviewDefault: true,
-		ruleset: ['Standard Draft', '+Unobtainable', '+Past', 'Min Source Gen = 1'],
-		banlist: ['Vanilla', 'Gorilla Tactics', 'Last Respects'],
+		name: "[Gen 9] Caveman Used",
+		mod: "gen9cmu",
+		ruleset: ['Standard AG', 'NatDex Mod', 'Godly Gift Mod', 'Species Clause', 'Nickname Clause', 'OHKO Clause', 'Evasion Abilities Clause', 'Evasion Items Clause', 'Evasion Moves Clause', "Overflow Stat Mod', 'Sleep Moves Clause', 'Terastal Clause', 'Mega Rayquaza Clause'"],
+		banlist: ['Power Construct', 'Arena Trap', 'Huge Power', 'Moody', 'Pure Power', 'Shadow Tag', 'Assist', 'Baton Pass', 'Last Respects', 'Shed Tail'],
+		restricted: ['CMU Lord'],
 	},
 	{
 		name: "[Gen 9] Natalie Used",
 		mod: "gen9natu",
 		ruleset: ['Standard Draft', '+Unobtainable', '+Past', 'Min Source Gen = 1', 'Rellor Clause', 'Paralysis Clause', 'Z-Move Clause', 'Terastal Clause'],
 		banlist: ['Vanilla', 'Copycat', 'Toxic', 'Last Respects', 'NatU Ubers'],
+	},
+	{
+		name: "[Gen 9] Regional Variants Cup",
+		mod: "gen9rvc",
+		teraPreviewDefault: true,
+		ruleset: ['Standard Draft', '+Unobtainable', '+Past', 'Min Source Gen = 1'],
+		banlist: ['Vanilla', 'Gorilla Tactics', 'Last Respects'],
 	},
 ];

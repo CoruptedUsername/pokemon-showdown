@@ -336,6 +336,12 @@ export const Tags: { [id: IDEntry]: TagData } = {
 		speciesFilter: species => species.tier === 'NatU Ubers',
 	},
 
+	// Caveman Used Tags
+	cmulord: {
+		name: "CMU Lord",
+		speciesFilter: species => species.tier === 'CMU Lord',
+	},
+
 	// Legality tags
 	past: {
 		name: "Past",

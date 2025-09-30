@@ -47,6 +47,7 @@ declare namespace TierTypes {
 	export type DNUDoubles = "DoNU Restricted" | "DoNU Unrestricted";
 	export type RVC = "RVC Ubers" | "RVC" | "RVC NFE" | "RVC LC";
 	export type NatU = "NatU Ubers" | "NatU" | "NatU NFE" | "NatU LC";
+	export type CMU = "CMU Lord" | "CMU Knight" | "CMU Peasant" | "CMU Child";
 }
 
 interface EventInfo {

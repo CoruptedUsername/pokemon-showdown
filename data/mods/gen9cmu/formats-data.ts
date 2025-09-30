@@ -117,7 +117,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: "Illegal",
 	},
 	pikachu: {
-		tier: "CMU Knight",
+		tier: "CMU Lord",
 	},
 	pikachucosplay: {
 		tier: "Illegal",
@@ -537,10 +537,10 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: "CMU Child",
 	},
 	marowak: {
-		tier: "CMU Knight",
+		tier: "CMU Lord",
 	},
 	marowakalola: {
-		tier: "CMU Knight",
+		tier: "CMU Lord",
 	},
 	marowakalolatotem: {
 		tier: "Illegal",
@@ -1110,7 +1110,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: "CMU Knight",
 	},
 	smeargle: {
-		tier: "CMU Knight",
+		tier: "CMU Lord",
 	},
 	miltank: {
 		tier: "CMU Knight",

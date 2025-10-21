@@ -4,7 +4,7 @@ export const Rulesets: import('../../../sim/dex-formats').ModdedFormatDataTable 
 		name: 'Rellor Clause',
 		desc: "Prevents teams from having more than one Pok&eacute;mon from the same non-Rellor species",
 		onBegin() {
-			this.add('rule', 'Species Clause: Limit one of each Pokémon (Rellor excluded)');
+			this.add('rule', 'Rellor Clause: Limit one of each Pokémon (Rellor excluded)');
 		},
 		onValidateTeam(team, format) {
 			const speciesTable = new Set<number>();
@@ -24,6 +24,56 @@ export const Rulesets: import('../../../sim/dex-formats').ModdedFormatDataTable 
 		banlist: ['Thunder Wave', 'Nuzzle', 'Stun Spore', 'Static'],
 		onBegin() {
 			this.add('rule', 'Paralysis Clause: Effects with high chance to paralyze are banned');
+		},
+	},
+	powerplantclause: {
+		effectType: 'ValidatorRule',
+		name: 'Power Plant Clause',
+		desc: "All teams must have at least one Electric type Pokémon.",
+		onBegin() {
+			this.add('rule', 'Power Plant Clause: All teams must have at least one Electric type Pokémon');
+		},
+		onValidateTeam(team, format) {
+			let hasElectric = false;
+			for (const set of team) {
+				const species = this.dex.species.get(set.species);
+				if (species.types.includes('Electric')) {
+					hasElectric = true;
+				}
+			}
+			if (!hasElectric) {
+				return [`You are required to have at least one Pokémon with the Electric typing`];
+			}
+		},
+	},
+	kyuremballclause: {
+		effectType: 'ValidatorRule',
+		name: 'Kyurem Ball Clause',
+		desc: 'Any Kyurem form must hold a Poké Ball',
+		onValidateTeam(team, format) {
+			for (const set of team) {
+				const species = this.dex.species.get(set.species);
+				if (species.baseSpecies === 'Kyurem' && set.item !== 'pokeball') {
+					return [`${species.name} is required to hold a Poké Ball`];
+				}
+			}
+		},
+	},
+	batonpasstwoclause: {
+		effectType: 'ValidatorRule',
+		name: 'Baton Pass Two Clause',
+		desc: 'Pokémon may only have the move Baton Pass if they also have an empty move slot',
+		onBegin() {
+			this.add('rule', 'Pokémon may only have the move Baton Pass if they also have an empty move slot');
+		},
+		onValidateTeam(team, format) {
+			for (const set of team) {
+				const species = this.dex.species.get(set.species);
+				const moves = set.moves;
+				if (moves.length === 4 && moves.includes("batonpass")) {
+					return [`${species.name} cannot have the move Baton Pass without an empty move slot`];
+				}
+			}
 		},
 	},
 };

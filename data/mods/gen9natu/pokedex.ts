@@ -452,7 +452,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	},
 	rotomwash: {
 		inherit: true,
-		types: ['Electric', 'Ice', 'Fairy'],
+		types: ['Electric', 'Water', 'Fairy'],
 	},
 	sableye: {
 		inherit: true,

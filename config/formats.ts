@@ -96,8 +96,8 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 	{
 		name: "[Gen 9] Natalie Used",
 		mod: "gen9natu",
-		ruleset: ['Standard Draft', '+Unobtainable', '+Past', 'Min Source Gen = 1', 'Rellor Clause', 'Paralysis Clause', 'Z-Move Clause', 'Terastal Clause'],
-		banlist: ['Vanilla', 'Copycat', 'Toxic', 'Last Respects', 'NatU Ubers'],
+		ruleset: ['Standard Draft', '+Unobtainable', '+Past', 'Min Source Gen = 1', 'Rellor Clause', 'Paralysis Clause', 'Power Plant Clause', 'Kyurem Ball Clause', 'Baton Pass Two Clause', 'Z-Move Clause', 'Terastal Clause', '-Dynamax Clause'],
+		banlist: ['Vanilla', 'Copycat', 'Toxic', 'Last Respects', 'Substitute', 'NatU Ubers'],
 	},
 	{
 		name: "[Gen 9] Regional Variants Cup",
@@ -107,7 +107,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		banlist: ['Vanilla', 'Gorilla Tactics', 'Last Respects'],
 	},
 	{
-		name: "[Gen 8] First Gym Used",
+		name: "[Gen 8] First Gym Used (VERY NOT FUNCTIONAL)",
 		mod: "gen8fgu",
 	},
 ];

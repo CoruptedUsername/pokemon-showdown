@@ -125,6 +125,9 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	grimmsnarl: {
 		tier: "NatU",
 	},
+	groudonprimal: {
+		tier: "NatU",
+	},
 	hariyama: {
 		tier: "NatU",
 	},
@@ -253,6 +256,9 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	},
 	murkrow: {
 		tier: "NatU LC",
+	},
+	natu: {
+		tier: "NatU",
 	},
 	nidoking: {
 		tier: "NatU",
@@ -389,6 +395,9 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	shiinotic: {
 		tier: "NatU",
 	},
+	shuckle: {
+		tier: "NatU",
+	},
 	simipour: {
 		tier: "NatU",
 	},
@@ -460,6 +469,9 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	},
 	tinkatuff: {
 		tier: "NatU NFE",
+	},
+	togedemaru: {
+		tier: "NatU",
 	},
 	torkoal: {
 		tier: "NatU",

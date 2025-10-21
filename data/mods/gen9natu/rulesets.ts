@@ -70,7 +70,7 @@ export const Rulesets: import('../../../sim/dex-formats').ModdedFormatDataTable 
 			for (const set of team) {
 				const species = this.dex.species.get(set.species);
 				const moves = set.moves;
-				if (moves.length === 4 && moves.includes("batonpass")) {
+				if (moves.length === 4 && moves.includes("Baton Pass")) {
 					return [`${species.name} cannot have the move Baton Pass without an empty move slot`];
 				}
 			}

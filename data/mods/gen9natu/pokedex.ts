@@ -163,6 +163,14 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		inherit: true,
 		types: ['Dark', 'Fairy'],
 	},
+	groudon: {
+		inherit: true,
+		types: ['Ground', 'Fairy'],
+	},
+	groudonprimal: {
+		inherit: true,
+		types: ['Ground', 'Fire', 'Fairy'],
+	},
 	hariyama: {
 		inherit: true,
 		types: ['Fighting', 'Fairy'],
@@ -325,6 +333,10 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	murkrow: {
 		inherit: true,
 		types: ['Dark', 'Flying', 'Fairy'],
+	},
+	natu: {
+		inherit: true,
+		types: ['Psychic', 'Flying', 'Fairy'],
 	},
 	nidoking: {
 		inherit: true,
@@ -490,6 +502,10 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		inherit: true,
 		types: ['Grass', 'Fairy'],
 	},
+	shuckle: {
+		inherit: true,
+		types: ['Bug', 'Rock', 'Fairy'],
+	},
 	simipour: {
 		inherit: true,
 		types: ['Water', 'Fairy'],
@@ -581,6 +597,10 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	tinkatuff: {
 		inherit: true,
 		types: ['Fairy', 'Steel'],
+	},
+	togedemaru: {
+		inherit: true,
+		types: ['Electric', 'Steel', 'Fairy'],
 	},
 	torkoal: {
 		inherit: true,

@@ -53,7 +53,7 @@ export const Rulesets: import('../../../sim/dex-formats').ModdedFormatDataTable 
 		onValidateTeam(team, format) {
 			for (const set of team) {
 				const species = this.dex.species.get(set.species);
-				if (species.baseSpecies === 'Kyurem' && set.item !== 'pokeball') {
+				if (species.baseSpecies === 'Kyurem' && set.item !== 'Poke Ball') {
 					return [`${species.name} is required to hold a Poké Ball`];
 				}
 			}

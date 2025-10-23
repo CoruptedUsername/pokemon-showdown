@@ -106,4 +106,9 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		ruleset: ['Standard Draft', '+Unobtainable', '+Past', 'Min Source Gen = 1'],
 		banlist: ['Vanilla', 'Gorilla Tactics', 'Last Respects'],
 	},
+	{
+		name: "[Gen 8] First Gen Used",
+		mod: "gen8fgu",
+		banlist: ['Vanilla'],
+	},
 ];

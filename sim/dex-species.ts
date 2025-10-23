@@ -30,7 +30,7 @@ export interface SpeciesFormatsData {
 	gmaxUnreleased?: boolean;
 	isNonstandard?: Nonstandard | null;
 	natDexTier?: TierTypes.Singles | TierTypes.Other | TierTypes.DNUSingles | TierTypes.RVC | TierTypes.NatU | TierTypes.CMU;
-	tier?: TierTypes.Singles | TierTypes.Other | TierTypes.DNUSingles | TierTypes.RVC | TierTypes.NatU | TierTypes.CMU;
+	tier?: TierTypes.Singles | TierTypes.Other | TierTypes.DNUSingles | TierTypes.RVC | TierTypes.NatU | TierTypes.CMU | TierTypes.FGU;
 }
 
 export type ModdedSpeciesFormatsData = SpeciesFormatsData & { inherit?: true };
@@ -262,7 +262,7 @@ export class Species extends BasicEffect implements Readonly<BasicEffect & Speci
 	/**
 	 * Singles Tier. The Pokemon's location in the Smogon tier system.
 	 */
-	readonly tier: TierTypes.Singles | TierTypes.Other | TierTypes.DNUSingles | TierTypes.RVC | TierTypes.NatU | TierTypes.CMU;
+	readonly tier: TierTypes.Singles | TierTypes.Other | TierTypes.DNUSingles | TierTypes.RVC | TierTypes.NatU | TierTypes.CMU | TierTypes.FGU;
 	/**
 	 * Doubles Tier. The Pokemon's location in the Smogon doubles tier system.
 	 */

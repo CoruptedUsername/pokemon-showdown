@@ -107,7 +107,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		banlist: ['Vanilla', 'Gorilla Tactics', 'Last Respects'],
 	},
 	{
-		name: "[Gen 8] First Gen Used",
+		name: "[Gen 8] First Gym Used",
 		mod: "gen8fgu",
 		banlist: ['Vanilla'],
 	},

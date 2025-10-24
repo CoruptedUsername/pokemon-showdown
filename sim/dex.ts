@@ -600,7 +600,7 @@ export class ModdedDex {
 	loadData(): DexTableData {
 		if (this.dataCache) return this.dataCache;
 		dexes['base'].includeMods();
-		console.log(typeof dexes);
+		console.log(fs.readdirSync(MODS_DIR));
 		const dataCache: { [k in keyof DexTableData]?: any } = {};
 
 		const basePath = this.dataDir + '/';

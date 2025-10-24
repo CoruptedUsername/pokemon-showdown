@@ -641,6 +641,7 @@ export class ModdedDex {
 				}
 				const childTypedData: DexTable<any> = dataCache[dataType] || (dataCache[dataType] = {});
 				for (const entryId in parentTypedData) {
+					console.log(entryId)
 					if (childTypedData[entryId] === null) {
 						// null means don't inherit
 						delete childTypedData[entryId];

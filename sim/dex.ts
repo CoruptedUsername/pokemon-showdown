@@ -641,7 +641,6 @@ export class ModdedDex {
 				}
 				const childTypedData: DexTable<any> = dataCache[dataType] || (dataCache[dataType] = {});
 				for (const entryId in parentTypedData) {
-					console.log(entryId)
 					if (childTypedData[entryId] === null) {
 						// null means don't inherit
 						delete childTypedData[entryId];
@@ -659,6 +658,7 @@ export class ModdedDex {
 				}
 			}
 		}
+		console.log(dataCache);
 
 		// Flag the generation. Required for team validator.
 		this.gen = dataCache.Scripts.gen;

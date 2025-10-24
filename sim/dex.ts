@@ -663,10 +663,8 @@ export class ModdedDex {
 				// }
 			}
 		}
-		console.log(this.currentMod);
-		if (this.mod.name === "gen8fgu") {
+		if (this.currentMod === "gen8fgu") {
 			console.log(dataCache["Pokedex"]);
-			console.log("PRINTED THE THING");
 		}
 
 		// Flag the generation. Required for team validator.

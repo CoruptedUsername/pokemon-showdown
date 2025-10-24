@@ -663,6 +663,7 @@ export class ModdedDex {
 				// }
 			}
 		}
+		console.log(this.mod.name);
 		if (this.mod.name === "gen8fgu") {
 			console.log(dataCache["Pokedex"]);
 			console.log("PRINTED THE THING");

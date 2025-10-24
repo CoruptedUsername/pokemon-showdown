@@ -664,7 +664,9 @@ export class ModdedDex {
 				// }
 			}
 		}
-		console.log(dataCache["Pokedex"]);
+		if (this.mod.name === "gen8fgu") {
+			console.log(dataCache["Pokedex"]);
+		}
 
 		// Flag the generation. Required for team validator.
 		this.gen = dataCache.Scripts.gen;

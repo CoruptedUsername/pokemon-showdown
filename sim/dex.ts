@@ -664,7 +664,7 @@ export class ModdedDex {
 				// }
 			}
 		}
-		console.log(dataCache);
+		console.log(dataCache["Pokedex"]);
 
 		// Flag the generation. Required for team validator.
 		this.gen = dataCache.Scripts.gen;

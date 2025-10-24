@@ -600,7 +600,6 @@ export class ModdedDex {
 	loadData(): DexTableData {
 		if (this.dataCache) return this.dataCache;
 		dexes['base'].includeMods();
-		console.log(fs.readdirSync(MODS_DIR));
 		const dataCache: { [k in keyof DexTableData]?: any } = {};
 
 		const basePath = this.dataDir + '/';
@@ -657,9 +656,15 @@ export class ModdedDex {
 						childTypedData[entryId] = { ...parentTypedData[entryId], ...childTypedData[entryId] };
 					}
 				}
+				// for (const entryId in parentTypedData) {
+				// 	if (!(entryId in parentTypedData)) {
+				// 		// If it doesn't exist, it's mod specific
+				// 		childTypedData[entryId] = childTypedData[entryId];
+				// 	}
+				// }
 			}
 		}
-		// console.log(dataCache);
+		console.log(dataCache);
 
 		// Flag the generation. Required for team validator.
 		this.gen = dataCache.Scripts.gen;

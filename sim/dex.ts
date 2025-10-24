@@ -655,16 +655,7 @@ export class ModdedDex {
 						childTypedData[entryId] = { ...parentTypedData[entryId], ...childTypedData[entryId] };
 					}
 				}
-				// for (const entryId in parentTypedData) {
-				// 	if (!(entryId in parentTypedData)) {
-				// 		// If it doesn't exist, it's mod specific
-				// 		childTypedData[entryId] = childTypedData[entryId];
-				// 	}
-				// }
 			}
-		}
-		if (this.currentMod === "gen8fgu") {
-			console.log(dataCache["Pokedex"]);
 		}
 
 		// Flag the generation. Required for team validator.

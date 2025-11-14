@@ -13,11 +13,11 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	},
 	altaria: {
 		inherit: true,
-		types: ['Dragon', 'Flying', 'Fairy'],
+		types: ['Flying', 'Fairy'],
 	},
 	altariamega: {
 		inherit: true,
-		types: ['Dragon', 'Fairy'],
+		types: ['Fairy'],
 	},
 	araquanid: {
 		inherit: true,
@@ -57,6 +57,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	},
 	bisharp: {
 		inherit: true,
+		abilities: { 0: "Defiant", 1: "Inner Focus", H: "Pressure", S: "Stench" },
 		types: ['Dark', 'Steel', 'Fairy'],
 	},
 	bounsweet: {
@@ -105,7 +106,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	},
 	dragalge: {
 		inherit: true,
-		types: ['Poison', 'Dragon', 'Fairy'],
+		types: ['Poison', 'Fairy'],
 	},
 	drapion: {
 		inherit: true,
@@ -153,7 +154,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	},
 	gougingfire: {
 		inherit: true,
-		types: ['Fire', 'Dragon', 'Fairy'],
+		types: ['Fire', 'Fairy'],
 	},
 	grafaiai: {
 		inherit: true,
@@ -237,7 +238,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	},
 	kingdra: {
 		inherit: true,
-		types: ['Water', 'Dragon', 'Fairy'],
+		types: ['Water', 'Fairy'],
 	},
 	krokorok: {
 		inherit: true,
@@ -249,17 +250,17 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	},
 	kyurem: {
 		inherit: true,
-		types: ['Dragon', 'Water', 'Fairy'],
+		types: ['Water', 'Fairy'],
 		abilities: { 0: 'Snow Warning' },
 	},
 	kyuremblack: {
 		inherit: true,
-		types: ['Dragon', 'Water', 'Fairy'],
+		types: ['Water', 'Fairy'],
 		abilities: { 0: 'Snow Warning' },
 	},
 	kyuremwhite: {
 		inherit: true,
-		types: ['Dragon', 'Water', 'Fairy'],
+		types: ['Water', 'Fairy'],
 		abilities: { 0: 'Snow Warning' },
 	},
 	lairon: {

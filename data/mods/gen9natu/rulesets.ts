@@ -76,4 +76,21 @@ export const Rulesets: import('../../../sim/dex-formats').ModdedFormatDataTable 
 			}
 		},
 	},
+	pdonstatusclause: {
+		effectType: 'ValidatorRule',
+		name: 'Pdon Status Clause',
+		desc: 'Pdon may only use Status moves',
+		onValidateTeam(team, format) {
+			for (const set of team) {
+				const species = this.dex.species.get(set.species);
+				if (species.name === 'Groudon-Primal') {
+					for (const move of set.moves) {
+						if (this.dex.moves.get(move).category !== 'Status') {
+							return [`${species.name} cannot use any non-status moves`];
+						}
+					}
+				}
+			}
+		},
+	},
 };

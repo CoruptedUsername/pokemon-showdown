@@ -33,7 +33,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	},
 	arctozolt: {
 		inherit: true,
-		types: ['Electric', 'Ice', 'Fairy'],
+		types: ['Electric', 'Water', 'Fairy'],
 	},
 	aron: {
 		inherit: true,
@@ -91,6 +91,10 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		inherit: true,
 		types: ['Bug', 'Fairy'],
 	},
+	deerling: {
+		inherit: true,
+		types: ['Normal', 'Grass', 'Fairy'],
+	},
 	dewpider: {
 		inherit: true,
 		types: ['Water', 'Bug', 'Fairy'],
@@ -133,7 +137,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	},
 	frosmoth: {
 		inherit: true,
-		types: ['Ice', 'Bug', 'Fairy'],
+		types: ['Water', 'Bug', 'Fairy'],
 	},
 	galvantula: {
 		inherit: true,
@@ -169,7 +173,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	},
 	groudonprimal: {
 		inherit: true,
-		types: ['Ground', 'Fire', 'Fairy'],
+		types: ['Ground', 'Fairy'],
 	},
 	hariyama: {
 		inherit: true,
@@ -186,6 +190,14 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	helioptile: {
 		inherit: true,
 		types: ['Electric', 'Normal', 'Fairy'],
+	},
+	hippopotas: {
+		inherit: true,
+		types: ['Ground', 'Fairy'],
+	},
+	hippowdon: {
+		inherit: true,
+		types: ['Ground', 'Fairy'],
 	},
 	hitmontop: {
 		inherit: true,
@@ -206,6 +218,10 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	impidimp: {
 		inherit: true,
 		types: ['Dark', 'Fairy'],
+	},
+	indeedeef: {
+		inherit: true,
+		types: ['Psychic', 'Normal', 'Fairy'],
 	},
 	joltik: {
 		inherit: true,
@@ -233,17 +249,17 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	},
 	kyurem: {
 		inherit: true,
-		types: ['Dragon', 'Ice', 'Fairy'],
+		types: ['Dragon', 'Water', 'Fairy'],
 		abilities: { 0: 'Snow Warning' },
 	},
 	kyuremblack: {
 		inherit: true,
-		types: ['Dragon', 'Ice', 'Fairy'],
+		types: ['Dragon', 'Water', 'Fairy'],
 		abilities: { 0: 'Snow Warning' },
 	},
 	kyuremwhite: {
 		inherit: true,
-		types: ['Dragon', 'Ice', 'Fairy'],
+		types: ['Dragon', 'Water', 'Fairy'],
 		abilities: { 0: 'Snow Warning' },
 	},
 	lairon: {
@@ -292,7 +308,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	},
 	mamoswine: {
 		inherit: true,
-		types: ['Ice', 'Ground', 'Fairy'],
+		types: ['Water', 'Ground', 'Fairy'],
 	},
 	medicham: {
 		inherit: true,
@@ -354,6 +370,10 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		inherit: true,
 		types: ['Fire', 'Ground', 'Fairy'],
 	},
+	oricorio: {
+		inherit: true,
+		types: ['Fire', 'Flying', 'Fairy'],
+	},
 	oricoriopau: {
 		inherit: true,
 		types: ['Psychic', 'Flying', 'Fairy'],
@@ -408,7 +428,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	},
 	piloswine: {
 		inherit: true,
-		types: ['Ice', 'Ground', 'Fairy'],
+		types: ['Water', 'Ground', 'Fairy'],
 	},
 	politoed: {
 		inherit: true,
@@ -431,6 +451,10 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		types: ['Normal', 'Fairy'],
 	},
 	porygonz: {
+		inherit: true,
+		types: ['Normal', 'Fairy'],
+	},
+	porygon2: {
 		inherit: true,
 		types: ['Normal', 'Fairy'],
 	},
@@ -478,6 +502,10 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		inherit: true,
 		types: ['Ghost', 'Ground', 'Fairy'],
 	},
+	sawsbuck: {
+		inherit: true,
+		types: ['Normal', 'Grass', 'Fairy'],
+	},
 	scizor: {
 		inherit: true,
 		types: ['Bug', 'Steel', 'Fairy'],
@@ -496,7 +524,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	},
 	sealeo: {
 		inherit: true,
-		types: ['Ice', 'Water', 'Fairy'],
+		types: ['Water', 'Fairy'],
 	},
 	shiinotic: {
 		inherit: true,
@@ -544,11 +572,11 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	},
 	sneasel: {
 		inherit: true,
-		types: ['Dark', 'Ice', 'Fairy'],
+		types: ['Dark', 'Water', 'Fairy'],
 	},
 	snom: {
 		inherit: true,
-		types: ['Ice', 'Bug', 'Fairy'],
+		types: ['Water', 'Bug', 'Fairy'],
 	},
 	snorlax: {
 		inherit: true,
@@ -564,7 +592,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	},
 	spheal: {
 		inherit: true,
-		types: ['Ice', 'Water', 'Fairy'],
+		types: ['Water', 'Fairy'],
 	},
 	steenee: {
 		inherit: true,
@@ -580,7 +608,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	},
 	swinub: {
 		inherit: true,
-		types: ['Ice', 'Ground', 'Fairy'],
+		types: ['Water', 'Ground', 'Fairy'],
 	},
 	swoobat: {
 		inherit: true,
@@ -614,6 +642,10 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		inherit: true,
 		types: ['Electric', 'Poison', 'Fairy'],
 	},
+	toxtricity: {
+		inherit: true,
+		types: ['Electric', 'Poison', 'Fairy'],
+	},
 	trumbeak: {
 		inherit: true,
 		types: ['Normal', 'Flying', 'Fairy'],
@@ -628,11 +660,11 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	},
 	walrein: {
 		inherit: true,
-		types: ['Ice', 'Water', 'Fairy'],
+		types: ['Water', 'Fairy'],
 	},
 	weavile: {
 		inherit: true,
-		types: ['Dark', 'Ice', 'Fairy'],
+		types: ['Dark', 'Water', 'Fairy'],
 	},
 	whimsicott: {
 		inherit: true,

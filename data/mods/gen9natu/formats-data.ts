@@ -68,7 +68,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	cutiefly: {
 		tier: "NatU LC",
 	},
-	deerlingspring: {
+	deerling: {
 		tier: "NatU LC",
 	},
 	dewpider: {
@@ -140,10 +140,10 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	helioptile: {
 		tier: "NatU LC",
 	},
-	hipopotas: {
+	hippopotas: {
 		tier: "NatU LC",
 	},
-	hippowdown: {
+	hippowdon: {
 		tier: "NatU",
 	},
 	hitmontop: {
@@ -272,7 +272,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	numel: {
 		tier: "NatU LC",
 	},
-	oricoriobaile: {
+	oricorio: {
 		tier: "NatU",
 	},
 	oricoriopau: {
@@ -332,7 +332,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	porygon: {
 		tier: "NatU LC",
 	},
-	porygontwo: {
+	porygon2: {
 		tier: "NatU NFE",
 	},
 	porygonz: {
@@ -371,7 +371,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	sandygast: {
 		tier: "NatU LC",
 	},
-	sawsbuckautumn: {
+	sawsbuck: {
 		tier: "NatU",
 	},
 	scizor: {
@@ -482,7 +482,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	toxel: {
 		tier: "NatU LC",
 	},
-	toxtricityamped: {
+	toxtricity: {
 		tier: "NatU",
 	},
 	trumbeak: {

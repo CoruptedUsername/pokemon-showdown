@@ -242,6 +242,12 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	mienshao: {
 		tier: "NatU",
 	},
+	misdreavus: {
+		tier: "NatU LC",
+	},
+	mismagius: {
+		tier: "NatU",
+	},
 	morelull: {
 		tier: "NatU LC",
 	},

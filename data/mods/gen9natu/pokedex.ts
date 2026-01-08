@@ -165,7 +165,6 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		types: ['Poison', 'Dark', 'Fairy'],
 	},
 	grimmsnarl: {
-		name: "长毛巨魔",
 		inherit: true,
 		types: ['Dark', 'Fairy'],
 	},
@@ -242,7 +241,6 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		types: ['Water', 'Fairy'],
 	},
 	krokorok: {
-		name: "混混鳄",
 		inherit: true,
 		types: ['Ground', 'Dark', 'Fairy'],
 	},
@@ -278,7 +276,6 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		types: ['Normal', 'Fairy'],
 	},
 	lilligant: {
-		name: "裙儿小姐",
 		inherit: true,
 		types: ['Grass', 'Fairy'],
 	},
@@ -427,7 +424,6 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		types: ['Bug', 'Fighting', 'Fairy'],
 	},
 	pichu: {
-		name: "皮丘",
 		inherit: true,
 		types: ['Electric', 'Fairy'],
 	},
@@ -604,7 +600,6 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		types: ['Rock', 'Psychic', 'Fairy'],
 	},
 	spheal: {
-		name: "海豹球",
 		inherit: true,
 		types: ['Water', 'Fairy'],
 	},

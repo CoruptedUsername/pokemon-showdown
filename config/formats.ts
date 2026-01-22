@@ -120,7 +120,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 	},
 	{
 		name: "[Gen 9] Three Musketeers Draft Week 3",
-		mod: "gen9threemusks",
+		mod: "gen93m",
 		gameType: 'doubles',
 		ruleset: ['Standard Doubles', 'NatDex Mod', 'Item Clause = 1', 'Adjust Level = 50', 'Picked Team Size = 4', 'VGC Timer', 'Terastal Clause', 'Best of = 3', '!Evasion Moves Clause', '!Gravity Sleep Clause', 'Evasion Clause', 'DryPass Clause'],
 		banlist: ['Vanilla', 'Last Respects', 'Moody', 'Quick Claw', 'King\'s Rock', 'Razor Fang', 'Shed Tail'],

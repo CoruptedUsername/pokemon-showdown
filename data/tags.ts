@@ -342,6 +342,18 @@ export const Tags: { [id: IDEntry]: TagData } = {
 		speciesFilter: species => species.tier === 'CMU Lord',
 	},
 
+	// Three Musketeers Tags
+
+	threemmascot: {
+		name: "3M Mascot",
+		speciesFilter: species => species.tier === '3M Mascot',
+	},
+
+	threemundrafted: {
+		name: "3M Undrafted",
+		speciesFilter: species => species.tier === '3M Undrafted',
+	},
+
 	// Legality tags
 	past: {
 		name: "Past",

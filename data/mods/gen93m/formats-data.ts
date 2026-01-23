@@ -3366,7 +3366,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: "3M Drafted",
 	},
 	indeedeef: {
-		tier: "3M Undrafted",
+		tier: "3M Drafted",
 	},
 	morpeko: {
 		tier: "3M Undrafted",

@@ -207,7 +207,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: "3M Undrafted",
 	},
 	clefairy: {
-		tier: "3M Undrafted",
+		tier: "3M Drafted",
 	},
 	clefable: {
 		tier: "3M Drafted",
@@ -567,7 +567,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: "3M Undrafted",
 	},
 	weezing: {
-		tier: "3M Undrafted",
+		tier: "3M Drafted",
 	},
 	weezinggalar: {
 		tier: "3M Drafted",
@@ -1308,7 +1308,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: "3M Undrafted",
 	},
 	hariyama: {
-		tier: "3M Undrafted",
+		tier: "3M Drafted",
 	},
 	nosepass: {
 		tier: "3M Undrafted",
@@ -1353,7 +1353,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: "3M Undrafted",
 	},
 	medichammega: {
-		tier: "3M Drafted",
+		tier: "3M Undrafted",
 	},
 	electrike: {
 		tier: "3M Undrafted",
@@ -1971,7 +1971,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: "3M Undrafted",
 	},
 	samurott: {
-		tier: "3M Drafted",
+		tier: "3M Undrafted",
 	},
 	samurotthisui: {
 		tier: "3M Drafted",
@@ -3246,7 +3246,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: "3M Undrafted",
 	},
 	flapple: {
-		tier: "3M Drafted",
+		tier: "3M Undrafted",
 	},
 	flapplegmax: {
 		tier: "Illegal",
@@ -3588,7 +3588,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: "3M Undrafted",
 	},
 	maushold: {
-		tier: "3M Drafted",
+		tier: "3M Undrafted",
 	},
 	cetoddle: {
 		tier: "3M Undrafted",
@@ -3789,7 +3789,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: "3M Undrafted",
 	},
 	sinistcha: {
-		tier: "3M Undrafted",
+		tier: "3M Drafted",
 	},
 	okidogi: {
 		tier: "3M Undrafted",

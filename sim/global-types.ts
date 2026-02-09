@@ -73,6 +73,7 @@ interface EventInfo {
 	japan?: boolean;
 	/** For Emerald event eggs to allow Pomeg glitched moves */
 	emeraldEventEgg?: boolean;
+	source?: string;
 }
 
 type Effect = Ability | Item | ActiveMove | Species | Condition | Format;
@@ -494,6 +495,7 @@ declare namespace RandomTeamsTypes {
 		illusion?: number;
 		statusCure?: number;
 		teraBlast?: number;
+		imprison?: number;
 	}
 	export interface FactoryTeamDetails {
 		megaCount?: number;
@@ -579,5 +581,5 @@ declare namespace RandomTeamsTypes {
 		'Bulky Attacker' | 'Bulky Setup' | 'Fast Bulky Setup' | 'Bulky Support' | 'Fast Support' | 'AV Pivot' |
 		'Doubles Fast Attacker' | 'Doubles Setup Sweeper' | 'Doubles Wallbreaker' | 'Doubles Bulky Attacker' |
 		'Doubles Bulky Setup' | 'Offensive Protect' | 'Bulky Protect' | 'Doubles Support' | 'Choice Item user' |
-		'Z-Move user' | 'Staller' | 'Spinner' | 'Generalist' | 'Berry Sweeper' | 'Thief user';
+		'Z-Move user' | 'Staller' | 'Spinner' | 'Generalist' | 'Berry Sweeper' | 'Thief user' | 'Imprisoner';
 }

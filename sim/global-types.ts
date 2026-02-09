@@ -34,7 +34,7 @@ type SparseStatsTable = Partial<StatsTable>;
 type BoostID = StatIDExceptHP | 'accuracy' | 'evasion';
 type BoostsTable = { [boost in BoostID]: number };
 type SparseBoostsTable = Partial<BoostsTable>;
-type Nonstandard = 'Past' | 'Future' | 'Unobtainable' | 'CAP' | 'LGPE' | 'Custom' | 'Gigantamax';
+type Nonstandard = 'Past' | 'Future' | 'Unobtainable' | 'CAP' | 'LGPE' | 'Custom' | 'Gigantamax' | 'Illegal';
 
 type PokemonSet = import('./teams').PokemonSet;
 
@@ -42,7 +42,15 @@ declare namespace TierTypes {
 	export type Singles = "AG" | "Uber" | "(Uber)" | "OU" | "(OU)" | "UUBL" | "UU" | "RUBL" | "RU" | "NUBL" | "NU" |
 		"(NU)" | "PUBL" | "PU" | "(PU)" | "ZUBL" | "ZU" | "NFE" | "LC";
 	export type Doubles = "DUber" | "(DUber)" | "DOU" | "(DOU)" | "DBL" | "DUU" | "(DUU)" | "NFE" | "LC";
-	export type Other = "Unreleased" | "Illegal" | "CAP" | "CAP NFE" | "CAP LC";
+	export type Other = "Unreleased" | "Illegal" | "CAP" | "CAP NFE" | "CAP LC" | "Vanilla";
+	export type DNUSingles = "DoNU AG" | "DoNU Uber" | "DoNU OU" | "DoNU UUBL" | "DoNU UU" | "DoNU RUBL" | "DoNU RU";
+	export type DNUDoubles = "DoNU Restricted" | "DoNU Unrestricted";
+	export type RVC = "RVC Ubers" | "RVC" | "RVC NFE" | "RVC LC";
+	export type NatU = "NatU Ubers" | "NatU" | "NatU NFE" | "NatU LC";
+	export type CMU = "CMU Lord" | "CMU Knight" | "CMU Peasant" | "CMU Child";
+	export type FGU = "FGU RB" | "FGU Y" | "FGU GS" | "FGU C" | "FGU RS" | "FGU E" | "FGU FRLG" | "FGU DP" | "FGU Pl" |
+		"FGU HGSS" | "FGU BW" | "FGU B2W2" | "FGU XY" | "FGU ORAS" | "FGU SM" | "FGU USUM" | "FGU SwSh" | "FGU BDSP";
+	export type ThreeM = "3M Musketeer" | "3M Drafted" | "3M Mascot" | "3M Undrafted";
 }
 
 interface EventInfo {

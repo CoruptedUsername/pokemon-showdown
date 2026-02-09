@@ -534,7 +534,9 @@ export const Abilities: import('../../../sim/dex-abilities').ModdedAbilityDataTa
 			if (bannedAbilities.includes(target.ability)) {
 				return;
 			}
-			pokemon.setAbility(ability, target);
+			if (pokemon.setAbility(ability)) {
+				this.add('-ability', pokemon, ability, '[from] ability: Trace', `[of] ${target}`);
+			}
 		},
 		flags: { notrace: 1 },
 	},

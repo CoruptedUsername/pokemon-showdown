@@ -204,6 +204,16 @@ export const Tags: { [id: IDEntry]: TagData } = {
 		name: "AG",
 		speciesFilter: species => species.tier === 'AG',
 	},
+	vanilla: {
+		name: "Non-Mod",
+		speciesFilter: species => species.tier === 'Uber' || species.tier === '(Uber)' || species.tier === 'AG' ||
+			species.tier === 'OU' || species.tier === '(OU)' || species.tier === 'UUBL' || species.tier === 'UU' ||
+			species.tier === 'RUBL' || species.tier === 'RU' || species.tier === 'NUBL' || species.tier === 'NU' ||
+			species.tier === 'PUBL' || species.tier === 'PU' || species.tier === '(NU)' || species.tier === 'ZUBL' ||
+			species.tier === 'ZU' || species.tier === '(PU)' || species.tier === 'NFE' || species.tier === 'LC' ||
+			species.tier === 'CAP' || species.tier === 'CAP LC' || species.tier === 'CAP NFE' ||
+			species.doublesTier === 'Illegal',
+	},
 
 	// Doubles tiers
 	// -------------
@@ -226,6 +236,12 @@ export const Tags: { [id: IDEntry]: TagData } = {
 	dnu: {
 		name: "DNU",
 		speciesFilter: species => species.doublesTier === '(DUU)',
+	},
+	vanilladoubles: {
+		name: "Non-Mod", // If you think of a better way to differentiate these, please let me know
+		speciesFilter: species => species.doublesTier === 'DUber' || species.doublesTier === '(DUber)' ||
+			species.doublesTier === 'DOU' || species.doublesTier === '(DOU)' || species.doublesTier === 'DBL' ||
+			species.doublesTier === 'DUU' || species.doublesTier === '(DUU)' || species.doublesTier === 'Illegal',
 	},
 
 	// Nat Dex tiers
@@ -265,6 +281,77 @@ export const Tags: { [id: IDEntry]: TagData } = {
 	ndlc: {
 		name: "ND LC",
 		speciesFilter: species => species.natDexTier === 'LC',
+	},
+	// DNU Tags
+	dnuag: {
+		name: "DNU AG",
+		speciesFilter: species => species.tier === 'DoNU AG',
+	},
+	dnuuber: {
+		name: "DNU Uber",
+		speciesFilter: species => species.tier === 'DoNU Uber',
+	},
+	dnuou: {
+		name: "DNU OU",
+		speciesFilter: species => species.tier === 'DoNU OU',
+	},
+	dnuuubl: {
+		name: "DNU UUBL",
+		speciesFilter: species => species.tier === 'DoNU UUBL',
+	},
+	dnuuu: {
+		name: "DNU UU",
+		speciesFilter: species => species.tier === 'DoNU UU',
+	},
+	dnurubl: {
+		name: "DNU RUBL",
+		speciesFilter: species => species.tier === 'DoNU RUBL',
+	},
+	dnuru: {
+		name: "DNU RU",
+		speciesFilter: species => species.tier === 'DoNU RU',
+	},
+	dnurestricted: {
+		name: "DNU Restricted",
+		speciesFilter: species => species.doublesTier === 'DoNU Restricted',
+	},
+	dnuunrestricted: {
+		name: "DNU Unrestricted",
+		speciesFilter: species => species.doublesTier === 'DoNU Unrestricted',
+	},
+	nondnus: {
+		name: "NotDNUS",
+		speciesFilter: species => species.tier !== 'DoNU AG' && species.tier !== 'DoNU Uber' &&
+			species.tier !== 'DoNU OU' && species.tier !== 'DoNU UUBL' && species.tier !== 'DoNU UU' &&
+			species.tier !== 'DoNU RUBL' && species.tier !== 'DoNU RU',
+	},
+	nondnud: {
+		name: "NotDNUD",
+		speciesFilter: species => species.doublesTier !== 'DoNU Unrestricted' &&
+			species.doublesTier !== 'DoNU Restricted',
+	},
+	// Natalie Used Tags
+	natuubers: {
+		name: "NatU Ubers",
+		speciesFilter: species => species.tier === 'NatU Ubers',
+	},
+
+	// Caveman Used Tags
+	cmulord: {
+		name: "CMU Lord",
+		speciesFilter: species => species.tier === 'CMU Lord',
+	},
+
+	// Three Musketeers Tags
+
+	threemmascot: {
+		name: "3M Mascot",
+		speciesFilter: species => species.tier === '3M Mascot',
+	},
+
+	threemundrafted: {
+		name: "3M Undrafted",
+		speciesFilter: species => species.tier === '3M Undrafted',
 	},
 
 	// Legality tags

@@ -198,7 +198,9 @@ export const Abilities: import('../../../sim/dex-abilities').ModdedAbilityDataTa
 			const target = pokemon.side.randomFoe();
 			if (!target || target.fainted) return;
 			const ability = target.getAbility();
-			pokemon.setAbility(ability, target);
+			if (pokemon.setAbility(ability)) {
+				this.add('-ability', pokemon, ability, '[from] ability: Trace', `[of] ${target}`);
+			}
 		},
 		flags: {},
 	},

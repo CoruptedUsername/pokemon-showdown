@@ -1,21 +1,39 @@
 export const Scripts: ModdedBattleScriptsData = {
 	gen: 9,
-	teambuilders: [
-		{
+	teambuilders: {
+		"gen9dnu": {
 			tierType: "tier",
-			builderTable: "gen9dnu",
-			tierNames: ["gen9donotuse", "gen9donotuseuu", "gen9donotuseru", "gen9donotuseubers", "gen9donotuseag"],
-			tierSlices: ["DoNU OU", "DoNU UU", "DoNU RU", "DoNU Uber", "DoNU AG"],
+			formats: {
+				"gen9donotuse": {
+					topSlice: "DoNU OU",
+				},
+				"gen9donotuseuu": {
+					topSlice: "DoNU UU",
+				},
+				"gen9donotuseru": {
+					topSlice: "DoNU RU",
+				},
+				"gen9donotuseubers": {
+					topSlice: "DoNU Uber",
+				},
+				"gen9donotuseag": {
+					topSlice: "DoNU AG",
+				},
+			},
+			formatType: "singles",
 			isNatDex: true,
 			validTiers: ["DoNU AG", "DoNU Uber", "DoNU OU", "DoNU UUBL", "DoNU UU", "DoNU RUBL", "DoNU RU"],
 		},
-		{
+		"gen9dnuvgc": {
 			tierType: "doublesTier",
-			builderTable: "gen9dnuvgc",
-			tierNames: ["gen9dnuvgc"],
-			tierSlices: ["DoNU Restricted"],
+			formats: {
+				"gen9donotusevgc": {
+					topSlice: "DoNU Restricted",
+				},
+			},
+			formatType: "doubles",
 			isNatDex: true,
 			validTiers: ["DoNU Restricted", "DoNU Unrestricted"],
 		},
-	],
+	},
 };

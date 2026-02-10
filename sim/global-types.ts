@@ -364,6 +364,7 @@ interface ModdedTeamBuilders {
 	tierNames?: string[];
 	tierSlices?: string[];
 	isNatDex?: boolean;
+	validTiers?: string[];
 }
 
 interface ModdedBattleScriptsData extends Partial<BattleScriptsData> {

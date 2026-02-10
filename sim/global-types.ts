@@ -358,13 +358,18 @@ interface ModdedField extends Partial<Field> {
 	) => boolean;
 }
 
+interface ModdedFormat {
+	topSlice: string;
+	bottomSlice?: string;
+	bonusRules?: string[];
+}
+
 interface ModdedTeamBuilders {
-	tierType?: "tier" | "doublesTier" | "natdexTier";
-	builderTable?: string;
-	tierNames?: string[];
-	tierSlices?: string[];
-	isNatDex?: boolean;
-	validTiers?: string[];
+	tierType: "tier" | "doublesTier" | "natdexTier";
+	formats: { [id: string]: ModdedFormat };
+	formatType: "singles" | "doubles";
+	isNatDex: boolean;
+	validTiers: string[];
 }
 
 interface ModdedBattleScriptsData extends Partial<BattleScriptsData> {
@@ -374,7 +379,7 @@ interface ModdedBattleScriptsData extends Partial<BattleScriptsData> {
 	queue?: ModdedBattleQueue;
 	field?: ModdedField;
 	side?: ModdedBattleSide;
-	teambuilders?: ModdedTeamBuilders[];
+	teambuilders?: { [id: string]: ModdedTeamBuilders };
 	boost?: (
 		this: Battle, boost: SparseBoostsTable, target: Pokemon, source?: Pokemon | null,
 		effect?: Effect | null, isSecondary?: boolean, isSelf?: boolean

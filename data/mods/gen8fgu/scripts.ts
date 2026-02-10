@@ -1,13 +1,16 @@
 export const Scripts: ModdedBattleScriptsData = {
 	gen: 8,
-	teambuilders: [
-		{
+	teambuilders: {
+		"gen8fgu": {
 			tierType: "tier",
-			builderTable: "gen8fgu",
-			tierNames: ["gen8firstgymused"],
-			tierSlices: [""],
+			formats: {
+				"gen8firstgymused": {
+					topSlice: "",
+				},
+			},
+			formatType: "singles",
 			isNatDex: false,
 			validTiers: [""],
 		},
-	],
+	},
 };

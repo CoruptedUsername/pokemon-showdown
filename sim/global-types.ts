@@ -361,7 +361,12 @@ interface ModdedField extends Partial<Field> {
 interface ModdedFormat {
 	topSlice: string;
 	bottomSlice?: string;
-	bonusRules?: string[];
+	bonusRules?: string[]; // Implemented Bonus Rules: AAA, Balanced Hackmons, Custom Game, Hackmons, Metronome
+	defaultLevel?: number;
+}
+
+interface BuilderBonusRules {
+	bonusRule?: "Fortemons" | "Broken Record";
 }
 
 interface ModdedTeamBuilders {
@@ -370,6 +375,7 @@ interface ModdedTeamBuilders {
 	formatType: "singles" | "doubles";
 	isNatDex: boolean;
 	validTiers: string[];
+	bonusRules?: string[]; // Implemented Bonus Rules: Broken Record
 }
 
 interface ModdedBattleScriptsData extends Partial<BattleScriptsData> {

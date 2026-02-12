@@ -6,6 +6,7 @@ export const Scripts: ModdedBattleScriptsData = {
 			formats: {
 				"gen8firstgymused": {
 					topSlice: "",
+					defaultLevel: 100,
 				},
 			},
 			formatType: "singles",

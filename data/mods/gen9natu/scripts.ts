@@ -6,6 +6,7 @@ export const Scripts: ModdedBattleScriptsData = {
 			formats: {
 				"gen9natalieused": {
 					topSlice: "NatU",
+					defaultLevel: 100,
 				},
 			},
 			formatType: "singles",

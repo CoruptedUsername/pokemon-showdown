@@ -6,6 +6,7 @@ export const Scripts: ModdedBattleScriptsData = {
 			formats: {
 				"gen9regionalvariantscup": {
 					topSlice: "RVC",
+					defaultLevel: 100,
 				},
 			},
 			formatType: "singles",

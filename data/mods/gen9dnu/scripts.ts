@@ -6,18 +6,23 @@ export const Scripts: ModdedBattleScriptsData = {
 			formats: {
 				"gen9donotuse": {
 					topSlice: "DoNU OU",
+					defaultLevel: 100,
 				},
 				"gen9donotuseuu": {
 					topSlice: "DoNU UU",
+					defaultLevel: 100,
 				},
 				"gen9donotuseru": {
 					topSlice: "DoNU RU",
+					defaultLevel: 100,
 				},
 				"gen9donotuseubers": {
 					topSlice: "DoNU Uber",
+					defaultLevel: 100,
 				},
 				"gen9donotuseag": {
 					topSlice: "DoNU AG",
+					defaultLevel: 100,
 				},
 			},
 			formatType: "singles",
@@ -29,6 +34,7 @@ export const Scripts: ModdedBattleScriptsData = {
 			formats: {
 				"gen9donotusevgc": {
 					topSlice: "DoNU Restricted",
+					defaultLevel: 50,
 				},
 			},
 			formatType: "doubles",

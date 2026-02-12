@@ -118,4 +118,11 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		ruleset: ['Standard Doubles', 'NatDex Mod', 'Item Clause = 1', 'Adjust Level = 50', 'Picked Team Size = 4', 'VGC Timer', 'Terastal Clause', 'Best of = 3', '!Evasion Moves Clause', '!Gravity Sleep Clause', 'Evasion Clause', 'DryPass Clause', 'Sleep Clause Mod'],
 		banlist: ['Vanilla', 'Last Respects', 'Moody', 'Quick Claw', 'King\'s Rock', 'Razor Fang', 'Shed Tail'],
 	},
+	{
+		name: "[Gen 9] Three Musketeers Draft Week 5",
+		mod: "gen93m",
+		ruleset: ['Standard NatDex', 'Terastal Clause', '!Evasion Moves Clause', '!Gravity Sleep Clause', 'Evasion Clause', 'DryPass Clause', 'Sleep Clause Mod', 'Broken Record Mod', 'Force of the Fallen Mod'],
+		banlist: ['Vanilla', 'Last Respects', 'Moody', 'Quick Claw', 'King\'s Rock', 'Razor Fang', 'Shed Tail', 'Rage Fist', 'Booster Energy', 'TR00', 'TR29', 'TR51', 'TR68', 'TR82'],
+		restricted: ['Belly Drum', 'Extreme Speed', 'Population Bomb', 'Quiver Dance', 'Revival Blessing', 'Shell Smash', 'Shift Gear', 'Tail Glow'],
+	},
 ];

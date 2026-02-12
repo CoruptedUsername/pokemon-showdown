@@ -7,6 +7,7 @@ export const Scripts: ModdedBattleScriptsData = {
 			formats: {
 				"gen9donotuselegacy": {
 					topSlice: "DoNU OU",
+					defaultLevel: 100,
 				},
 			},
 			formatType: "singles",

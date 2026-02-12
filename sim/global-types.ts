@@ -359,10 +359,10 @@ interface ModdedField extends Partial<Field> {
 }
 
 interface ModdedFormat {
+	defaultLevel: number;
 	topSlice: string;
 	bottomSlice?: string;
 	bonusRules?: string[]; // Implemented Bonus Rules: AAA, Balanced Hackmons, Custom Game, Hackmons, Metronome
-	defaultLevel?: number;
 }
 
 interface BuilderBonusRules {

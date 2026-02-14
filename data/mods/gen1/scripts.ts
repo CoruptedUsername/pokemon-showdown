@@ -15,6 +15,20 @@ const TWO_TURN_MOVES = ['dig', 'fly', 'razorwind', 'skullbash', 'skyattack', 'so
 export const Scripts: ModdedBattleScriptsData = {
 	inherit: 'gen2',
 	gen: 1,
+	teambuilders: {
+		"gen1": {
+			tierType: "tier",
+			formats: {
+				"gen1": {
+					topSlice: "OU",
+					defaultLevel: 100,
+				},
+			},
+			formatType: "singles",
+			isNatDex: false,
+			validTiers: ["OU", "UUBL", "UU", "RUBL", "RU", "NUBL", "NU", "PUBL", "PU", "ZUBL", "ZU", "NFE", "LC"],
+		},
+	},
 	init() {
 		for (const i in this.data.Pokedex) {
 			const poke = this.modData('Pokedex', i);

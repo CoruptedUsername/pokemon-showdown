@@ -1,10 +1,10 @@
 export const Scripts: ModdedBattleScriptsData = {
 	gen: 9,
 	teambuilders: {
-		"gen9standard": {
+		"gen9": {
 			tierType: "tier",
 			formats: {
-				"gen9standard": {
+				"gen9": {
 					topSlice: "OU",
 					defaultLevel: 100,
 				},

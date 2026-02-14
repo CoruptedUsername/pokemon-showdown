@@ -1,6 +1,20 @@
 export const Scripts: ModdedBattleScriptsData = {
 	inherit: 'gen4',
 	gen: 3,
+	teambuilders: {
+		"gen3": {
+			tierType: "tier",
+			formats: {
+				"gen3": {
+					topSlice: "OU",
+					defaultLevel: 100,
+				},
+			},
+			formatType: "singles",
+			isNatDex: false,
+			validTiers: ["OU", "UUBL", "UU", "RUBL", "RU", "NUBL", "NU", "PUBL", "PU", "ZUBL", "ZU", "NFE", "LC"],
+		},
+	},
 	init() {
 		const specialTypes = ['Fire', 'Water', 'Grass', 'Ice', 'Electric', 'Dark', 'Psychic', 'Dragon'];
 		let newCategory = '';

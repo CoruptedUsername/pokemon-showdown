@@ -11,7 +11,8 @@ export const Scripts: ModdedBattleScriptsData = {
 			},
 			formatType: "singles",
 			isNatDex: false,
-			validTiers: [""],
+			validTiers: ["FGU RB", "FGU Y", "FGU GS", "FGU C", "FGU RS", "FGU E", "FGU FRLG", "FGU DP", "FGU Pl",
+				"FGU HGSS", "FGU BW", "FGU B2W2", "FGU XY", "FGU ORAS", "FGU SM", "FGU USUM", "FGU SwSh", "FGU BDSP"],
 		},
 	},
 };

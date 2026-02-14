@@ -5,6 +5,20 @@
 export const Scripts: ModdedBattleScriptsData = {
 	inherit: 'gen3',
 	gen: 2,
+	teambuilders: {
+		"gen2": {
+			tierType: "tier",
+			formats: {
+				"gen2": {
+					topSlice: "OU",
+					defaultLevel: 100,
+				},
+			},
+			formatType: "singles",
+			isNatDex: false,
+			validTiers: ["OU", "UUBL", "UU", "RUBL", "RU", "NUBL", "NU", "PUBL", "PU", "ZUBL", "ZU", "NFE", "LC"],
+		},
+	},
 	pokemon: {
 		inherit: true,
 		getStat(statName, unboosted, unmodified, fastReturn) {

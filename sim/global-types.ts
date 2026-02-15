@@ -385,7 +385,7 @@ interface ModdedBattleScriptsData extends Partial<BattleScriptsData> {
 	queue?: ModdedBattleQueue;
 	field?: ModdedField;
 	side?: ModdedBattleSide;
-	teambuilders?: { [id: string]: ModdedTeamBuilders };
+	teambuilders?: { [id: string]: ModdedTeamBuilders } | null;
 	boost?: (
 		this: Battle, boost: SparseBoostsTable, target: Pokemon, source?: Pokemon | null,
 		effect?: Effect | null, isSecondary?: boolean, isSelf?: boolean

@@ -177,6 +177,9 @@ export const Items: import('../../../sim/dex-items').ModdedItemDataTable = {
 	shinystone: {
 		inherit: true,
 		relevantTiers: [],
+		fling: {
+			basePower: 1000,
+		},
 		isNonstandard: null,
 	},
 	silkscarf: {

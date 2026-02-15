@@ -89,6 +89,11 @@ export class Item extends BasicEffect implements Readonly<BasicEffect> {
 	/** Is this item a Red or Blue Orb? */
 	readonly isPrimalOrb: boolean;
 
+
+	readonly relevantTiers?: string[];
+	readonly relevantAbilities?: string[];
+	readonly relevantPokemon?: string[];
+
 	declare readonly condition?: ConditionData;
 	declare readonly forcedForme?: string;
 	declare readonly isChoice?: boolean;

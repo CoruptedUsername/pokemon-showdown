@@ -106,6 +106,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 	{
 		name: "[Gen 8] First Gym Used",
 		mod: "gen8fgu",
+		ruleset: ['Standard OMs', 'Generation Item Clause'],
 		banlist: ['Vanilla'],
 	},
 	{

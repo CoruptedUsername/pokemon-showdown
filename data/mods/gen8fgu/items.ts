@@ -81,7 +81,7 @@ export const Items: import('../../../sim/dex-items').ModdedItemDataTable = {
 	},
 	kingsrock: {
 		inherit: true,
-		relevantTiers: ["FGU RS", "FGU Pl", "FGU BW", "FGU BW2", "FGU XY", "FGU ORAS"],
+		relevantTiers: ["FGU RS", "FGU Pl", "FGU BW", "FGU B2W2", "FGU XY", "FGU ORAS"],
 		isNonstandard: null,
 	},
 	leftovers: {
@@ -126,7 +126,7 @@ export const Items: import('../../../sim/dex-items').ModdedItemDataTable = {
 	},
 	oranberry: {
 		inherit: true,
-		relevantTiers: ["FGU RS", "FGU E", "FGU HGSS", "FGU BW", "FGU BW2", "FGU ORAS", "FGU SM", "FGU USUM", "FGU SwSh"],
+		relevantTiers: ["FGU RS", "FGU E", "FGU HGSS", "FGU BW", "FGU B2W2", "FGU ORAS", "FGU SM", "FGU USUM", "FGU SwSh"],
 		isNonstandard: null,
 	},
 	payapaberry: {

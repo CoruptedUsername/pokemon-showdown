@@ -8,6 +8,10 @@ export const Scripts: ModdedBattleScriptsData = {
 					topSlice: "3M Musketeer",
 					defaultLevel: 50,
 				},
+				"gen9threemusketeersdraftweek6": {
+					topSlice: "3M Musketeer",
+					defaultLevel: 100,
+				},
 			},
 			formatType: "singles",
 			isNatDex: true,

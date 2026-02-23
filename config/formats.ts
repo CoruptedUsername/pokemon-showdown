@@ -129,7 +129,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 	{
 		name: "[Gen 9] Three Musketeers Draft Week 6",
 		mod: "gen93m",
-		ruleset: ['Standard NatDex', 'Terastal Clause', 'DryPass Clause', 'Force of the Fallen Mod', 'Broken Record Mod'],
+		ruleset: ['Standard NatDex', 'Terastal Clause', 'DryPass Clause'],
 		banlist: ['Vanilla', 'Last Respects', 'Moody', 'Quick Claw', 'King\'s Rock', 'Razor Fang', 'Shed Tail', 'Hidden Power'],
 	},
 ];

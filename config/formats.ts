@@ -126,4 +126,10 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		banlist: ['Vanilla', 'Last Respects', 'Moody', 'Quick Claw', 'King\'s Rock', 'Razor Fang', 'Shed Tail', 'Rage Fist', 'Booster Energy', 'TR00', 'TR29', 'TR51', 'TR68', 'TR82', 'Baton Pass', 'Hidden Power'],
 		restricted: ['Belly Drum', 'Extreme Speed', 'Population Bomb', 'Quiver Dance', 'Revival Blessing', 'Shell Smash', 'Shift Gear', 'Tail Glow'],
 	},
+	{
+		name: "[Gen 9] Three Musketeers Draft Week 6",
+		mod: "gen93m",
+		ruleset: ['Standard NatDex', 'Terastal Clause', 'DryPass Clause', 'Force of the Fallen Mod', 'Broken Record Mod'],
+		banlist: ['Vanilla', 'Last Respects', 'Moody', 'Quick Claw', 'King\'s Rock', 'Razor Fang', 'Shed Tail', 'Hidden Power'],
+	},
 ];

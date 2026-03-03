@@ -102,7 +102,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 	},
 	wartortley: {
 		learnset: {
-			tackle: ["8M"],
+			tacklegen1: ["8M"],
 			tailwhip: ["8M"],
 			bubble: ["8M"],
 			watergun: ["8M"],

@@ -201,7 +201,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	wartortley: {
 		num: 8,
 		name: "Wartortle (Y)",
-		types: ["Water"],
+		types: ["Water", "falsity"],
 		genderRatio: { M: 0.875, F: 0.125 },
 		baseStats: { hp: 59, atk: 63, def: 80, spa: 65, spd: 80, spe: 58 },
 		abilities: { 0: "Torrent", H: "Rain Dish" },

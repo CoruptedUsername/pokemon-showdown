@@ -5,7 +5,7 @@ export const Scripts: ModdedBattleScriptsData = {
 			tierType: "tier",
 			formats: {
 				"gen8firstgymused": {
-					topSlice: "",
+					topSlice: "FGU RB",
 					defaultLevel: 100,
 				},
 			},

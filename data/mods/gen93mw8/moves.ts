@@ -14,8 +14,8 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 			}
 		},
 		onModifyType(move, pokemon) {
-			this.hint(pokemon.getTypes()[-1]);
-			move.type = pokemon.getTypes()[-1];
+			this.hint(pokemon.getTypes()[pokemon.getTypes().length - 1]);
+			move.type = pokemon.getTypes()[pokemon.getTypes().length - 1];
 		},
 		onModifyMove(move, pokemon) {
 			if (pokemon.getStat('atk', false, true) > pokemon.getStat('spa', false, true)) {

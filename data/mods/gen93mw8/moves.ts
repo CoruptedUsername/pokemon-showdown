@@ -13,10 +13,11 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 				this.attrLastMove('[anim] Tera Blast ' + source.teraType);
 			}
 		},
-		onModifyMove(move, pokemon) {
+		onModifyType(move, pokemon) {
+			this.hint(pokemon.getTypes()[-1]);
 			move.type = pokemon.getTypes()[-1];
-			this.hint(pokemon.getTypes().toString());
-			console.log(pokemon.getTypes());
+		},
+		onModifyMove(move, pokemon) {
 			if (pokemon.getStat('atk', false, true) > pokemon.getStat('spa', false, true)) {
 				move.category = 'Physical';
 			}

@@ -15,7 +15,7 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 		},
 		onModifyMove(move, pokemon) {
 			move.type = pokemon.getTypes()[-1];
-			this.debug(pokemon.getTypes()[-1]);
+			this.hint(pokemon.getTypes().toString());
 			console.log(pokemon.getTypes());
 			if (pokemon.getStat('atk', false, true) > pokemon.getStat('spa', false, true)) {
 				move.category = 'Physical';

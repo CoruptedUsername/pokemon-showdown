@@ -80919,6 +80919,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 	},
 	kartana: {
 		learnset: {
+			terablast: ["9M"],
 			aerialace: ["8L25", "7M", "7L23"],
 			aircutter: ["8L20", "8S2", "7L1"],
 			airslash: ["8M", "7L59", "7S0", "7S1"],
@@ -93866,6 +93867,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 	},
 	terapagos: {
 		learnset: {
+			terablast: ["9M"],
 			ancientpower: ["9L10"],
 			aurasphere: ["9M"],
 			bodypress: ["9M"],

@@ -16,12 +16,12 @@ export const Items: import('../../../sim/dex-items').ModdedItemDataTable = {
 	},
 	berry: {
 		inherit: true,
-		relevantTiers: ["FGU GSC"],
+		relevantTiers: ["FGU GS", "FGU C"],
 		isNonstandard: null,
 	},
 	bitterberry: {
 		inherit: true,
-		relevantTiers: ["FGU GSC"],
+		relevantTiers: ["FGU GS", "FGU C"],
 		isNonstandard: null,
 	},
 	cheriberry: {
@@ -151,7 +151,7 @@ export const Items: import('../../../sim/dex-items').ModdedItemDataTable = {
 	},
 	psncureberry: {
 		inherit: true,
-		relevantTiers: ["FGU GSC"],
+		relevantTiers: ["FGU GS", "FGU C"],
 		isNonstandard: null,
 	},
 	quickclaw: {

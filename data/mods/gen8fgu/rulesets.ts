@@ -7,7 +7,7 @@ export const Rulesets: import('../../../sim/dex-formats').ModdedFormatDataTable 
 			for (const set of team) {
 				if (this.dex.items.get(set.item).relevantTiers) {
 					// @ts-expect-error
-					if (!(this.dex.species.get(set.species).tier in	this.dex.items.get(set.item).relevantTiers)) {
+					if (!this.dex.items.get(set.item).relevantTiers.includes(this.dex.species.get(set.species).tier)) {
 						return [`${set.species} cannot use the item ${set.item}`];
 					}
 				}

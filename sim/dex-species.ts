@@ -68,6 +68,11 @@ export interface ModdedSpeciesFormatsDataTable { [speciesid: IDEntry]: ModdedSpe
 export interface LearnsetDataTable { [speciesid: IDEntry]: LearnsetData }
 export interface ModdedLearnsetDataTable { [speciesid: IDEntry]: ModdedLearnsetData }
 export interface PokemonGoDataTable { [speciesid: IDEntry]: PokemonGoData }
+export interface ModdedSpeciesSprites { [speciesid: IDEntry]: ModdedSpriteData }
+
+export interface ModdedSpriteData {
+	stuff?: string;
+}
 
 /**
  * Describes a possible way to get a move onto a pokemon.

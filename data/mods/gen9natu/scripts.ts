@@ -22,8 +22,11 @@ export const Scripts: ModdedBattleScriptsData = {
 	},
 	init() {
 		for (const move in this.modData("Learnsets", "groudon").learnset) {
-			if (this.modData("Moves", move).category !== "Status") {
+			if (this.modData("Moves", move).category !== 'Status') {
 				this.modData("Learnsets", "groudon").learnset[move] = [];
+				console.log(move + " is not a status move");
+			} else {
+				console.log(move + " is a status move");
 			}
 		}
 	},

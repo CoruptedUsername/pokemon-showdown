@@ -1,5 +1,6 @@
 export const Sprites: import('../../../sim/dex-species').ModdedSpeciesSprites = {
 	"ivysaurrb": {
-		stuff: "./gen8fgu/sprites/ivysaurrb/ivysaurrbteambuilder.png",
+		spriteDirectory: "/gen8fgu/sprites/ivysaurrb/",
+		teambuilderSprite: "/ivysaurrbteambuilder.png",
 	},
 };

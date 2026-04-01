@@ -9,4 +9,10 @@ export const Sprites: import('../../../sim/dex-species').ModdedSpeciesSprites = 
 			copySpriteMon: "beedrill",
 		},
 	},
+	beedrillxy: {
+		copySprite: {
+			copySpriteGen: 6,
+			copySpriteMon: "beedrill",
+		},
+	},
 };

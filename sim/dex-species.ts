@@ -74,11 +74,12 @@ export interface ModdedSpriteData {
 	copySprite?: CopySprite;
 	spriteDirectory?: string;
 	teambuilderSprite?: string;
+	shinyTeambuilderSprite?: string;
 }
 
 export interface CopySprite {
 	copySpriteMon: string;
-	copySpriteGen: string;
+	copySpriteGen: number;
 }
 
 /**

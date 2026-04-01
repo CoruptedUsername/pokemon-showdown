@@ -71,7 +71,8 @@ export interface PokemonGoDataTable { [speciesid: IDEntry]: PokemonGoData }
 export interface ModdedSpeciesSprites { [speciesid: IDEntry]: ModdedSpriteData }
 
 export interface ModdedSpriteData {
-	stuff?: string;
+	spriteDirectory?: string;
+	teambuilderSprite?: string;
 }
 
 /**

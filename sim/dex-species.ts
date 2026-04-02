@@ -68,6 +68,27 @@ export interface ModdedSpeciesFormatsDataTable { [speciesid: IDEntry]: ModdedSpe
 export interface LearnsetDataTable { [speciesid: IDEntry]: LearnsetData }
 export interface ModdedLearnsetDataTable { [speciesid: IDEntry]: ModdedLearnsetData }
 export interface PokemonGoDataTable { [speciesid: IDEntry]: PokemonGoData }
+export interface ModdedSpeciesSprites { [speciesid: IDEntry]: ModdedSpriteData }
+
+export interface ModdedSpriteData {
+	copySprite?: CopySprite;
+	spriteDirectory?: string;
+	teambuilderSprite?: string;
+	shinyTeambuilderSprite?: string;
+	frontSprite?: string;
+	femaleFrontSprite?: string;
+	shinyFrontSprite?: string;
+	shinyFemaleFrontSprite?: string;
+	backSprite?: string;
+	femaleBackSprite?: string;
+	shinyBackSprite?: string;
+	shinyFemaleBackSprite?: string;
+}
+
+export interface CopySprite {
+	copySpriteMon: string;
+	copySpriteGen: number;
+}
 
 /**
  * Describes a possible way to get a move onto a pokemon.

@@ -1,8 +1,4 @@
 export const Sprites: import('../../../sim/dex-species').ModdedSpeciesSprites = {
-	ivysaurrb: {
-		spriteDirectory: "ivysaurrb",
-		teambuilderSprite: "img.png",
-	},
 	beedrillrb: {
 		copySprite: {
 			copySpriteGen: 1,
@@ -16,9 +12,14 @@ export const Sprites: import('../../../sim/dex-species').ModdedSpeciesSprites = 
 		},
 	},
 	trubbishswsh: {
-		copySprite: {
-			copySpriteGen: 8,
-			copySpriteMon: "trubbish",
-		},
+		spriteDirectory: "trubbishswsh",
+		frontSprite: "Armie.png",
+		femaleFrontSprite: "Boreetle.png",
+		shinyFrontSprite: "Bunnyumi.png",
+		shinyFemaleFrontSprite: "Centaghoul.png",
+		backSprite: "Combustoad.png",
+		femaleBackSprite: "Fromaldehydra.png",
+		shinyBackSprite: "Goodjur.png",
+		shinyFemaleBackSprite: "Guttergar.png",
 	},
 };

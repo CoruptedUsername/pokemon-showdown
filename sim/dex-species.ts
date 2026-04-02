@@ -75,6 +75,14 @@ export interface ModdedSpriteData {
 	spriteDirectory?: string;
 	teambuilderSprite?: string;
 	shinyTeambuilderSprite?: string;
+	frontSprite?: string;
+	femaleFrontSprite?: string;
+	shinyFrontSprite?: string;
+	shinyFemaleFrontSprite?: string;
+	backSprite?: string;
+	femaleBackSprite?: string;
+	shinyBackSprite?: string;
+	shinyFemaleBackSprite?: string;
 }
 
 export interface CopySprite {

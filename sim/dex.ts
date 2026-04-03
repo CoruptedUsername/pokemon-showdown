@@ -46,10 +46,10 @@ const dexes: { [mod: string]: ModdedDex } = Object.create(null);
 
 type DataType =
 	'Abilities' | 'Rulesets' | 'FormatsData' | 'Items' | 'Learnsets' | 'Moves' |
-	'Natures' | 'Pokedex' | 'Scripts' | 'Conditions' | 'TypeChart' | 'PokemonGoData';
+	'Natures' | 'Pokedex' | 'Scripts' | 'Sprites' | 'Conditions' | 'TypeChart' | 'PokemonGoData';
 const DATA_TYPES: DataType[] = [
 	'Abilities', 'Rulesets', 'FormatsData', 'Items', 'Learnsets', 'Moves',
-	'Natures', 'Pokedex', 'Scripts', 'Conditions', 'TypeChart', 'PokemonGoData',
+	'Natures', 'Pokedex', 'Scripts', 'Sprites', 'Conditions', 'TypeChart', 'PokemonGoData',
 ];
 
 const DATA_FILES = {
@@ -63,6 +63,7 @@ const DATA_FILES = {
 	Pokedex: 'pokedex',
 	PokemonGoData: 'pokemongo',
 	Scripts: 'scripts',
+	Sprites: 'sprites',
 	Conditions: 'conditions',
 	TypeChart: 'typechart',
 };
@@ -82,6 +83,7 @@ interface DexTableData {
 	FormatsData: DexTable<import('./dex-species').SpeciesFormatsData>;
 	PokemonGoData: DexTable<import('./dex-species').PokemonGoData>;
 	Scripts: DexTable<AnyObject>;
+	Sprites: DexTable<import('./dex-species').ModdedSpeciesSprites>;
 	Conditions: DexTable<import('./dex-conditions').ConditionData>;
 	TypeChart: DexTable<import('./dex-data').TypeData>;
 }

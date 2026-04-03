@@ -2656,7 +2656,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	},
 	farfetchdxy: {
 		num: 83,
-		name: "Farfetchu2019d (XY)",
+		name: "Farfetch'd (XY)",
 		types: ["Normal", "Flying"],
 		baseStats: { hp: 52, atk: 90, def: 55, spa: 58, spd: 62, spe: 60 },
 		abilities: { 0: "Keen Eye", 1: "Inner Focus", H: "Defiant" },
@@ -2664,8 +2664,8 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		weightkg: 15,
 		color: "Brown",
 		eggGroups: ["Flying", "Field"],
-		otherFormes: ["Farfetch\u2019d-Galar"],
-		formeOrder: ["Farfetch\u2019d", "Farfetch\u2019d-Galar"],
+		otherFormes: ["Farfetch'd-Galar"],
+		formeOrder: ["Farfetch'd", "Farfetch'd-Galar"],
 	},
 	vaporeonxy: {
 		num: 134,

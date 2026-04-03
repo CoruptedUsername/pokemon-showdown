@@ -18,7 +18,7 @@ export const Sprites: import('../../../sim/dex-species').ModdedSpeciesSprites = 
 		shinyFrontSprite: "Bunnyumi.png",
 		shinyFemaleFrontSprite: "Centaghoul.png",
 		backSprite: "Combustoad.png",
-		femaleBackSprite: "Fromaldehydra.png",
+		femaleBackSprite: "Formaldehydra.png",
 		shinyBackSprite: "Goodjur.png",
 		shinyFemaleBackSprite: "Guttergar.png",
 	},

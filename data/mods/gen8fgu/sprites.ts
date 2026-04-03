@@ -11,15 +11,40 @@ export const Sprites: import('../../../sim/dex-species').ModdedSpeciesSprites = 
 			copySpriteMon: "beedrill",
 		},
 	},
-	trubbishswsh: {
-		spriteDirectory: "trubbishswsh",
-		frontSprite: "Armie.png",
-		femaleFrontSprite: "Boreetle.png",
-		shinyFrontSprite: "Bunnyumi.png",
-		shinyFemaleFrontSprite: "Centaghoul.png",
-		backSprite: "Combustoad.png",
-		femaleBackSprite: "Formaldehydra.png",
-		shinyBackSprite: "Goodjur.png",
-		shinyFemaleBackSprite: "Guttergar.png",
+	butterfreerb: {
+		copySprite: {
+			copySpriteGen: 1,
+			copySpriteMon: "butterfree",
+		},
+	},
+	butterfreegs: {
+		copySprite: {
+			copySpriteGen: 2,
+			copySpriteMon: "butterfree",
+		},
+	},
+	butterfreefrlg: {
+		copySprite: {
+			copySpriteGen: 3,
+			copySpriteMon: "butterfree",
+		},
+	},
+	butterfreehgss: {
+		copySprite: {
+			copySpriteGen: 4,
+			copySpriteMon: "butterfree",
+		},
+	},
+	butterfreesm: {
+		copySprite: {
+			copySpriteGen: 7,
+			copySpriteMon: "butterfree",
+		},
+	},
+	butterfreeswsh: {
+		copySprite: {
+			copySpriteGen: 8,
+			copySpriteMon: "butterfree",
+		},
 	},
 };

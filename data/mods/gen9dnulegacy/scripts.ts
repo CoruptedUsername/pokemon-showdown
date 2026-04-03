@@ -10,7 +10,7 @@ export const Scripts: ModdedBattleScriptsData = {
 					defaultLevel: 100,
 				},
 				"gen9donotuserulegacy": {
-					topSlice: "DoNU OU",
+					topSlice: "DoNU RU",
 					defaultLevel: 100,
 				},
 			},

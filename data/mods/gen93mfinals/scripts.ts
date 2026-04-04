@@ -1,7 +1,7 @@
 export const Scripts: ModdedBattleScriptsData = {
 	gen: 9,
 	teambuilders: {
-		"gen93mw8": {
+		"gen93mfinals": {
 			tierType: "tier",
 			formats: {
 				"gen9threemusketeersdraftfinals": {

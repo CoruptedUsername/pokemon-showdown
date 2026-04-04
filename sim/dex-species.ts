@@ -39,8 +39,8 @@ export interface SpeciesFormatsData {
 	gmaxUnreleased?: boolean;
 	isNonstandard?: Nonstandard | null;
 	natDexTier?: TierTypes.Singles | TierTypes.Other | TierTypes.DNUSingles | TierTypes.RVC | TierTypes.NatU |
-		TierTypes.CMU | TierTypes.ThreeM;
-	tier?: TierTypes.Singles | TierTypes.Other | TierTypes.DNUSingles | TierTypes.RVC | TierTypes.NatU | TierTypes.CMU |
+		TierTypes.FGU | TierTypes.ThreeM;
+	tier?: TierTypes.Singles | TierTypes.Other | TierTypes.DNUSingles | TierTypes.RVC | TierTypes.NatU |
 		TierTypes.FGU | TierTypes.ThreeM;
 }
 

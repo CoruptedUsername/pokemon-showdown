@@ -145,4 +145,10 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		ruleset: ['Standard NatDex', 'Terastal Clause', 'DryPass Clause'],
 		banlist: ['Vanilla', 'Last Respects', 'Moody', 'Quick Claw', 'King\'s Rock', 'Razor Fang', 'Shed Tail', 'Hidden Power'],
 	},
+	{
+		name: "[Gen 9] Three Musketeers Draft Finals",
+		mod: "gen93mfinals",
+		ruleset: ['Standard NatDex', 'Terastal Clause', 'DryPass Clause'],
+		banlist: ['Vanilla', 'Last Respects', 'Moody', 'Quick Claw', 'King\'s Rock', 'Razor Fang', 'Shed Tail', 'Hidden Power'],
+	},
 ];

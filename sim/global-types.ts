@@ -50,7 +50,8 @@ declare namespace TierTypes {
 	export type CMU = "CMU Lord" | "CMU Knight" | "CMU Peasant" | "CMU Child";
 	export type FGU = "FGU RB" | "FGU Y" | "FGU GS" | "FGU C" | "FGU RS" | "FGU E" | "FGU FRLG" | "FGU DP" | "FGU Pl" |
 		"FGU HGSS" | "FGU BW" | "FGU B2W2" | "FGU XY" | "FGU ORAS" | "FGU SM" | "FGU USUM" | "FGU SwSh" | "FGU BDSP";
-	export type ThreeM = "3M Musketeer" | "3M Drafted" | "3M Mascot" | "3M Undrafted";
+	export type ThreeM = "3M Musketeer" | "3M Drafted" | "3M Mascot" | "3M Undrafted" | "3M GOAT" | "3M Ceruledges" |
+		"3M Hea-Trans" | "3M Shitters";
 }
 
 interface EventInfo {

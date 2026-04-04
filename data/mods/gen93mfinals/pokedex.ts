@@ -79,4 +79,19 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		inherit: true,
 		baseStats: { hp: 59, atk: 72, def: 161, spa: 62, spd: 151, spe: 44 },
 	},
+	accelgor: {
+		inherit: true,
+		baseStats: { hp: 90, atk: 80, def: 50, spa: 110, spd: 70, spe: 155 },
+		abilities: { 0: "Hydration", 1: "Sticky Hold", H: "Unburden", S: "Magic Guard" },
+	},
+	sawsbuck: {
+		inherit: true,
+		baseStats: { hp: 95, atk: 115, def: 85, spa: 75, spd: 85, spe: 110 },
+		abilities: { 0: "Chlorophyll", 1: "Sap Sipper", H: "Serene Grace", S: "Chlorophyll" },
+	},
+	stonjourner: {
+		inherit: true,
+		baseStats: { hp: 119, atk: 144, def: 154, spa: 39, spd: 39, spe: 89 },
+		abilities: { 0: "Power Spot", S: "Sturdy" },
+	},
 };

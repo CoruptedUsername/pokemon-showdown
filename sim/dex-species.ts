@@ -39,9 +39,9 @@ export interface SpeciesFormatsData {
 	gmaxUnreleased?: boolean;
 	isNonstandard?: Nonstandard | null;
 	natDexTier?: TierTypes.Singles | TierTypes.Other | TierTypes.DNUSingles | TierTypes.RVC | TierTypes.NatU |
-		TierTypes.FGU | TierTypes.ThreeM;
+		TierTypes.FGU | TierTypes.ThreeM | TierTypes.Jumptopia;
 	tier?: TierTypes.Singles | TierTypes.Other | TierTypes.DNUSingles | TierTypes.RVC | TierTypes.NatU |
-		TierTypes.FGU | TierTypes.ThreeM;
+		TierTypes.FGU | TierTypes.ThreeM | TierTypes.Jumptopia;
 }
 
 export type ModdedSpeciesFormatsData = SpeciesFormatsData & { inherit?: true };

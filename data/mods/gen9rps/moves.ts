@@ -34,8 +34,14 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 					this.effectState.lostFocus = true;
 				}
 			},
-			onBeforeMove(target) {
-				console.log(target.name);
+			onTryMove(source, target, move) {
+				console.log("Try" + move.target);
+				if (target.volatiles['focuspunch']) {
+					this.effectState.lostFocus = true;
+				}
+			},
+			onBeforeMove(source, target, move) {
+				console.log("Before" + move.target);
 				if (target.volatiles['focuspunch']) {
 					return false;
 				}

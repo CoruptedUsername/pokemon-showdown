@@ -38,6 +38,7 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 			onFoeBeforeMove(move) {
 				if (move.name === 'Focus Punch') {
 					this.effectState.lostFocus = true;
+					return false;
 				}
 			},
 			onTryAddVolatile(status, pokemon) {

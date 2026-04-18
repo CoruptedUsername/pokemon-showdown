@@ -15,13 +15,6 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 		inherit: true,
 		basePower: 9999,
 		pp: 99,
-		onTry(source, target) {
-			const action = this.queue.willMove(target);
-			const move = action?.choice === 'move' ? action.move : null;
-			if (!move || move.name === 'Focus Punch') {
-				return false;
-			}
-		},
 		priorityChargeCallback(pokemon) {
 			pokemon.addVolatile('focuspunch');
 		},
@@ -38,6 +31,11 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 			},
 			onHit(pokemon, source, move) {
 				if (move.category !== 'Status') {
+					this.effectState.lostFocus = true;
+				}
+			},
+			onFoeAfterMove(move) {
+				if (move.name === 'Focus Punch') {
 					this.effectState.lostFocus = true;
 				}
 			},

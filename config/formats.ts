@@ -103,12 +103,12 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		ruleset: ['Standard Draft', '+Unobtainable', '+Past', 'Min Source Gen = 1'],
 		banlist: ['Vanilla', 'Gorilla Tactics', 'Last Respects'],
 	},
-	{
-		name: "[Gen 9] Jumptopia",
-		mod: "gen9jumptopia",
-		ruleset: ['Standard NatDex', 'Mega Rayquaza Clause', 'Terastal Clause', 'Z-Move Clause'],
-		banlist: ['Vanilla', 'Shadow Tag', 'Arena Trap', 'Baton Pass', 'Moody'],
-	},
+	// {
+	// 	name: "[Gen 9] Jumptopia",
+	// 	mod: "gen9jumptopia",
+	// 	ruleset: ['Standard NatDex', 'Mega Rayquaza Clause', 'Terastal Clause', 'Z-Move Clause'],
+	// 	banlist: ['Vanilla', 'Shadow Tag', 'Arena Trap', 'Baton Pass', 'Moody'],
+	// },
 	{
 		name: "[Gen 8] First Gym Used",
 		mod: "gen8fgu",
@@ -118,7 +118,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 	{
 		name: "[Gen 9] Rock Paper Scissors",
 		mod: "gen9rps",
-		ruleset: ['Standard AG', 'NatDex Mod', 'RPS Clause'],
+		ruleset: ['Standard AG', 'NatDex Mod', 'RPS Clause', '!! EV Limit=0'],
 		banlist: ['Vanilla'],
 	},
 	{

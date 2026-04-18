@@ -34,7 +34,8 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 					this.effectState.lostFocus = true;
 				}
 			},
-			onFoeAfterMove(move) {
+			onFoeBeforeMovePriority: 4,
+			onFoeBeforeMove(move) {
 				if (move.name === 'Focus Punch') {
 					this.effectState.lostFocus = true;
 				}

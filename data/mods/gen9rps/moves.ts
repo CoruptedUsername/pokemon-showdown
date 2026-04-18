@@ -1,8 +1,10 @@
 export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 	machpunch: {
 		inherit: true,
-		basePower: 9999,
+		basePower: 0,
+		ohko: true,
 		pp: 99,
+		noPPBoosts: true,
 		onTry(source, target) {
 			const action = this.queue.willMove(target);
 			const move = action?.choice === 'move' ? action.move : null;
@@ -13,8 +15,10 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 	},
 	focuspunch: {
 		inherit: true,
-		basePower: 9999,
+		basePower: 0,
+		ohko: true,
 		pp: 99,
+		noPPBoosts: true,
 		priorityChargeCallback(pokemon) {
 			pokemon.addVolatile('focuspunch');
 		},
@@ -46,8 +50,10 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 	},
 	upperhand: {
 		inherit: true,
-		basePower: 9999,
+		basePower: 0,
+		ohko: true,
 		pp: 99,
+		noPPBoosts: true,
 		onTry(source, target) {
 			const action = this.queue.willMove(target);
 			const move = action?.choice === 'move' ? action.move : null;

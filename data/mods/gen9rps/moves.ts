@@ -2,6 +2,7 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 	machpunch: {
 		inherit: true,
 		basePower: 0,
+		alwaysHit: true,
 		ohko: true,
 		pp: 99,
 		noPPBoosts: true,
@@ -16,6 +17,7 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 	focuspunch: {
 		inherit: true,
 		basePower: 0,
+		alwaysHit: true,
 		ohko: true,
 		pp: 99,
 		noPPBoosts: true,
@@ -51,6 +53,7 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 	upperhand: {
 		inherit: true,
 		basePower: 0,
+		alwaysHit: true,
 		ohko: true,
 		pp: 99,
 		noPPBoosts: true,

@@ -1,1934 +1,1934 @@
 export const Items: import('../../../sim/dex-items').ModdedItemDataTable = {
 	abilityshield: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	abomasite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	absolite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	absolitez: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	absorbbulb: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	adamantcrystal: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	adamantorb: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	adrenalineorb: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	aerodactylite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	aggronite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	aguavberry: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	airballoon: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	alakazite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	aloraichiumz: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	altarianite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	ampharosite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	apicotberry: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	armorfossil: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	aspearberry: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	assaultvest: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	audinite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	auspiciousarmor: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	babiriberry: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	banettite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	barbaracite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	baxcalibrite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	beastball: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	beedrillite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	belueberry: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	berryjuice: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	berrysweet: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	bignugget: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	bigroot: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	bindingband: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	blackbelt: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	blackglasses: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	blacksludge: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	blastoisinite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	blazikenite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	blueorb: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	blukberry: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	blunderpolicy: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	boosterenergy: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	bottlecap: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	brightpowder: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	buggem: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	buginiumz: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	bugmemory: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	burndrive: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	cameruptite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	cellbattery: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	chandelurite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	charcoal: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	charizarditex: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	charizarditey: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	chartiberry: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	cheriberry: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	cherishball: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	chesnaughtite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	chestoberry: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	chilanberry: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	chilldrive: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	chimechite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	chippedpot: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	choiceband: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	choicescarf: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	choicespecs: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	chopleberry: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	clawfossil: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	clearamulet: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	clefablite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	cloversweet: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	cobaberry: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	colburberry: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	cornerstonemask: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	cornnberry: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	coverfossil: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	covertcloak: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	crabominite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	crackedpot: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	custapberry: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	damprock: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	darkgem: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	darkiniumz: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	darkmemory: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	darkranite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	dawnstone: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	decidiumz: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	deepseascale: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	deepseatooth: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	delphoxite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	destinyknot: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	diancite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	diveball: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	domefossil: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	dousedrive: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	dracoplate: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	dragalgite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	dragonfang: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	dragongem: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	dragoninite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	dragoniumz: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	dragonmemory: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	dragonscale: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	drampanite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	dreadplate: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	dreamball: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	dubiousdisc: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	durinberry: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	duskball: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	duskstone: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	earthplate: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	eelektrossite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	eeviumz: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	ejectbutton: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	ejectpack: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	electirizer: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	electricgem: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	electricmemory: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	electricseed: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	electriumz: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	emboarite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	enigmaberry: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	eviolite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	excadrite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	expertbelt: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	fairiumz: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	fairyfeather: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	fairygem: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	fairymemory: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	falinksite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	fastball: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	feraligite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	fightinggem: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	fightingmemory: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	fightiniumz: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	figyberry: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	firegem: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	firememory: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	firestone: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	firiumz: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	fistplate: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	flameorb: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	flameplate: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	floatstone: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	floettite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	flowersweet: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	flyinggem: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	flyingmemory: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	flyiniumz: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	focusband: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	focussash: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	fossilizedbird: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	fossilizeddino: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	fossilizeddrake: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	fossilizedfish: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	friendball: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	froslassite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	fullincense: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	galaricacuff: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	galaricawreath: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	galladite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	ganlonberry: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	garchompite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	garchompitez: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	gardevoirite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	gengarite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	ghostgem: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	ghostiumz: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	ghostmemory: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	glalitite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	glimmoranite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	goldbottlecap: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	golisopite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	golurkite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	grassgem: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	grassiumz: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	grassmemory: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	grassyseed: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	greatball: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	greninjite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	grepaberry: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	gripclaw: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	griseouscore: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	griseousorb: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	groundgem: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	groundiumz: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	groundmemory: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	gyaradosite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	habanberry: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	hardstone: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	hawluchanite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	healball: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	hearthflamemask: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	heatranite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	heatrock: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	heavyball: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	heavydutyboots: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	helixfossil: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	heracronite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	hondewberry: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	houndoominite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	iapapaberry: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	icegem: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	icememory: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	icestone: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	icicleplate: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	iciumz: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	icyrock: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	inciniumz: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	insectplate: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	ironball: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	ironplate: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	jabocaberry: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	jawfossil: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	kangaskhanite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	kasibberry: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	kebiaberry: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	keeberry: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	kelpsyberry: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	kingsrock: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	kommoniumz: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	laggingtail: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	lansatberry: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	latiasite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	latiosite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	laxincense: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	leafstone: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	leek: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	leftovers: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	leppaberry: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	levelball: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	liechiberry: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	lifeorb: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	lightball: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	lightclay: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	loadeddice: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	lopunnite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	loveball: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	lovesweet: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	lucarionite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	lucarionitez: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	luckypunch: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	lumberry: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	luminousmoss: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	lunaliumz: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	lureball: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	lustrousglobe: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	lustrousorb: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	luxuryball: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	lycaniumz: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	machobrace: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	magearnite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	magmarizer: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	magnet: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	magoberry: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	magostberry: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	mail: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	malamarite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	maliciousarmor: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	manectite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	marangaberry: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	marshadiumz: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	masterball: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	masterpieceteacup: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	mawilite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	meadowplate: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	medichamite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	meganiumite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	mentalherb: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	meowsticite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	metagrossite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	metalalloy: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	metalcoat: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	metalpowder: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	metronome: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	mewniumz: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	mewtwonitex: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	mewtwonitey: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	micleberry: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	mimikiumz: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	mindplate: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	miracleseed: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	mirrorherb: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	mistyseed: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	moonball: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	moonstone: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	muscleband: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	mysticwater: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	nanabberry: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	nestball: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	netball: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	nevermeltice: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	nomelberry: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	normalgem: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	normaliumz: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	occaberry: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	oddincense: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	oldamber: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	oranberry: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	ovalstone: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	pamtreberry: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	parkball: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	passhoberry: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	payapaberry: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	pechaberry: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	persimberry: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	petayaberry: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	pidgeotite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	pikaniumz: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	pikashuniumz: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	pinapberry: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	pinsirite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	pixieplate: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	plumefossil: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	poisonbarb: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	poisongem: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	poisoniumz: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	poisonmemory: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	pokeball: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	pomegberry: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	poweranklet: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	powerband: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	powerbelt: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	powerbracer: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	powerherb: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	powerlens: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	powerweight: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	premierball: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	prettyfeather: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	primariumz: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	prismscale: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	protectivepads: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	protector: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	psychicgem: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	psychicmemory: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	psychicseed: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	psychiumz: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	punchingglove: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	pyroarite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	qualotberry: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	quickball: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	quickclaw: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	quickpowder: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	rabutaberry: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	raichunitex: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	raichunitey: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	rarebone: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	rawstberry: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	razorclaw: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	razorfang: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	razzberry: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	reapercloth: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	redcard: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	redorb: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	repeatball: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	ribbonsweet: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	rindoberry: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	ringtarget: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	rockgem: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	rockincense: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	rockiumz: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	rockmemory: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	rockyhelmet: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	roomservice: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	rootfossil: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	roseincense: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	roseliberry: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	rowapberry: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	rustedshield: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	rustedsword: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	sablenite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	sachet: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	safariball: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	safetygoggles: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	sailfossil: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	salacberry: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	salamencite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	sceptilite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	scizorite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	scolipite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	scopelens: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	scovillainite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	scraftinite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	seaincense: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	sharpbeak: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	sharpedonite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	shedshell: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	shellbell: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	shinystone: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	shockdrive: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	shucaberry: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	silkscarf: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	silverpowder: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	sitrusberry: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	skarmorite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	skullfossil: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	skyplate: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	slowbronite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	smoothrock: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	snorliumz: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	snowball: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	softsand: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	solganiumz: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	souldew: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	spelltag: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	spelonberry: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	splashplate: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	spookyplate: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	sportball: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	staraptite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	starfberry: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	starminite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	starsweet: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	steelgem: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	steeliumz: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	steelixite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	steelmemory: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	stick: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	stickybarb: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	stoneplate: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	strangeball: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	strawberrysweet: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	sunstone: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	swampertite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	sweetapple: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	syrupyapple: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	tamatoberry: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	tangaberry: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	tapuniumz: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	tartapple: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	tatsugirinite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	terrainextender: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	thickclub: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	throatspray: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	thunderstone: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	timerball: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	toxicorb: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	toxicplate: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	twistedspoon: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	tyranitarite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	ultraball: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	ultranecroziumz: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	unremarkableteacup: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	upgrade: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	utilityumbrella: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	venusaurite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	victreebelite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	wacanberry: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	watergem: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	wateriumz: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	watermemory: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	waterstone: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	watmelberry: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	waveincense: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	weaknesspolicy: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	wellspringmask: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	wepearberry: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	whippeddream: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	whiteherb: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	widelens: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	wikiberry: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	wiseglasses: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	yacheberry: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	zapplate: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	zeraorite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	zoomlens: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	zygardite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	berry: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	berserkgene: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	bitterberry: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	burntberry: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	goldberry: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	iceberry: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	mintberry: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	miracleberry: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	mysteryberry: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	pinkbow: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	polkadotbow: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	przcureberry: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	psncureberry: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	crucibellite: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 	vilevial: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: "Illegal",
 	},
 };

@@ -112,13 +112,13 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 	{
 		name: "[Gen 8] First Gym Used",
 		mod: "gen8fgu",
-		ruleset: ['Standard OMs', 'Generation Item Clause', 'RPS Clause'],
+		ruleset: ['Standard OMs', 'Generation Item Clause'],
 		banlist: ['Vanilla'],
 	},
 	{
 		name: "[Gen 9] Rock Paper Scissors",
 		mod: "gen9rps",
-		ruleset: ['Standard AG', 'NatDex Mod'],
+		ruleset: ['Standard AG', 'NatDex Mod', 'RPS Clause'],
 		banlist: ['Vanilla'],
 	},
 	{

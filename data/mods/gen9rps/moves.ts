@@ -1,7 +1,7 @@
 export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 	machpunch: {
 		inherit: true,
-		basePower: 100,
+		basePower: 999,
 		pp: 99,
 		onTry(source, target) {
 			const action = this.queue.willMove(target);
@@ -13,7 +13,7 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 	},
 	focuspunch: {
 		inherit: true,
-		basePower: 100,
+		basePower: 999,
 		pp: 99,
 		onTry(source, target) {
 			const action = this.queue.willMove(target);
@@ -48,7 +48,7 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 	},
 	upperhand: {
 		inherit: true,
-		basePower: 100,
+		basePower: 999,
 		pp: 99,
 		onTry(source, target) {
 			const action = this.queue.willMove(target);

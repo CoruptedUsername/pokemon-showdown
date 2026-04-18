@@ -1,24 +1,30 @@
 export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 	machpunch: {
 		inherit: true,
-		basePower: 999,
+		basePower: 9999,
 		pp: 99,
 		onTry(source, target) {
 			const action = this.queue.willMove(target);
+			const prevAction = target.lastMove;
+			// @ts-expect-error
+			const movesFirst = source?.modifiedStats.spe > target?.modifiedStats.spe;
 			const move = action?.choice === 'move' ? action.move : null;
-			if (move?.name === 'Mach Punch') {
+			if (movesFirst ? move?.name === 'Mach Punch' : prevAction?.name === 'Mach Punch') {
 				return false;
 			}
 		},
 	},
 	focuspunch: {
 		inherit: true,
-		basePower: 999,
+		basePower: 9999,
 		pp: 99,
 		onTry(source, target) {
 			const action = this.queue.willMove(target);
+			const prevAction = target.lastMove;
+			// @ts-expect-error
+			const movesFirst = source?.modifiedStats.spe > target?.modifiedStats.spe;
 			const move = action?.choice === 'move' ? action.move : null;
-			if (move?.name === 'Focus Punch') {
+			if (movesFirst ? move?.name === 'Focus Punch' : prevAction?.name === 'Focus Punch') {
 				return false;
 			}
 		},
@@ -48,7 +54,7 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 	},
 	upperhand: {
 		inherit: true,
-		basePower: 999,
+		basePower: 9999,
 		pp: 99,
 		onTry(source, target) {
 			const action = this.queue.willMove(target);

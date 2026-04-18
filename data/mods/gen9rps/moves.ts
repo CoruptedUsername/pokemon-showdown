@@ -6,7 +6,7 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 		onTry(source, target) {
 			const action = this.queue.willMove(target);
 			const move = action?.choice === 'move' ? action.move : null;
-			if (move?.name === 'machpunch') {
+			if (move?.name === 'Mach Punch') {
 				return false;
 			}
 		},
@@ -18,7 +18,7 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 		onTry(source, target) {
 			const action = this.queue.willMove(target);
 			const move = action?.choice === 'move' ? action.move : null;
-			if (move?.name === 'focuspunch') {
+			if (move?.name === 'Focus Punch') {
 				return false;
 			}
 		},
@@ -53,7 +53,7 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 		onTry(source, target) {
 			const action = this.queue.willMove(target);
 			const move = action?.choice === 'move' ? action.move : null;
-			if (!move || move.priority <= 0.1 || move.category === 'Status') {
+			if (!move || move.priority <= 0.1 || move.category === 'Status' || move?.name === 'Upper Hand') {
 				return false;
 			}
 		},

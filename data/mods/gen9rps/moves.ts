@@ -5,11 +5,8 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 		pp: 99,
 		onTry(source, target) {
 			const action = this.queue.willMove(target);
-			const prevAction = target.lastMove;
-			// @ts-expect-error
-			const movesFirst = source?.modifiedStats.spe > target?.modifiedStats.spe;
 			const move = action?.choice === 'move' ? action.move : null;
-			if (movesFirst ? move?.name === 'Mach Punch' : prevAction?.name === 'Mach Punch') {
+			if (!move || move?.name === 'Mach Punch') {
 				return false;
 			}
 		},
@@ -20,11 +17,8 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 		pp: 99,
 		onTry(source, target) {
 			const action = this.queue.willMove(target);
-			const prevAction = target.lastMove;
-			// @ts-expect-error
-			const movesFirst = source?.modifiedStats.spe > target?.modifiedStats.spe;
 			const move = action?.choice === 'move' ? action.move : null;
-			if (movesFirst ? move?.name === 'Focus Punch' : prevAction?.name === 'Focus Punch') {
+			if (!move || move?.name === 'Focus Punch') {
 				return false;
 			}
 		},
@@ -59,7 +53,7 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 		onTry(source, target) {
 			const action = this.queue.willMove(target);
 			const move = action?.choice === 'move' ? action.move : null;
-			if (!move || move.priority <= 0.1 || move.category === 'Status' || move?.name === 'Upper Hand') {
+			if (!move || move.priority <= 0.1 || move.category === 'Status') {
 				return false;
 			}
 		},

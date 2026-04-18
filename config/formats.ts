@@ -118,7 +118,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 	{
 		name: "[Gen 9] Rock Paper Scissors",
 		mod: "gen9rps",
-		ruleset: ['Standard AG', 'NatDex Mod', 'RPS Clause', '!! EV Limit=0'],
+		ruleset: ['Standard AG', 'NatDex Mod', 'RPS Clause', '!! EV Limit=0', 'Max Team Size = 3'],
 		banlist: ['Vanilla'],
 	},
 	{

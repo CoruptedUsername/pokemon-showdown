@@ -116,6 +116,12 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		banlist: ['Vanilla'],
 	},
 	{
+		name: "[Gen 9] Rock Paper Scissors",
+		mod: "gen9rps",
+		ruleset: ['Standard AG', 'NatDex Mod'],
+		banlist: ['Vanilla'],
+	},
+	{
 		section: "Three Musketeers Draft",
 	},
 	{

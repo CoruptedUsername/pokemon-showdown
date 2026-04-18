@@ -35,7 +35,7 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 				}
 			},
 			onBeforeMove(target) {
-				console.log(target.volatiles);
+				console.log(target.name);
 				if (target.volatiles['focuspunch']) {
 					return false;
 				}

@@ -16,7 +16,7 @@ export const Sprites: import('../../../sim/dex-species').ModdedSpeciesSprites = 
 	crobat: {
 		copySprite: {
 			copySpriteGen: 5,
-			copySpriteMon: "crobat",
+			copySpriteMon: "moltres",
 		},
 	},
 	herbeflore: {

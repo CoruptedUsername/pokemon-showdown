@@ -1109,6 +1109,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	aegibash: {
 		num: 99,
 		name: 'Aegibash',
+		baseForme: "Jab",
 		types: ['Fighting', 'Ghost'],
 		baseStats: { hp: 80, atk: 140, def: 90, spa: 50, spd: 70, spe: 70 },
 		abilities: { 0: 'Stance Change' },
@@ -1122,7 +1123,9 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	aegibashblock: {
 		num: 99,
 		name: 'Aegibash-Block',
+		baseSpecies: "Aegibash",
 		types: ['Fighting', 'Ghost'],
+		forme: "Block",
 		baseStats: { hp: 80, atk: 90, def: 140, spa: 50, spd: 100, spe: 40 },
 		abilities: { 0: 'Stance Change' },
 		heightm: 1.7,

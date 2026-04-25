@@ -355,5 +355,17 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	},
 	crystaliza: {
 		tier: 'Jumptopia',
-	}
+	},
+	wildera: {
+		tier: 'Jumptopia',
+	},
+	wilderaawakened: {
+		tier: 'Jumptopia',
+	},
+	mechinda: {
+		tier: 'Jumptopia',
+	},
+	mechindaawakened: {
+		tier: 'Jumptopia',
+	},
 };

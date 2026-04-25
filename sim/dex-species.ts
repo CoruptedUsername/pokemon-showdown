@@ -83,7 +83,7 @@ export interface CopySprite {
 }
 
 export interface CustomSprite {
-	spriteDirectory: string;
+	spriteDirectory: string; // Put path to pokemon's sprite directory from mod folder without leading or trailing slashes
 	teambuilderSprite: string;
 	shinyTeambuilderSprite?: string; // If unset, will use teambuilderSprite
 	frontSprite: string;

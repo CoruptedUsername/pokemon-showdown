@@ -72,22 +72,28 @@ export interface ModdedSpeciesSprites { [speciesid: IDEntry]: ModdedSpriteData }
 
 export interface ModdedSpriteData {
 	copySprite?: CopySprite;
-	spriteDirectory?: string;
-	teambuilderSprite?: string;
-	shinyTeambuilderSprite?: string;
-	frontSprite?: string;
-	femaleFrontSprite?: string;
-	shinyFrontSprite?: string;
-	shinyFemaleFrontSprite?: string;
-	backSprite?: string;
-	femaleBackSprite?: string;
-	shinyBackSprite?: string;
-	shinyFemaleBackSprite?: string;
+	customSprite?: CustomSprite; // This will not be read if copySprite is present
 }
 
 export interface CopySprite {
 	copySpriteMon: string;
 	copySpriteGen: number;
+	backSpriteDistinction?: boolean; // If unset, will default to True
+	shinySpriteDistinction?: boolean; // If unset, will default to True
+}
+
+export interface CustomSprite {
+	spriteDirectory: string;
+	teambuilderSprite: string;
+	shinyTeambuilderSprite?: string; // If unset, will use teambuilderSprite
+	frontSprite: string;
+	femaleFrontSprite?: string; // If unset, will not check for other female sprites
+	shinyFrontSprite?: string; // If unset, will not check for other shiny sprites
+	shinyFemaleFrontSprite?: string;
+	backSprite?: string; // If unset, will not check for other back sprites
+	femaleBackSprite?: string;
+	shinyBackSprite?: string;
+	shinyFemaleBackSprite?: string;
 }
 
 /**

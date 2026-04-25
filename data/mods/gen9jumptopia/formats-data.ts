@@ -125,7 +125,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	knightshade: {
 		tier: 'Jumptopia',
 	},
-	basculinwhite: {
+	basculinwhitestriped: {
 		tier: 'Jumptopia',
 	},
 	basculegionfemale: {

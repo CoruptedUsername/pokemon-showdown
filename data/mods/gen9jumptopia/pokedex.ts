@@ -463,9 +463,9 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		prevo: "Swordanum",
 		eggGroups: ['Field'],
 	},
-	basculinwhite: {
+	basculin: {
 		num: 43,
-		name: 'Basculin-White',
+		name: 'Basculin',
 		types: ['Water'],
 		baseStats: { hp: 70, atk: 92, def: 65, spa: 80, spd: 55, spe: 98 },
 		abilities: { 0: 'Rattled', 1: 'Adaptability', H: 'Mold Breaker' },

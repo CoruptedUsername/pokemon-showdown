@@ -86,6 +86,7 @@ export interface CustomSprite {
 	spriteDirectory: string; // Put path to pokemon's sprite directory from mod folder without leading or trailing slashes
 	teambuilderSprite: string;
 	shinyTeambuilderSprite?: string; // If unset, will use teambuilderSprite
+	miniSprite: string;
 	frontSprite: string;
 	femaleFrontSprite?: string; // If unset, will not check for other female sprites
 	shinyFrontSprite?: string; // If unset, will not check for other shiny sprites

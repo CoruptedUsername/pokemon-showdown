@@ -8,6 +8,7 @@ export const Sprites: import('../../../sim/dex-species').ModdedSpeciesSprites = 
 	cardiforge: {
 		customSprite: {
 			spriteDirectory: "sprites/cardiforge",
+			miniSprite: "img.png",
 			teambuilderSprite: "cardiforge.png",
 			frontSprite: "cardiforge.png",
 		},
@@ -15,6 +16,7 @@ export const Sprites: import('../../../sim/dex-species').ModdedSpeciesSprites = 
 	castrong: {
 		customSprite: {
 			spriteDirectory: "sprites/castrong",
+			miniSprite: "",
 			teambuilderSprite: "castrong.png",
 			frontSprite: "castrong.png",
 		},
@@ -28,6 +30,7 @@ export const Sprites: import('../../../sim/dex-species').ModdedSpeciesSprites = 
 	herbeflore: {
 		customSprite: {
 			spriteDirectory: "sprites/herbeflore",
+			miniSprite: "",
 			teambuilderSprite: "herbeflore.png",
 			frontSprite: "herbeflore.png",
 		},

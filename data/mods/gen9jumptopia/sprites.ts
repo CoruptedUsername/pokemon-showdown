@@ -1,4 +1,10 @@
 export const Sprites: import('../../../sim/dex-species').ModdedSpeciesSprites = {
+	bunnelby: {
+		copySprite: {
+			copySpriteGen: 5,
+			copySpriteMon: "bunnelby",
+		},
+	},
 	cardiforge: {
 		customSprite: {
 			spriteDirectory: "sprites/cardiforge",

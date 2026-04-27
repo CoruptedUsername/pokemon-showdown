@@ -15,7 +15,9 @@ export const Sprites: import('../../../sim/dex-species').ModdedSprites = {
 	},
 	itemSprites: {
 		itemsDirectory: "/items",
-		naturalorb: "naturalorb.png",
-		artificialorb: "artificialorb.png",
+		items: {
+			naturalorb: "naturalorb.png",
+			artificialorb: "artificialorb.png",
+		},
 	},
 };

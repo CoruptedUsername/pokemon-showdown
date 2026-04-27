@@ -106,12 +106,12 @@ export interface CustomMonSprite {
 
 export interface ItemSprites {
 	itemsDirectory: string; // Put path to directory mons sprites are stored in from mod folder with leading slash
-	[itemid: IDEntry]: string;
+	items: { [itemid: IDEntry]: string };
 }
 
 export interface TypeSprites {
 	typesDirectory: string; // Put path to directory mons sprites are stored in from mod folder with leading slash
-	[typeid: IDEntry]: string;
+	types: { [typeid: IDEntry]: string };
 }
 
 /**

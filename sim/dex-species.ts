@@ -68,33 +68,50 @@ export interface ModdedSpeciesFormatsDataTable { [speciesid: IDEntry]: ModdedSpe
 export interface LearnsetDataTable { [speciesid: IDEntry]: LearnsetData }
 export interface ModdedLearnsetDataTable { [speciesid: IDEntry]: ModdedLearnsetData }
 export interface PokemonGoDataTable { [speciesid: IDEntry]: PokemonGoData }
-export interface ModdedSpeciesSprites { [speciesid: IDEntry]: ModdedSpriteData }
-
-export interface ModdedSpriteData {
-	copySprite?: CopySprite;
-	customSprite?: CustomSprite; // This will not be read if copySprite is present
+export interface ModdedSprites {
+	monSprites?: MonSprites;
+	itemSprites?: ItemSprites;
+	typeSprites?: TypeSprites;
 }
 
-export interface CopySprite {
-	copySpriteMon: string;
-	copySpriteGen: number;
-	backSpriteDistinction?: boolean; // If unset, will default to True
-	shinySpriteDistinction?: boolean; // If unset, will default to True
+export interface MonSprites {
+	monsDirectory: string;
+	backDistinction: boolean;
+	shinyDistinction: boolean;
+	femaleDistinction?: boolean; // Will be set to false unless specifically enabled
+	defaultSpritesGen: number;
+	copySpritesGen?: number;
+	copySprites?: { [speciesid: IDEntry]: IDEntry | CopyMonSprite };
+	separateTeambuilderSprites: boolean; // If false, will use frontsprite for Teambuilder
+	autogenCustoms?: boolean; // Attempts to autogenerate Custom Sprite data from folders, only works
+	// with default folder setup
+	customSprites?: { [speciesid: IDEntry]: string | CustomMonSprite };
 }
 
-export interface CustomSprite {
-	spriteDirectory: string; // Put path to pokemon's sprite directory from mod folder without leading or trailing slashes
-	teambuilderSprite: string;
-	shinyTeambuilderSprite?: string; // If unset, will use teambuilderSprite
-	miniSprite: string;
-	frontSprite: string;
-	femaleFrontSprite?: string; // If unset, will not check for other female sprites
-	shinyFrontSprite?: string; // If unset, will not check for other shiny sprites
-	shinyFemaleFrontSprite?: string;
-	backSprite?: string; // If unset, will not check for other back sprites
-	femaleBackSprite?: string;
-	shinyBackSprite?: string;
-	shinyFemaleBackSprite?: string;
+export interface CopyMonSprite {
+	copySpriteMon: IDEntry; // Should be the mon's ID (all lowercase alphanumeric)
+	copySpriteGen?: number;
+	backDistinction?: boolean;
+	shinyDistinction?: boolean;
+	femaleDistinction?: boolean;
+}
+
+export interface CustomMonSprite {
+	spriteDirectory: string; // Put path to pokemon's sprite directory from monsDirectory folder with leading slash
+	backDistinction?: boolean;
+	shinyDistinction?: boolean;
+	femaleDistinction?: boolean;
+	separateTeambuilderSprite?: boolean;
+}
+
+export interface ItemSprites {
+	itemsDirectory: string; // Put path to directory mons sprites are stored in from mod folder with leading slash
+	[itemid: IDEntry]: string;
+}
+
+export interface TypeSprites {
+	typesDirectory: string; // Put path to directory mons sprites are stored in from mod folder with leading slash
+	[typeid: IDEntry]: string;
 }
 
 /**

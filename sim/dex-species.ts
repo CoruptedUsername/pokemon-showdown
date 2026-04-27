@@ -89,7 +89,7 @@ export interface MonSprites {
 }
 
 export interface CopyMonSprite {
-	copySpriteMon: IDEntry; // Should be the mon's ID (all lowercase alphanumeric)
+	copySpriteMon: string; // Should be the mon's ID (all lowercase alphanumeric)
 	copySpriteGen?: number;
 	backDistinction?: boolean;
 	shinyDistinction?: boolean;

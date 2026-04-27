@@ -80,8 +80,8 @@ export interface MonSprites {
 	shinyDistinction: boolean;
 	femaleDistinction?: boolean; // Will be set to false unless specifically enabled
 	defaultSpritesGen: number;
-	copySpritesGen?: number;
-	copySprites?: { [speciesid: IDEntry]: IDEntry | CopyMonSprite };
+	copySpriteGen?: number;
+	copySprites?: { [speciesid: IDEntry]: string | CopyMonSprite };
 	separateTeambuilderSprites: boolean; // If false, will use frontsprite for Teambuilder
 	autogenCustoms?: boolean; // Attempts to autogenerate Custom Sprite data from folders, only works
 	// with default folder setup
@@ -101,7 +101,7 @@ export interface CustomMonSprite {
 	backDistinction?: boolean;
 	shinyDistinction?: boolean;
 	femaleDistinction?: boolean;
-	separateTeambuilderSprite?: boolean;
+	separateTeambuilderSprites?: boolean;
 }
 
 export interface ItemSprites {

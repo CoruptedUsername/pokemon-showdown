@@ -4,7 +4,6 @@ export const Sprites: import('../../../sim/dex-species').ModdedSprites = {
 		backDistinction: true,
 		shinyDistinction: true,
 		defaultSpritesGen: 8,
-		copySpriteGen: 8,
 		copySprites: {
 			beedrillrb: {
 				copySpriteMon: "Beedrill",

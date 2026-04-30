@@ -81,7 +81,7 @@ export interface MonSprites {
 	femaleDistinction?: boolean; // Will be set to false unless specifically enabled
 	defaultSpritesGen: number;
 	copySprites?: { [speciesid: IDEntry]: string | CopyMonSprite };
-	separateTeambuilderSprites: boolean; // If false, will use frontsprite for Teambuilder
+	separateTeambuilderSprites?: boolean; // If false, will use frontsprite for Teambuilder
 	autogenCustoms?: boolean; // Attempts to autogenerate Custom Sprite data from folders, only works
 	// with default folder setup
 	customSprites?: { [speciesid: IDEntry]: string | CustomMonSprite };

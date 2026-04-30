@@ -11,6 +11,5 @@ export const Sprites: import('../../../sim/dex-species').ModdedSprites = {
 				shinyDistinction: false,
 			},
 		},
-		separateTeambuilderSprites: true,
 	},
 };

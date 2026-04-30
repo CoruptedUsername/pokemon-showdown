@@ -4,6 +4,9 @@ export const Sprites: import('../../../sim/dex-species').ModdedSprites = {
 		backDistinction: false,
 		shinyDistinction: true,
 		defaultSpritesGen: 5,
+		copySprites: {
+			basculin: "basculinwhitestriped",
+		},
 		separateTeambuilderSprites: false,
 		autogenCustoms: true,
 		customSprites: {

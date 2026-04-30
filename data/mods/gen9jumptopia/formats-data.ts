@@ -128,6 +128,12 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	basculin: {
 		tier: 'Jumptopia',
 	},
+	basculinbluestriped: {
+		tier: 'Illegal',
+	},
+	basculinwhitestriped: {
+		tier: 'Illegal',
+	},
 	basculegionfemale: {
 		tier: 'Jumptopia',
 	},
@@ -299,7 +305,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	doublow: {
 		tier: 'Jumptopia',
 	},
-	aegibashjab: {
+	aegibash: {
 		tier: 'Jumptopia',
 	},
 	greavard: {

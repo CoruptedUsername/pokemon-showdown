@@ -1,39 +1,39 @@
 export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormatsDataTable = {
 	cabud: {
-		tier: 'Jumptopia',
+		tier: 'Jumptopia LC',
 	},
 	bouvine: {
-		tier: 'Jumptopia',
+		tier: 'Jumptopia NFE',
 	},
 	herbeflore: {
 		tier: 'Jumptopia',
 	},
 	chicoal: {
-		tier: 'Jumptopia',
+		tier: 'Jumptopia LC',
 	},
 	thermidown: {
-		tier: 'Jumptopia',
+		tier: 'Jumptopia NFE',
 	},
 	cardiforge: {
 		tier: 'Jumptopia',
 	},
 	webbwet: {
-		tier: 'Jumptopia',
+		tier: 'Jumptopia LC',
 	},
 	beavaqua: {
-		tier: 'Jumptopia',
+		tier: 'Jumptopia NFE',
 	},
 	castrong: {
 		tier: 'Jumptopia',
 	},
 	armadie: {
-		tier: 'Jumptopia',
+		tier: 'Jumptopia LC',
 	},
 	shellidae: {
 		tier: 'Jumptopia',
 	},
 	cyanestle: {
-		tier: 'Jumptopia',
+		tier: 'Jumptopia LC',
 	},
 	aggravata: {
 		tier: 'Jumptopia',
@@ -42,7 +42,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: 'Jumptopia',
 	},
 	chipoor: {
-		tier: 'Jumptopia',
+		tier: 'Jumptopia LC',
 	},
 	chipeasant: {
 		tier: 'Jumptopia',
@@ -51,13 +51,13 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: 'Jumptopia',
 	},
 	hoothootcerran: {
-		tier: 'Jumptopia',
+		tier: 'Jumptopia LC',
 	},
 	noctowlcerran: {
 		tier: 'Jumptopia',
 	},
 	bunnelby: {
-		tier: 'Jumptopia',
+		tier: 'Jumptopia LC',
 	},
 	diggersby: {
 		tier: 'Jumptopia',
@@ -66,28 +66,28 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: 'Jumptopia',
 	},
 	thysma: {
-		tier: 'Jumptopia',
+		tier: 'Jumptopia LC',
 	},
 	geodiale: {
 		tier: 'Jumptopia',
 	},
 	zubat: {
-		tier: 'Jumptopia',
+		tier: 'Jumptopia LC',
 	},
 	golbat: {
-		tier: 'Jumptopia',
+		tier: 'Jumptopia NFE',
 	},
 	crobat: {
 		tier: 'Jumptopia',
 	},
 	dripiper: {
-		tier: 'Jumptopia',
+		tier: 'Jumptopia LC',
 	},
 	toxiper: {
 		tier: 'Jumptopia',
 	},
 	chickup: {
-		tier: 'Jumptopia',
+		tier: 'Jumptopia LC',
 	},
 	drooster: {
 		tier: 'Jumptopia',
@@ -96,7 +96,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: 'Jumptopia',
 	},
 	porkshice: {
-		tier: 'Jumptopia',
+		tier: 'Jumptopia LC',
 	},
 	boarealis: {
 		tier: 'Jumptopia',
@@ -108,25 +108,25 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: 'Jumptopia',
 	},
 	princlepia: {
-		tier: 'Jumptopia',
+		tier: 'Jumptopia LC',
 	},
 	milkqueen: {
 		tier: 'Jumptopia',
 	},
 	magicora: {
-		tier: 'Jumptopia',
+		tier: 'Jumptopia LC',
 	},
 	hollizard: {
 		tier: 'Jumptopia',
 	},
 	swordanum: {
-		tier: 'Jumptopia',
+		tier: 'Jumptopia LC',
 	},
 	knightshade: {
 		tier: 'Jumptopia',
 	},
 	basculin: {
-		tier: 'Jumptopia',
+		tier: 'Jumptopia LC',
 	},
 	basculinbluestriped: {
 		tier: 'Illegal',
@@ -134,59 +134,59 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	basculinwhitestriped: {
 		tier: 'Illegal',
 	},
-	basculegionfemale: {
+	basculegionf: {
 		tier: 'Jumptopia',
 	},
-	basculegionmale: {
+	basculegion: {
 		tier: 'Jumptopia',
 	},
 	frozalmon: {
 		tier: 'Jumptopia',
 	},
 	henchling: {
-		tier: 'Jumptopia',
+		tier: 'Jumptopia LC',
 	},
 	goosfather: {
 		tier: 'Jumptopia',
 	},
 	spinarak: {
-		tier: 'Jumptopia',
+		tier: 'Jumptopia LC',
 	},
 	ariados: {
 		tier: 'Jumptopia',
 	},
 	pianipek: {
-		tier: 'Jumptopia',
+		tier: 'Jumptopia LC',
 	},
 	trombeak: {
-		tier: 'Jumptopia',
+		tier: 'Jumptopia NFE',
 	},
 	tubacannon: {
 		tier: 'Jumptopia',
 	},
 	benair: {
-		tier: 'Jumptopia',
+		tier: 'Jumptopia LC',
 	},
 	clousteel: {
 		tier: 'Jumptopia',
 	},
 	yeastail: {
-		tier: 'Jumptopia',
+		tier: 'Jumptopia LC',
 	},
 	doughdella: {
-		tier: 'Jumptopia',
+		tier: 'Jumptopia NFE',
 	},
 	salabaker: {
 		tier: 'Jumptopia',
 	},
 	hippopotas: {
-		tier: 'Jumptopia',
+		tier: 'Jumptopia LC',
 	},
 	hippowdon: {
 		tier: 'Jumptopia',
 	},
 	gobbling: {
-		tier: 'Jumptopia',
+		tier: 'Jumptopia LC',
 	},
 	gobligiver: {
 		tier: 'Jumptopia',
@@ -198,13 +198,13 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: 'Jumptopia',
 	},
 	clownipup: {
-		tier: 'Jumptopia',
+		tier: 'Jumptopia LC',
 	},
 	jestotter: {
 		tier: 'Jumptopia',
 	},
 	muskrot: {
-		tier: 'Jumptopia',
+		tier: 'Jumptopia LC',
 	},
 	putrirot: {
 		tier: 'Jumptopia',
@@ -213,82 +213,82 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: 'Jumptopia',
 	},
 	slugma: {
-		tier: 'Jumptopia',
+		tier: 'Jumptopia LC',
 	},
 	magcargo: {
 		tier: 'Jumptopia',
 	},
 	brushell: {
-		tier: 'Jumptopia',
+		tier: 'Jumptopia LC',
 	},
 	painturtle: {
 		tier: 'Jumptopia',
 	},
 	vanillite: {
-		tier: 'Jumptopia',
+		tier: 'Jumptopia LC',
 	},
 	vanillish: {
-		tier: 'Jumptopia',
+		tier: 'Jumptopia NFE',
 	},
 	vanilluxe: {
 		tier: 'Jumptopia',
 	},
 	farfetchdgalar: {
-		tier: 'Jumptopia',
+		tier: 'Jumptopia LC',
 	},
 	sirfetchd: {
 		tier: 'Jumptopia',
 	},
 	badguru: {
-		tier: 'Jumptopia',
+		tier: 'Jumptopia LC',
 	},
 	mahadger: {
 		tier: 'Jumptopia',
 	},
 	durant: {
-		tier: 'Jumptopia',
+		tier: 'Jumptopia LC',
 	},
 	rustonant: {
 		tier: 'Jumptopia',
 	},
 	heatmor: {
-		tier: 'Jumptopia',
+		tier: 'Jumptopia LC',
 	},
 	gluttone: {
 		tier: 'Jumptopia',
 	},
 	hazarpy: {
-		tier: 'Jumptopia',
+		tier: 'Jumptopia LC',
 	},
 	misstalon: {
 		tier: 'Jumptopia',
 	},
 	fossiva: {
-		tier: 'Jumptopia',
+		tier: 'Jumptopia LC',
 	},
 	paleaqua: {
 		tier: 'Jumptopia',
 	},
 	seepideep: {
-		tier: 'Jumptopia',
+		tier: 'Jumptopia LC',
 	},
 	ooziris: {
 		tier: 'Jumptopia',
 	},
 	sparkliva: {
-		tier: 'Jumptopia',
+		tier: 'Jumptopia LC',
 	},
 	dazzlizard: {
 		tier: 'Jumptopia',
 	},
 	snarup: {
-		tier: 'Jumptopia',
+		tier: 'Jumptopia LC',
 	},
 	vuplex: {
 		tier: 'Jumptopia',
 	},
 	larvava: {
-		tier: 'Jumptopia',
+		tier: 'Jumptopia LC',
 	},
 	stagmagma: {
 		tier: 'Jumptopia',
@@ -300,34 +300,34 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: 'Jumptopia',
 	},
 	hookedge: {
-		tier: 'Jumptopia',
+		tier: 'Jumptopia LC',
 	},
 	doublow: {
-		tier: 'Jumptopia',
+		tier: 'Jumptopia NFE',
 	},
 	aegibash: {
 		tier: 'Jumptopia',
 	},
 	greavard: {
-		tier: 'Jumptopia',
+		tier: 'Jumptopia LC',
 	},
 	houndstone: {
 		tier: 'Jumptopia',
 	},
 	scallect: {
-		tier: 'Jumptopia',
+		tier: 'Jumptopia LC',
 	},
 	hordra: {
 		tier: 'Jumptopia',
 	},
 	chinchou: {
-		tier: 'Jumptopia',
+		tier: 'Jumptopia LC',
 	},
 	lanturn: {
 		tier: 'Jumptopia',
 	},
 	snom: {
-		tier: 'Jumptopia',
+		tier: 'Jumptopia LC',
 	},
 	frosmoth: {
 		tier: 'Jumptopia',
@@ -336,13 +336,13 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: 'Jumptopia',
 	},
 	varoom: {
-		tier: 'Jumptopia',
+		tier: 'Jumptopia LC',
 	},
 	revavroom: {
 		tier: 'Jumptopia',
 	},
 	trafchick: {
-		tier: 'Jumptopia',
+		tier: 'Jumptopia LC',
 	},
 	eaglight: {
 		tier: 'Jumptopia',
@@ -350,11 +350,23 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	cyclizar: {
 		tier: 'Jumptopia',
 	},
-	calciegg: {
+	polich: {
+		tier: 'Jumptopia LC',
+	},
+	magnimoss: {
 		tier: 'Jumptopia',
 	},
-	skincalcite: {
+	solrock: {
 		tier: 'Jumptopia',
+	},
+	lunatone: {
+		tier: 'Jumptopia',
+	},
+	calciegg: {
+		tier: 'Jumptopia LC',
+	},
+	skincalcite: {
+		tier: 'Jumptopia NFE',
 	},
 	crystaliza: {
 		tier: 'Jumptopia',

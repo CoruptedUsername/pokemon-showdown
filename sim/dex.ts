@@ -83,7 +83,7 @@ interface DexTableData {
 	FormatsData: DexTable<import('./dex-species').SpeciesFormatsData>;
 	PokemonGoData: DexTable<import('./dex-species').PokemonGoData>;
 	Scripts: DexTable<AnyObject>;
-	Sprites: DexTable<import('./dex-species').ModdedSpeciesSprites>;
+	Sprites: DexTable<import('./dex-species').ModdedSprites>;
 	Conditions: DexTable<import('./dex-conditions').ConditionData>;
 	TypeChart: DexTable<import('./dex-data').TypeData>;
 }

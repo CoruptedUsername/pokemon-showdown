@@ -5,6 +5,8 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 		basePower: 80,
 		category: "Special",
 		name: "Tera Blast",
+		shortDesc: "Stuff",
+		desc: "Longer Stuff",
 		pp: 10,
 		priority: 0,
 		flags: { protect: 1, mirror: 1, metronome: 1, mustpressure: 1 },
@@ -21,7 +23,7 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 				move.category = 'Physical';
 			}
 		},
-		secondary: null,
+		secondary: undefined,
 		target: "normal",
 		type: "Normal",
 	},

@@ -316,6 +316,8 @@ export class Species extends BasicEffect implements Readonly<BasicEffect & Speci
 	 */
 	readonly pokemonGoData?: string[];
 
+	isModded: boolean;
+
 	/**
 	 * Singles Tier. The Pokemon's location in the Smogon tier system.
 	 */
@@ -387,6 +389,7 @@ export class Species extends BasicEffect implements Readonly<BasicEffect & Speci
 			(this.battleOnly !== this.baseSpecies ? this.battleOnly : this.baseSpecies);
 		if (Array.isArray(this.changesFrom)) this.changesFrom = this.changesFrom[0];
 		this.pokemonGoData = data.pokemonGoData || undefined;
+		this.isModded = data.isModded || false;
 
 		if (!this.gen && this.num >= 1) {
 			if (this.num >= 906 || this.forme.includes('Paldea')) {

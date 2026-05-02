@@ -308,6 +308,9 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	aegibash: {
 		tier: 'Jumptopia',
 	},
+	aegibashblock: {
+		tier: 'Illegal',
+	},
 	greavard: {
 		tier: 'Jumptopia LC',
 	},

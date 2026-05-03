@@ -367,26 +367,6 @@ interface ModdedField extends Partial<Field> {
 	) => boolean;
 }
 
-interface ModdedFormat {
-	defaultLevel: number;
-	topSlice: string;
-	bottomSlice?: string;
-	bonusRules?: string[]; // Implemented Bonus Rules: AAA, Balanced Hackmons, Custom Game, Hackmons, Metronome
-}
-
-interface BuilderBonusRules {
-	bonusRule?: "Fortemons" | "Broken Record";
-}
-
-interface ModdedTeamBuilders {
-	tierType: "tier" | "doublesTier" | "natdexTier";
-	formats: { [id: string]: ModdedFormat };
-	formatType: "singles" | "doubles";
-	isNatDex: boolean;
-	validTiers: string[];
-	bonusRules?: string[]; // Implemented Bonus Rules: Broken Record
-}
-
 interface ModdedBattleScriptsData extends Partial<BattleScriptsData> {
 	inherit?: string;
 	actions?: ModdedBattleActions;
@@ -394,7 +374,6 @@ interface ModdedBattleScriptsData extends Partial<BattleScriptsData> {
 	queue?: ModdedBattleQueue;
 	field?: ModdedField;
 	side?: ModdedBattleSide;
-	teambuilders?: { [id: string]: ModdedTeamBuilders } | null;
 	boost?: (
 		this: Battle, boost: SparseBoostsTable, target: Pokemon, source?: Pokemon | null,
 		effect?: Effect | null, isSecondary?: boolean, isSelf?: boolean

@@ -35,7 +35,7 @@ import { DataMove, DexMoves } from './dex-moves';
 import { Item, DexItems } from './dex-items';
 import { Ability, DexAbilities } from './dex-abilities';
 import { Species, DexSpecies } from './dex-species';
-import { Format, DexFormats } from './dex-formats';
+import {Format, DexFormats, CustomFormatList} from './dex-formats';
 import { Utils } from '../lib/utils';
 
 const BASE_MOD = 'gen9' as ID;
@@ -46,10 +46,10 @@ const dexes: { [mod: string]: ModdedDex } = Object.create(null);
 
 type DataType =
 	'Abilities' | 'Rulesets' | 'FormatsData' | 'Items' | 'Learnsets' | 'Moves' |
-	'Natures' | 'Pokedex' | 'Scripts' | 'Sprites' | 'Conditions' | 'TypeChart' | 'PokemonGoData';
+	'Natures' | 'Pokedex' | 'Scripts' | 'Sprites' | 'Conditions' | 'TypeChart' | 'PokemonGoData' | 'Teambuilders';
 const DATA_TYPES: DataType[] = [
 	'Abilities', 'Rulesets', 'FormatsData', 'Items', 'Learnsets', 'Moves',
-	'Natures', 'Pokedex', 'Scripts', 'Sprites', 'Conditions', 'TypeChart', 'PokemonGoData',
+	'Natures', 'Pokedex', 'Scripts', 'Sprites', 'Conditions', 'TypeChart', 'PokemonGoData', 'Teambuilders',
 ];
 
 const DATA_FILES = {
@@ -66,6 +66,8 @@ const DATA_FILES = {
 	Sprites: 'sprites',
 	Conditions: 'conditions',
 	TypeChart: 'typechart',
+	Teambuilders: 'teambuilders',
+	Formats: 'formats',
 };
 
 /** Unfortunately we do for..in too much to want to deal with the casts */
@@ -86,6 +88,8 @@ interface DexTableData {
 	Sprites: DexTable<import('./dex-species').ModdedSprites>;
 	Conditions: DexTable<import('./dex-conditions').ConditionData>;
 	TypeChart: DexTable<import('./dex-data').TypeData>;
+	Teambuilders: DexTable<import('./dex-formats').ModdedTeambuilderDataTable>;
+	Formats: DexTable<import('./dex-formats').CustomFormatList>;
 }
 interface TextTableData {
 	Abilities: DexTable<AbilityText>;

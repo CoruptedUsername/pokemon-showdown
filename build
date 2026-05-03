@@ -49,3 +49,6 @@ try {
 setImmediate(() => {
 	require('./tools/build-utils').transpile(force, decl);
 });
+setImmediate(() => {
+	child_process.execSync(`node ./tools/build-formats`, {stdio: 'inherit'});
+});

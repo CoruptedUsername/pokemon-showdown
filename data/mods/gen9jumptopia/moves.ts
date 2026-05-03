@@ -117,7 +117,7 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 			},
 		},
 		desc: "This move does not check accuracy. If this move is successful, the evasiveness of the target is lowered by 1 stage.",
-		shortDesc: "This move does not check accuracy. Target: -1 evasiveness.",
+		shortDesc: "This move does not check accuracy; -1 Evasion",
 	},
 	colorsplash: {
 		num: 1005,

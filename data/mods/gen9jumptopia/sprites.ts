@@ -22,4 +22,10 @@ export const Sprites: import('../../../sim/dex-species').ModdedSprites = {
 			artificialorb: "artificialorb.png",
 		},
 	},
+	typeSprites: {
+		typesDirectory: "/types",
+		types: {
+			silly: "silly.png",
+		},
+	},
 };

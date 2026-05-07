@@ -758,7 +758,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	cheeserode: {
 		num: 68,
 		name: 'Cheeserode',
-		types: ['Dark', 'Electric'],
+		types: ['Silly', 'Electric'],
 		baseStats: { hp: 63, atk: 83, def: 53, spa: 54, spd: 63, spe: 107 },
 		abilities: { 0: 'Pickpocket', 1: 'Strong Jaw', H: 'Cheek Pouch' },
 		heightm: 0.2,

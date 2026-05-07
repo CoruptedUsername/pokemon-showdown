@@ -2,7 +2,7 @@ export const Sprites: import('../../../sim/dex-species').ModdedSprites = {
 	monSprites: {
 		monsDirectory: "/mons",
 		backDistinction: false,
-		shinyDistinction: true,
+		shinyDistinction: false,
 		defaultSpritesGen: 5,
 		copySprites: {
 			basculin: "basculinwhitestriped",

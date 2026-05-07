@@ -9,23 +9,5 @@ export const Sprites: import('../../../sim/dex-species').ModdedSprites = {
 		},
 		separateTeambuilderSprites: false,
 		autogenCustoms: true,
-		customSprites: {
-			aegibashblock: "/Aegibash",
-			mechindaawakened: "/Mechinda",
-			wilderaawakened: "/Wildera",
-		},
-	},
-	itemSprites: {
-		itemsDirectory: "/items",
-		items: {
-			naturalorb: "naturalorb.png",
-			artificialorb: "artificialorb.png",
-		},
-	},
-	typeSprites: {
-		typesDirectory: "/types",
-		types: {
-			silly: "silly.png",
-		},
 	},
 };

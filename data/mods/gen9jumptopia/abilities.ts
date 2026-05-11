@@ -138,23 +138,23 @@ export const Abilities: import('../../../sim/dex-abilities').ModdedAbilityDataTa
 		onStart(pokemon) {
 			for (const i of pokemon.moves) {
 				if (Dex.moves.get(i) !== undefined && typeof Dex.moves.get(i) !== "string" &&
-					Dex.moves.get(i).type in ["Water", "Ground", "Rock"]) {
+					!(Dex.moves.get(i).type in ["Water", "Ground", "Rock"]) && Dex.moves.get(i).category === "Special") {
 					this.add('-move', pokemon, i, '[from] ability: Painted Shell', `[of] ${pokemon}`);
 				}
 			}
 		},
 		onBasePowerPriority: 22,
 		onBasePower(basePower, attacker, defender, move) {
-			if (move.type in ["Water", "Ground", "Rock"]) {
+			if (!(move.type in ["Water", "Ground", "Rock"]) && move.category === "Special") {
 				return this.chainModify(1.3);
 			}
 		},
-		desc: "This Pokemon's offensive stat is multiplied by 1.5 while using a Ground, Rock, or Water-type attack; Any Ground, Rock, or Water-Type attacks this pokemon knows are announced when it switches in.",
-		shortDesc: "This Pokemon's offensive stat is multiplied by 1.5 while using a Ground, Rock, or Water-type attack; Moves of these types are announced.",
+		desc: "The power of this pokemon's Special moves that are not Ground-type, Rock-type, or Water-type will be multiplied by 1.3 and these moves will be announced when the Pokemon switches in.",
+		shortDesc: "Announces and boosts by 1.3x special moves of Non-Ground, Rock, or Water typing.",
 	},
-	metalize: {
+	metallize: {
 		num: 1009,
-		name: "Metalize",
+		name: "Metallize",
 		onModifyTypePriority: -1,
 		onModifyType(move, pokemon) {
 			const noModifyType = [

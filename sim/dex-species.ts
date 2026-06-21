@@ -35,13 +35,11 @@ export type ModdedSpeciesData = SpeciesData | CosmeticFormeData |
 	Partial<Omit<CosmeticFormeData, 'isCosmeticForme'>> & { inherit: true };
 
 export interface SpeciesFormatsData {
-	doublesTier?: TierTypes.Doubles | TierTypes.Other | TierTypes.DNUDoubles;
+	doublesTier?: string;
 	gmaxUnreleased?: boolean;
 	isNonstandard?: Nonstandard | null;
-	natDexTier?: TierTypes.Singles | TierTypes.Other | TierTypes.DNUSingles | TierTypes.RVC | TierTypes.NatU |
-		TierTypes.FGU | TierTypes.ThreeM | TierTypes.Jumptopia | TierTypes.RPS;
-	tier?: TierTypes.Singles | TierTypes.Other | TierTypes.DNUSingles | TierTypes.RVC | TierTypes.NatU |
-		TierTypes.FGU | TierTypes.ThreeM | TierTypes.Jumptopia | TierTypes.RPS;
+	natDexTier?: string;
+	tier?: string;
 }
 
 export type ModdedSpeciesFormatsData = SpeciesFormatsData & { inherit?: true };
@@ -321,17 +319,15 @@ export class Species extends BasicEffect implements Readonly<BasicEffect & Speci
 	/**
 	 * Singles Tier. The Pokemon's location in the Smogon tier system.
 	 */
-	readonly tier: TierTypes.Singles | TierTypes.Other | TierTypes.DNUSingles | TierTypes.RVC | TierTypes.NatU |
-		TierTypes.FGU | TierTypes.ThreeM | TierTypes.Jumptopia | TierTypes.RPS;
+	readonly tier: string;
 	/**
 	 * Doubles Tier. The Pokemon's location in the Smogon doubles tier system.
 	 */
-	readonly doublesTier: TierTypes.Doubles | TierTypes.Other | TierTypes.DNUDoubles;
+	readonly doublesTier: string;
 	/**
 	 * National Dex Tier. The Pokemon's location in the Smogon National Dex tier system.
 	 */
-	readonly natDexTier: TierTypes.Singles | TierTypes.Other | TierTypes.DNUSingles | TierTypes.RVC | TierTypes.NatU |
-		TierTypes.FGU | TierTypes.ThreeM | TierTypes.Jumptopia | TierTypes.RPS;
+	readonly natDexTier: string;
 
 	constructor(data: AnyObject) {
 		super(data);

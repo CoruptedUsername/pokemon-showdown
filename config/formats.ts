@@ -27,6 +27,9 @@ export const FormatSections: import('../sim/dex-formats').FormatList = [
 	{
 		section: "Other Solomods",
 	},
+	{
+		section: "Three Musketeers",
+	},
 ];
 
 export const Formats: import('../sim/dex-formats').FormatList = [

@@ -136,11 +136,21 @@ export const Abilities: import('../../../sim/dex-abilities').ModdedAbilityDataTa
 		num: 1008,
 		name: "Painted Shell",
 		onStart(pokemon) {
+			const coverageMoves = [];
 			for (const i of pokemon.moves) {
 				if (Dex.moves.get(i) !== undefined && typeof Dex.moves.get(i) !== "string" &&
 					!(Dex.moves.get(i).type in ["Water", "Ground", "Rock"]) && Dex.moves.get(i).category === "Special") {
-					this.add('-move', pokemon, i, '[from] ability: Painted Shell', `[of] ${pokemon}`);
+					coverageMoves.push(i);
 				}
+			}
+			if (coverageMoves.length === 1) {
+				this.add('-message', `  You see a sign of ${coverageMoves[0]} on ${pokemon}'s painted shell!`, '[from] ability: ' + pokemon.ability, `[of] ${pokemon}`);
+			} else if (coverageMoves.length === 2) {
+				this.add('-message', `  You see signs of ${coverageMoves[0]} and ${coverageMoves[1]} on ${pokemon}'s painted shell!`, '[from] ability: ' + pokemon.ability, `[of] ${pokemon}`);
+			} else if (coverageMoves.length === 3) {
+				this.add('-message', `  You see signs of ${coverageMoves[0]}, ${coverageMoves[1]}, and ${coverageMoves[2]} on ${pokemon}'s painted shell!`, '[from] ability: ' + pokemon.ability, `[of] ${pokemon}`);
+			} else if (coverageMoves.length === 4) {
+				this.add('-message', `  You see signs of ${coverageMoves[0]}, ${coverageMoves[1]}, ${coverageMoves[2]}, and ${coverageMoves[3]} on ${pokemon}'s painted shell!`, '[from] ability: ' + pokemon.ability, `[of] ${pokemon}`);
 			}
 		},
 		onBasePowerPriority: 22,

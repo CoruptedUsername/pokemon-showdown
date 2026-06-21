@@ -378,12 +378,12 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: 'Jumptopia',
 	},
 	wilderaawakened: {
-		tier: 'Jumptopia',
+		tier: 'Jumptopia Ubers',
 	},
 	mechinda: {
 		tier: 'Jumptopia',
 	},
 	mechindaawakened: {
-		tier: 'Jumptopia',
+		tier: 'Jumptopia Ubers',
 	},
 };

@@ -348,6 +348,13 @@ export const Tags: { [id: IDEntry]: TagData } = {
 		speciesFilter: species => species.tier === '3M Undrafted',
 	},
 
+	// Jumptopia Tags
+
+	jumptopiaubers: {
+		name: "Jumptopia Ubers",
+		speciesFilter: species => species.tier === "Jumptopia Ubers",
+	},
+
 	// Legality tags
 	past: {
 		name: "Past",

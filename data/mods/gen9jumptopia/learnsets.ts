@@ -431,7 +431,6 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 			bulkup: ["9M"],
 			taunt: ["9M"],
 			dragontail: ["9M"],
-			fishiousrend: ["9M"],
 			gigaimpact: ["9M"],
 			hyperbeam: ["9M"],
 			superpower: ["9M"],

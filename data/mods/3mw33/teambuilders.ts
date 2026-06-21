@@ -2,7 +2,7 @@ export const Teambuilders: import('../../../sim/dex-formats').ModdedTeambuilderD
 	"3mw33": {
 		tierType: "tier",
 		formats: {
-			"threemusksweek33": {
+			"gen9threemusksweek33": {
 				topSlice: "3M Musks",
 				defaultLevel: 100,
 			},

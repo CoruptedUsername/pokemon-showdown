@@ -1,30 +1,30 @@
 export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormatsDataTable = {
 	dedenne: {
-		tier: "3M Restricted Musk",
+		tier: "3M Restricted Musks",
 	},
 	crocalor: {
-		tier: "3M Musk",
+		tier: "3M Musks",
 	},
 	dartrix: {
-		tier: "3M Musk",
+		tier: "3M Musks",
 	},
 	dewott: {
-		tier: "3M Musk",
+		tier: "3M Musks",
 	},
 	gothorita: {
-		tier: "3M Musk",
+		tier: "3M Musks",
 	},
 	nidorina: {
-		tier: "3M Musk",
+		tier: "3M Musks",
 	},
 	staravia: {
-		tier: "3M Musk",
+		tier: "3M Musks",
 	},
 	vibrava: {
-		tier: "3M Musk",
+		tier: "3M Musks",
 	},
 	whirlipede: {
-		tier: "3M Musk",
+		tier: "3M Musks",
 	},
 	delcatty: {
 		tier: "3M Restricted",

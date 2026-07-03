@@ -9,6 +9,6 @@ export const Teambuilders: import('../../../sim/dex-formats').ModdedTeambuilderD
 		},
 		formatType: "singles",
 		isNatDex: true,
-		validTiers: ["3M Restricted Musk", "3M Musks", "3M Restricted", "3M Unrestricted"],
+		validTiers: ["3M Restricted Musks", "3M Musks", "3M Restricted", "3M Unrestricted"],
 	},
 };

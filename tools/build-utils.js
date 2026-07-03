@@ -4,6 +4,10 @@ const fs = require("fs");
 const child_process = require("child_process");
 const esbuild = require('esbuild');
 
+for (const folder of fs.readdirSync('./dist')) {
+	fs.rmSync(`./dist/${folder}`, { recursive: true });
+}
+
 const copyOverDataJSON = (file = 'data') => {
 	const files = fs.readdirSync(file);
 	for (const f of files) {

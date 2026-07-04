@@ -108,7 +108,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		doublesTier: "DoNU Unrestricted",
 	},
 	hoothoot: {
-		tier: "DoNU OU",
+		tier: "DoNU UU",
 		doublesTier: "DoNU Unrestricted",
 	},
 	hoppip: {
@@ -120,7 +120,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		doublesTier: "DoNU Unrestricted",
 	},
 	impidimp: {
-		tier: "DoNU UU",
+		tier: "DoNU OU",
 		doublesTier: "DoNU Unrestricted",
 	},
 	jigglypuff: {
@@ -196,11 +196,11 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		doublesTier: "DoNU Unrestricted",
 	},
 	nidoranf: {
-		tier: "DoNU OU",
+		tier: "DoNU UU",
 		doublesTier: "DoNU Unrestricted",
 	},
 	nidoranm: {
-		tier: "DoNU OU",
+		tier: "DoNU UU",
 		doublesTier: "DoNU Restricted",
 	},
 	nincada: {
@@ -212,7 +212,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		doublesTier: "DoNU Unrestricted",
 	},
 	nymble: {
-		tier: "DoNU OU",
+		tier: "DoNU UU",
 		doublesTier: "DoNU Unrestricted",
 	},
 	patrat: {
@@ -236,11 +236,11 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		doublesTier: "DoNU Unrestricted",
 	},
 	pidove: {
-		tier: "DoNU UU",
+		tier: "DoNU OU",
 		doublesTier: "DoNU Unrestricted",
 	},
 	pikipek: {
-		tier: "DoNU OU",
+		tier: "DoNU Uber",
 		doublesTier: "DoNU Unrestricted",
 	},
 	poochyena: {
@@ -260,7 +260,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		doublesTier: "DoNU Unrestricted",
 	},
 	rellor: {
-		tier: "DoNU RU",
+		tier: "DoNU OU",
 		doublesTier: "DoNU Unrestricted",
 	},
 	rockruff: {
@@ -312,7 +312,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		doublesTier: "DoNU Unrestricted",
 	},
 	slugma: {
-		tier: "DoNU UU",
+		tier: "DoNU OU",
 		doublesTier: "DoNU Unrestricted",
 	},
 	smoliv: {
@@ -332,7 +332,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		doublesTier: "DoNU Unrestricted",
 	},
 	spinarak: {
-		tier: "DoNU UU",
+		tier: "DoNU OU",
 		doublesTier: "DoNU Unrestricted",
 	},
 	starly: {
@@ -356,7 +356,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		doublesTier: "DoNU Unrestricted",
 	},
 	taillow: {
-		tier: "DoNU OU",
+		tier: "DoNU Uber",
 		doublesTier: "DoNU Unrestricted",
 	},
 	tarountula: {
@@ -424,7 +424,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		doublesTier: "DoNU Unrestricted",
 	},
 	yungoos: {
-		tier: "DoNU OU",
+		tier: "DoNU UU",
 		doublesTier: "DoNU Unrestricted",
 	},
 	zigzagoongalar: {
@@ -432,7 +432,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		doublesTier: "DoNU Unrestricted",
 	},
 	zubat: {
-		tier: "DoNU OU",
+		tier: "DoNU UU",
 		doublesTier: "DoNU Unrestricted",
 	},
 	luvdisc: {

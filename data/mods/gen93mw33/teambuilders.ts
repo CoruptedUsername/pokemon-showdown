@@ -1,5 +1,5 @@
 export const Teambuilders: import('../../../sim/dex-formats').ModdedTeambuilderDataTable = {
-	"3mw33": {
+	"gen93mw33": {
 		tierType: "tier",
 		formats: {
 			"gen9threemusksweek33": {

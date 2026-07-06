@@ -669,6 +669,7 @@ export class ModdedDex {
 		}
 		if (parentDex) {
 			for (const dataType of DATA_TYPES) {
+				console.log(dataType);
 				const parentTypedData: DexTable<any> = parentDex.data[dataType];
 				if (!dataCache[dataType] && !init) {
 					dataCache[dataType] = parentTypedData;
@@ -676,7 +677,6 @@ export class ModdedDex {
 				}
 				const childTypedData: DexTable<any> = dataCache[dataType] || (dataCache[dataType] = {});
 				for (const entryId in parentTypedData) {
-					console.log(entryId);
 					if (childTypedData[entryId] === null) {
 						// null means don't inherit
 						delete childTypedData[entryId];

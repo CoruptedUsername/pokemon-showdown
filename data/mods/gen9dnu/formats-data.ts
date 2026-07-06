@@ -300,7 +300,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		doublesTier: "DoNU Unrestricted",
 	},
 	skitty: {
-		tier: "DoNU UUBL",
+		tier: "DoNU OU",
 		doublesTier: "DoNU Unrestricted",
 	},
 	skwovet: {

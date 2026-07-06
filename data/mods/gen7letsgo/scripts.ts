@@ -11,7 +11,6 @@ function checkMegaForme(species: Species, forme: string, battle: Battle) {
 
 export const Scripts: ModdedBattleScriptsData = {
 	inherit: 'gen7',
-	teambuilders: null,
 	init() {
 		this.modData('Abilities', 'noability').isNonstandard = null;
 		for (const i in this.data.Pokedex) {

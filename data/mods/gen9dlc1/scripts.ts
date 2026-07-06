@@ -1,7 +1,6 @@
 export const Scripts: ModdedBattleScriptsData = {
 	gen: 9,
 	inherit: 'gen9',
-	teambuilders: null,
 	// A Pokémon transformed into Ogerpon should accept the Terastallization choice, but not Terastallize
 	actions: {
 		inherit: true,

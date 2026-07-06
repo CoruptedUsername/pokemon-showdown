@@ -1,7 +1,6 @@
 export const Scripts: ModdedBattleScriptsData = {
 	gen: 8,
 	inherit: 'gen8',
-	teambuilders: null,
 	side: {
 		inherit: true,
 		canDynamaxNow() {

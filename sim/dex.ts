@@ -669,7 +669,9 @@ export class ModdedDex {
 		}
 		if (parentDex) {
 			for (const dataType of DATA_TYPES) {
-				console.log(dataType);
+				if (dataType === 'Teambuilders') { // Don't inherit teambuilders
+					continue;
+				}
 				const parentTypedData: DexTable<any> = parentDex.data[dataType];
 				if (!dataCache[dataType] && !init) {
 					dataCache[dataType] = parentTypedData;

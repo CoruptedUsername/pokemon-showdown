@@ -14,7 +14,7 @@ const stringify = function (obj, prop) {
 		}
 		return value;
 	}, 2);
-	json = json.replace(new RegExp('\n  "[a-zA-z]*": "____PLACEHOLDER____"', 'g'), _ => {
+	json = json.replace(/\n {2}"[a-zA-z]*": "____PLACEHOLDER____"/g, _ => {
 		return fns.shift();
 	});
 	return '\n' + json;
@@ -35,7 +35,6 @@ for (const mod of fs.readdirSync('./dist/data/mods')) {
 	if (fs.readdirSync('./dist/data/mods/' + mod).includes("formats.js")) {
 		const Formats = require(`../dist/data/mods/${mod}/formats`).Formats;
 		for (const format of Formats) {
-			console.log(stringify(format));
 			const newFormat = { ...format };
 			delete newFormat.section;
 			const formatName = newFormat.name;
@@ -55,8 +54,6 @@ if (FormatSlices['Other Formats'].length === 1) {
 		Formats = [...Formats, ...FormatSlices[slice]];
 	}
 }
-
-console.log(Formats);
 
 const formatsFile = fs.readFileSync('./dist/config/formats.js', 'utf8');
 fs.writeFileSync('./dist/config/formats.js', formatsFile.split('\n').slice(0, -3).join('\n') + "\nconst Formats = [" + Formats + "];\n" + formatsFile.split('\n').slice(-2).join('\n'), 'utf8');

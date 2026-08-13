@@ -96,7 +96,7 @@ export const Items: import('../../../sim/dex-items').ModdedItemDataTable = {
 	},
 	diancite: {
 		inherit: true,
-		isNonstandard: null,
+		isNonStandard: 'Illegal',
 	},
 	galladite: {
 		inherit: true,
@@ -299,5 +299,9 @@ export const Items: import('../../../sim/dex-items').ModdedItemDataTable = {
 			return this.chainModify([4915, 4096]);
 		},
 		onTakeItem: false,
+	},
+	zygardite: {
+		inherit: true,
+		isNonStandard: 'Illegal',
 	},
 };

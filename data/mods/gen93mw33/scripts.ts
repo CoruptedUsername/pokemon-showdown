@@ -20,7 +20,8 @@ export const Scripts: ModdedBattleScriptsData = {
 		this.modData('Abilities', 'spicyspray').isNonstandard = null;
 		for (const i in this.data.Items) {
 			const item = this.data.Items[i];
-			if (!item.megaStone && !item.onDrive && !(item.onPlate && !item.zMove) && !item.onMemory) continue;
+			if (!item.megaStone && !item.onDrive && !(item.onPlate && !item.zMove) && !item.onMemory ||
+				item.name === "Zygardite" || item.name === "Diancite") continue;
 			this.modData('Items', i).onTakeItem = false;
 			if (item.isNonstandard === "Past" || item.isNonstandard === "Future") this.modData('Items', i).isNonstandard = null;
 			if (item.megaStone) {

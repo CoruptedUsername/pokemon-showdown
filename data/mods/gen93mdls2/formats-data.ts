@@ -905,7 +905,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	donphan: {
 		tier: "3M",
 	},
-	porygon: {
+	porygon2: {
 		tier: "3M",
 	},
 	stantler: {
@@ -2609,7 +2609,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	zygarde: {
 		tier: "3M",
 	},
-	zygarde: {
+	zygarde10: {
 		tier: "3M",
 	},
 	zygardecomplete: {

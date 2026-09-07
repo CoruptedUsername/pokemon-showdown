@@ -34,7 +34,7 @@ FormatSlices['Other Formats'] = [{ section: 'Other Formats' }];
 for (const mod of fs.readdirSync('./dist/data/mods')) {
 	if (fs.readdirSync('./dist/data/mods/' + mod).includes("formats.js")) {
 		const Formats = require(`../dist/data/mods/${mod}/formats`).Formats;
-		for (const format of Formats) {
+		for (const format of Object.values(Formats)) {
 			const newFormat = { ...format };
 			delete newFormat.section;
 			newFormat["mod"] = mod;

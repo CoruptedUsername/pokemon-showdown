@@ -1,5 +1,5 @@
-export const Formats: import('../../../sim/dex-formats').CustomFormatList = [
-	{
+export const Formats: import('../../../sim/dex-formats').CustomFormatList = {
+	gen93mdraftleagues2w1: {
 		name: "[Gen 9] 3M Draft League s2w1",
 		gameType: 'singles',
 		ruleset: ['Standard NatDex', '!Obtainable Formes', '!Evasion Clause', 'Evasion Moves Clause', 'Evasion Items Clause', 'Terastal Clause'],
@@ -13,4 +13,4 @@ export const Formats: import('../../../sim/dex-formats').CustomFormatList = [
 			isNatDex: true,
 		},
 	},
-];
+};

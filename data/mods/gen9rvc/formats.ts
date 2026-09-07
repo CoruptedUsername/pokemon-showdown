@@ -1,5 +1,5 @@
-export const Formats: import('../../../sim/dex-formats').CustomFormatList = [
-	{
+export const Formats: import('../../../sim/dex-formats').CustomFormatList = {
+	gen9regionalvariantscup: {
 		name: "[Gen 9] Regional Variants Cup",
 		teraPreviewDefault: true,
 		ruleset: ['Standard Draft', '+Unobtainable', '+Past', 'Min Source Gen = 1'],
@@ -13,4 +13,4 @@ export const Formats: import('../../../sim/dex-formats').CustomFormatList = [
 			isNatDex: true,
 		},
 	},
-];
+};

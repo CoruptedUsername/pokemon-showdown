@@ -1,5 +1,5 @@
-export const Formats: import('../../../sim/dex-formats').CustomFormatList = [
-	{
+export const Formats: import('../../../sim/dex-formats').CustomFormatList = {
+	gen9natalieused: {
 		name: "[Gen 9] Natalie Used",
 		gameType: 'doubles',
 		ruleset: ['Standard Draft', 'Adjust Level = 50', 'Max Team Size = 8', 'Picked Team Size = 6',
@@ -16,4 +16,4 @@ export const Formats: import('../../../sim/dex-formats').CustomFormatList = [
 			isNatDex: true,
 		},
 	},
-];
+};

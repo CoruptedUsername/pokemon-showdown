@@ -88,7 +88,6 @@ interface DexTableData {
 	Sprites: DexTable<import('./dex-species').ModdedSprites>;
 	Conditions: DexTable<import('./dex-conditions').ConditionData>;
 	TypeChart: DexTable<import('./dex-data').TypeData>;
-	Teambuilders: DexTable<import('./dex-formats').ModdedTeambuilderDataTable>;
 	Formats: DexTable<import('./dex-formats').CustomFormatList>;
 }
 interface TextTableData {

@@ -1,5 +1,5 @@
-export const Formats: import('../../../sim/dex-formats').CustomFormatList = [
-	{
+export const Formats: import('../../../sim/dex-formats').CustomFormatList = {
+	gen9donotuse: {
 		name: "[Gen 9] Do Not Use",
 		desc: "<b>Do Not Use</b>: A National Dex metagame where only Pokemon with 280 BST or less are allowed.",
 		ruleset: ['Standard NatDex', 'Mega Rayquaza Clause', 'Terastal Clause', 'Z-Move Clause'],
@@ -14,7 +14,7 @@ export const Formats: import('../../../sim/dex-formats').CustomFormatList = [
 			isNatDex: true,
 		},
 	},
-	{
+	gen9donotuseuu: {
 		name: "[Gen 9] Do Not Use UU",
 		ruleset: ['Standard NatDex', 'Mega Rayquaza Clause', 'Terastal Clause', 'Z-Move Clause'],
 		banlist: ['Vanilla', 'DNU AG', 'DNU Uber', 'DNU OU', 'DNU UUBL', 'Huge Power', 'Pure Power', 'Shadow Tag', 'Arena Trap', 'Baton Pass', 'Moody', 'Cute Charm', 'Hustle'],
@@ -28,7 +28,7 @@ export const Formats: import('../../../sim/dex-formats').CustomFormatList = [
 			isNatDex: true,
 		},
 	},
-	{
+	gen9donotuseru: {
 		name: "[Gen 9] Do Not Use RU",
 		ruleset: ['Standard NatDex', 'Mega Rayquaza Clause', 'Terastal Clause', 'Z-Move Clause'],
 		banlist: ['Vanilla', 'DNU AG', 'DNU Uber', 'DNU OU', 'DNU UUBL', 'DNU UU', 'DNU RUBL', 'Huge Power', 'Pure Power', 'Shadow Tag', 'Arena Trap', 'Baton Pass', 'Moody', 'Cute Charm', 'Hustle'],
@@ -42,7 +42,7 @@ export const Formats: import('../../../sim/dex-formats').CustomFormatList = [
 			isNatDex: true,
 		},
 	},
-	{
+	gen9donotusevgc: {
 		name: "[Gen 9] Do Not Use VGC",
 		gameType: 'doubles',
 		ruleset: ['Standard Doubles', 'NatDex Mod', 'Item Clause = 1', 'Adjust Level = 50', 'Picked Team Size = 4', 'VGC Timer', 'Force Open Team Sheets', 'Terastal Clause', 'Z-Move Clause', 'Best of = 3', 'Limit One Restricted', '!OHKO Clause', '!Evasion Moves Clause', '!Gravity Sleep Clause'],
@@ -58,7 +58,7 @@ export const Formats: import('../../../sim/dex-formats').CustomFormatList = [
 			isNatDex: true,
 		},
 	},
-	{
+	gen9donotuseag: {
 		name: "[Gen 9] Do Not Use AG",
 		ruleset: ['Standard AG', 'NatDex Mod'],
 		section: "Do Not Use OMs",
@@ -70,7 +70,7 @@ export const Formats: import('../../../sim/dex-formats').CustomFormatList = [
 			isNatDex: true,
 		},
 	},
-	{
+	gen9donotuseubers: {
 		name: "[Gen 9] Do Not Use Ubers",
 		ruleset: ['Standard NatDex', '!Evasion Clause', 'Evasion Moves Clause', 'Evasion Items Clause', 'Mega Rayquaza Clause', 'Terastal Clause', 'Z-Move Clause'],
 		banlist: ['Vanilla', 'DNU AG', 'Huge Power', 'Pure Power', 'Baton Pass'],
@@ -84,4 +84,4 @@ export const Formats: import('../../../sim/dex-formats').CustomFormatList = [
 			isNatDex: true,
 		},
 	},
-];
+};

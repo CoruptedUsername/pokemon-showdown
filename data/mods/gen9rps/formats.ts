@@ -1,5 +1,5 @@
-export const Formats: import('../../../sim/dex-formats').CustomFormatList = [
-	{
+export const Formats: import('../../../sim/dex-formats').CustomFormatList = {
+	gen9rockpaperscissors: {
 		name: "[Gen 9] Rock Paper Scissors",
 		ruleset: ['Standard AG', 'NatDex Mod', 'RPS Clause', '!! EV Limit=0', 'Max Team Size = 3'],
 		banlist: ['Vanilla'],
@@ -12,4 +12,4 @@ export const Formats: import('../../../sim/dex-formats').CustomFormatList = [
 			isNatDex: true,
 		},
 	},
-];
+};

@@ -12,7 +12,7 @@ export interface FormatData extends Partial<Format>, EventMethods {
 }
 
 export type FormatList = (FormatData | { section: string, column?: number })[];
-export type CustomFormatList = CustomFormatData[];
+export type CustomFormatList = { [id: IDEntry]: CustomFormatData };
 export type CustomFormatData = Omit<FormatData, 'mod'> & { section: string, teambuilder: ModdedFormat };
 export type ModdedFormatData = FormatData | Omit<FormatData, 'name'> & { inherit: true };
 export interface FormatDataTable { [id: IDEntry]: FormatData }

@@ -1,5 +1,5 @@
-export const Formats: import('../../../sim/dex-formats').CustomFormatList = [
-	{
+export const Formats: import('../../../sim/dex-formats').CustomFormatList = {
+	gen9threemusksweek33: {
 		name: "[Gen 9] Three Musks Week 33",
 		gameType: 'singles',
 		ruleset: ['Standard NatDex', '!Species Clause', 'Forme Clause', 'Sleep Moves Clause', 'Terastal Clause',
@@ -45,7 +45,7 @@ export const Formats: import('../../../sim/dex-formats').CustomFormatList = [
 				}
 				if (((item.itemUser?.includes(species.name) || item.forcedForme === species.name) &&
 					!item.megaStone && !item.isPrimalOrb) || (natdex && species.name.startsWith('Necrozma-') &&
-						item.id === 'ultranecroziumz')) {
+					item.id === 'ultranecroziumz')) {
 					continue;
 				}
 				if (itemTable.has(item.id)) {
@@ -80,4 +80,4 @@ export const Formats: import('../../../sim/dex-formats').CustomFormatList = [
 			}
 		},
 	},
-];
+};

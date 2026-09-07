@@ -47,10 +47,10 @@ const dexes: { [mod: string]: ModdedDex } = Object.create(null);
 
 type DataType =
 	'Abilities' | 'Rulesets' | 'FormatsData' | 'Items' | 'Learnsets' | 'Moves' |
-	'Natures' | 'Pokedex' | 'Scripts' | 'Sprites' | 'Conditions' | 'TypeChart' | 'PokemonGoData' | 'Teambuilders';
+	'Natures' | 'Pokedex' | 'Scripts' | 'Sprites' | 'Conditions' | 'TypeChart' | 'PokemonGoData' | 'Formats';
 const DATA_TYPES: DataType[] = [
 	'Abilities', 'Rulesets', 'FormatsData', 'Items', 'Learnsets', 'Moves',
-	'Natures', 'Pokedex', 'Scripts', 'Sprites', 'Conditions', 'TypeChart', 'PokemonGoData', 'Teambuilders',
+	'Natures', 'Pokedex', 'Scripts', 'Sprites', 'Conditions', 'TypeChart', 'PokemonGoData', 'Formats',
 ];
 
 const DATA_FILES = {
@@ -67,7 +67,6 @@ const DATA_FILES = {
 	Sprites: 'sprites',
 	Conditions: 'conditions',
 	TypeChart: 'typechart',
-	Teambuilders: 'teambuilders',
 	Formats: 'formats',
 };
 
@@ -669,7 +668,7 @@ export class ModdedDex {
 		}
 		if (parentDex) {
 			for (const dataType of DATA_TYPES) {
-				if (dataType === 'Teambuilders') { // Don't inherit teambuilders
+				if (dataType === 'Formats') { // Don't inherit Formats
 					continue;
 				}
 				const parentTypedData: DexTable<any> = parentDex.data[dataType];
@@ -679,6 +678,9 @@ export class ModdedDex {
 				}
 				const childTypedData: DexTable<any> = dataCache[dataType] || (dataCache[dataType] = {});
 				for (const entryId in parentTypedData) {
+					if (dataType === 'Scripts' && entryId === "teambuilder") { // Don't inherit presence of Teambuilder
+						continue;
+					}
 					if (childTypedData[entryId] === null) {
 						// null means don't inherit
 						delete childTypedData[entryId];

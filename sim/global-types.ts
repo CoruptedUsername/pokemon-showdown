@@ -366,6 +366,7 @@ interface ModdedField extends Partial<Field> {
 
 interface ModdedBattleScriptsData extends Partial<BattleScriptsData> {
 	inherit?: string;
+	teambuilder?: boolean;
 	actions?: ModdedBattleActions;
 	pokemon?: ModdedBattlePokemon;
 	queue?: ModdedBattleQueue;

@@ -37,8 +37,10 @@ for (const mod of fs.readdirSync('./dist/data/mods')) {
 		for (const format of Formats) {
 			const newFormat = { ...format };
 			delete newFormat.section;
-			const formatName = newFormat.name;
 			newFormat["mod"] = mod;
+			if (newFormat.teambuilder) {
+				delete newFormat.teambuilder;
+			}
 			const formatString = stringify(newFormat);
 			if (Object.keys(FormatSlices).includes(format.section)) {
 				FormatSlices[format.section].push(formatString);

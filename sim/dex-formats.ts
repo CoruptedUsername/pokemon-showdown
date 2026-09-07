@@ -13,11 +13,10 @@ export interface FormatData extends Partial<Format>, EventMethods {
 
 export type FormatList = (FormatData | { section: string, column?: number })[];
 export type CustomFormatList = CustomFormatData[];
-export type CustomFormatData = Omit<FormatData, 'mod'> & { section: string };
+export type CustomFormatData = Omit<FormatData, 'mod'> & { section: string, teambuilder: ModdedFormat };
 export type ModdedFormatData = FormatData | Omit<FormatData, 'name'> & { inherit: true };
 export interface FormatDataTable { [id: IDEntry]: FormatData }
 export interface ModdedFormatDataTable { [id: IDEntry]: ModdedFormatData }
-export interface ModdedTeambuilderDataTable { [id: IDEntry]: ModdedTeambuilderData }
 
 type FormatEffectType = 'Format' | 'Ruleset' | 'Rule' | 'ValidatorRule';
 
@@ -1202,20 +1201,9 @@ export class DexFormats {
 
 interface ModdedFormat {
 	defaultLevel: number;
-	topSlice: string;
-	bottomSlice?: string;
-	bonusRules?: string[]; // Implemented Bonus Rules: AAA, Balanced Hackmons, Custom Game, Hackmons, Metronome
-}
-
-interface BuilderBonusRules {
-	bonusRule?: "Fortemons" | "Broken Record";
-}
-
-interface ModdedTeambuilderData {
-	tierType: "tier" | "doublesTier" | "natdexTier";
-	formats: { [id: string]: ModdedFormat };
+	tierType: string;
 	formatType: "singles" | "doubles";
+	allowedTiers: string[];
 	isNatDex: boolean;
-	validTiers: string[];
-	bonusRules?: string[]; // Implemented Bonus Rules: Broken Record
+	bonusRules?: string[]; // Implemented Bonus Rules: AAA, Balanced Hackmons, Custom Game, Hackmons, Metronome
 }

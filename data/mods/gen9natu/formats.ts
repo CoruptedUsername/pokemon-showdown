@@ -8,5 +8,12 @@ export const Formats: import('../../../sim/dex-formats').CustomFormatList = [
 			'Terastal Clause', 'Pdon Status Clause'],
 		banlist: ['Vanilla', 'Copycat', 'Toxic', 'Last Respects', 'Substitute', 'NatU Ubers', 'U-Turn'],
 		section: "Other Solomods",
+		teambuilder: {
+			defaultLevel: 100,
+			tierType: "singles",
+			formatType: "singles",
+			allowedTiers: ["NatU", "NatU NFE", "NatU LC"],
+			isNatDex: true,
+		},
 	},
 ];

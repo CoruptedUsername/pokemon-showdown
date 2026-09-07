@@ -14,6 +14,7 @@ const TWO_TURN_MOVES = ['dig', 'fly', 'razorwind', 'skullbash', 'skyattack', 'so
 
 export const Scripts: ModdedBattleScriptsData = {
 	inherit: 'gen2',
+	teambuilder: true,
 	gen: 1,
 	init() {
 		for (const i in this.data.Pokedex) {

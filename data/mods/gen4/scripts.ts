@@ -1,5 +1,6 @@
 export const Scripts: ModdedBattleScriptsData = {
 	inherit: 'gen5',
+	teambuilder: true,
 	gen: 4,
 	pokemon: {
 		inherit: true,

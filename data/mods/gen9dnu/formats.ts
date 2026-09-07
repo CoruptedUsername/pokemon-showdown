@@ -6,6 +6,13 @@ export const Formats: import('../../../sim/dex-formats').CustomFormatList = [
 		banlist: ['Vanilla', 'DNU AG', 'DNU Uber', 'Huge Power', 'Pure Power', 'Shadow Tag', 'Arena Trap', 'Baton Pass', 'Moody', 'Cute Charm', 'Hustle'],
 		unbanlist: ['Assist'],
 		section: "Do Not Use",
+		teambuilder: {
+			defaultLevel: 100,
+			tierType: "singles",
+			formatType: "singles",
+			allowedTiers: ['DoNU OU', 'DoNU UUBL', 'DoNU UU', 'DoNU RUBL', 'DoNU RU'],
+			isNatDex: true,
+		},
 	},
 	{
 		name: "[Gen 9] Do Not Use UU",
@@ -13,6 +20,13 @@ export const Formats: import('../../../sim/dex-formats').CustomFormatList = [
 		banlist: ['Vanilla', 'DNU AG', 'DNU Uber', 'DNU OU', 'DNU UUBL', 'Huge Power', 'Pure Power', 'Shadow Tag', 'Arena Trap', 'Baton Pass', 'Moody', 'Cute Charm', 'Hustle'],
 		unbanlist: ['Assist'],
 		section: "Do Not Use",
+		teambuilder: {
+			defaultLevel: 100,
+			tierType: "singles",
+			formatType: "singles",
+			allowedTiers: ['DoNU UU', 'DoNU RUBL', 'DoNU RU'],
+			isNatDex: true,
+		},
 	},
 	{
 		name: "[Gen 9] Do Not Use RU",
@@ -20,6 +34,13 @@ export const Formats: import('../../../sim/dex-formats').CustomFormatList = [
 		banlist: ['Vanilla', 'DNU AG', 'DNU Uber', 'DNU OU', 'DNU UUBL', 'DNU UU', 'DNU RUBL', 'Huge Power', 'Pure Power', 'Shadow Tag', 'Arena Trap', 'Baton Pass', 'Moody', 'Cute Charm', 'Hustle'],
 		unbanlist: ['Assist', 'DNU RU'],
 		section: "Do Not Use",
+		teambuilder: {
+			defaultLevel: 100,
+			tierType: "singles",
+			formatType: "singles",
+			allowedTiers: ['DoNU RU'],
+			isNatDex: true,
+		},
 	},
 	{
 		name: "[Gen 9] Do Not Use VGC",
@@ -29,11 +50,25 @@ export const Formats: import('../../../sim/dex-formats').CustomFormatList = [
 		banlist: ['Vanilla Doubles', 'Huge Power', 'Pure Power'],
 		unbanlist: ['Assist'],
 		section: "Do Not Use",
+		teambuilder: {
+			defaultLevel: 50,
+			tierType: "doubles",
+			formatType: "doubles",
+			allowedTiers: ['DoNU Restricted', 'DoNU Unrestricted'],
+			isNatDex: true,
+		},
 	},
 	{
 		name: "[Gen 9] Do Not Use AG",
 		ruleset: ['Standard AG', 'NatDex Mod'],
 		section: "Do Not Use OMs",
+		teambuilder: {
+			defaultLevel: 100,
+			tierType: "singles",
+			formatType: "singles",
+			allowedTiers: ['DoNU AG', 'DoNU Uber', 'DoNU OU', 'DoNU UUBL', 'DoNU UU', 'DoNU RUBL', 'DoNU RU'],
+			isNatDex: true,
+		},
 	},
 	{
 		name: "[Gen 9] Do Not Use Ubers",
@@ -41,5 +76,12 @@ export const Formats: import('../../../sim/dex-formats').CustomFormatList = [
 		banlist: ['Vanilla', 'DNU AG', 'Huge Power', 'Pure Power', 'Baton Pass'],
 		unbanlist: ['Assist', 'DNU Uber', 'DNU OU', 'DNU UUBL', 'DNU UU', 'DNU RUBL', 'DNU RU'],
 		section: "Do Not Use OMs",
+		teambuilder: {
+			defaultLevel: 100,
+			tierType: "singles",
+			formatType: "singles",
+			allowedTiers: ['DoNU Uber', 'DoNU OU', 'DoNU UUBL', 'DoNU UU', 'DoNU RUBL', 'DoNU RU'],
+			isNatDex: true,
+		},
 	},
 ];

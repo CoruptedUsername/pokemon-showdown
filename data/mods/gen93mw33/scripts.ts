@@ -1,5 +1,6 @@
 export const Scripts: ModdedBattleScriptsData = {
 	gen: 9,
+	teambuilder: true,
 	init() {
 		// Since twoturnmove isn't currently implemented using linked volatiles,
 		// patch related moves so that 'twoturnmove' and e.g. 'skullbash' end simultaneously.

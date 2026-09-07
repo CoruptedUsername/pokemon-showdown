@@ -14,6 +14,13 @@ export const Formats: import('../../../sim/dex-formats').CustomFormatList = [
 			'Assurance', 'Baneful Bunker', 'Bounce', 'Burning Bulwark', 'Copycat', 'Detect', 'Dig', 'Dive', 'Encore', 'Endeavor', 'Fake Out', 'Fly', 'Imprison', 'Nasty Plot',
 			'Phantom Force', 'Protect', 'Ruination', 'Shadow Force', 'Shell Smash', 'Silk Trap', 'Spiky Shield', 'Sunny Day', 'Super Fang', 'Swords Dance', 'Taunt', 'Trick Room',
 		],
+		teambuilder: {
+			defaultLevel: 100,
+			tierType: "singles",
+			formatType: "singles",
+			allowedTiers: ['3M Restricted Musks', '3M Musks', '3M Restricted', '3M Unrestricted'],
+			isNatDex: true,
+		},
 		onValidateSet(set) {
 			const problems = [];
 			for (const [i, moveid] of set.moves.entries()) {

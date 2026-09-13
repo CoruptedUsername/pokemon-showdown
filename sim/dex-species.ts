@@ -33,11 +33,12 @@ export type ModdedSpeciesData = SpeciesData | CosmeticFormeData |
 	Partial<Omit<CosmeticFormeData, 'isCosmeticForme'>> & { inherit: true };
 
 export interface SpeciesFormatsData {
-	doublesTier?: string;
+	// doublesTier?: string;
 	gmaxUnreleased?: boolean;
 	isNonstandard?: Nonstandard | null;
-	natDexTier?: string;
-	tier?: string;
+	// natDexTier?: string;
+	// tier?: string;
+	[key: IDEntry]: string;
 }
 
 export type ModdedSpeciesFormatsData = SpeciesFormatsData & { inherit?: true };

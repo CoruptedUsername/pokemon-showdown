@@ -7,7 +7,7 @@ export const Formats: import('../../../sim/dex-formats').CustomFormatList = {
 		section: "Three Musketeers",
 		teambuilder: {
 			defaultLevel: 100,
-			tierType: "singles",
+			tierType: "tier",
 			formatType: "singles",
 			allowedTiers: ['3M Musks', '3M'],
 			isNatDex: true,

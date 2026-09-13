@@ -8,7 +8,7 @@ export const Formats: import('../../../sim/dex-formats').CustomFormatList = {
 		section: "Do Not Use",
 		teambuilder: {
 			defaultLevel: 100,
-			tierType: "singles",
+			tierType: "tier",
 			formatType: "singles",
 			allowedTiers: ['DoNU OU', 'DoNU UUBL', 'DoNU UU', 'DoNU RUBL', 'DoNU RU'],
 			isNatDex: true,
@@ -22,7 +22,7 @@ export const Formats: import('../../../sim/dex-formats').CustomFormatList = {
 		section: "Do Not Use",
 		teambuilder: {
 			defaultLevel: 100,
-			tierType: "singles",
+			tierType: "tier",
 			formatType: "singles",
 			allowedTiers: ['DoNU UU', 'DoNU RUBL', 'DoNU RU'],
 			isNatDex: true,
@@ -36,7 +36,7 @@ export const Formats: import('../../../sim/dex-formats').CustomFormatList = {
 		section: "Do Not Use",
 		teambuilder: {
 			defaultLevel: 100,
-			tierType: "singles",
+			tierType: "tier",
 			formatType: "singles",
 			allowedTiers: ['DoNU RU'],
 			isNatDex: true,
@@ -52,7 +52,7 @@ export const Formats: import('../../../sim/dex-formats').CustomFormatList = {
 		section: "Do Not Use",
 		teambuilder: {
 			defaultLevel: 50,
-			tierType: "doubles",
+			tierType: "doublesTier",
 			formatType: "doubles",
 			allowedTiers: ['DoNU Restricted', 'DoNU Unrestricted'],
 			isNatDex: true,
@@ -64,7 +64,7 @@ export const Formats: import('../../../sim/dex-formats').CustomFormatList = {
 		section: "Do Not Use OMs",
 		teambuilder: {
 			defaultLevel: 100,
-			tierType: "singles",
+			tierType: "tier",
 			formatType: "singles",
 			allowedTiers: ['DoNU AG', 'DoNU Uber', 'DoNU OU', 'DoNU UUBL', 'DoNU UU', 'DoNU RUBL', 'DoNU RU'],
 			isNatDex: true,
@@ -78,7 +78,7 @@ export const Formats: import('../../../sim/dex-formats').CustomFormatList = {
 		section: "Do Not Use OMs",
 		teambuilder: {
 			defaultLevel: 100,
-			tierType: "singles",
+			tierType: "tier",
 			formatType: "singles",
 			allowedTiers: ['DoNU Uber', 'DoNU OU', 'DoNU UUBL', 'DoNU UU', 'DoNU RUBL', 'DoNU RU'],
 			isNatDex: true,

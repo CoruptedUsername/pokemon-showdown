@@ -10,7 +10,7 @@ export const Formats: import('../../../sim/dex-formats').CustomFormatList = {
 		section: "Other Solomods",
 		teambuilder: {
 			defaultLevel: 100,
-			tierType: "singles",
+			tierType: "tier",
 			formatType: "singles",
 			allowedTiers: ["NatU", "NatU NFE", "NatU LC"],
 			isNatDex: true,

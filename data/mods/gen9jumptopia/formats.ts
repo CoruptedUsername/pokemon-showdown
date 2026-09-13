@@ -6,7 +6,7 @@ export const Formats: import('../../../sim/dex-formats').CustomFormatList = {
 		section: "Other Solomods",
 		teambuilder: {
 			defaultLevel: 100,
-			tierType: "singles",
+			tierType: "tier",
 			formatType: "singles",
 			allowedTiers: ["Jumptopia", "Jumptopia NFE", "Jumptopia LC"],
 			isNatDex: true,

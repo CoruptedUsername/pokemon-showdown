@@ -84,18 +84,4 @@ export const Formats: import('../../../sim/dex-formats').CustomFormatList = {
 			isNatDex: true,
 		},
 	},
-	gen9donotuseapplin: {
-		name: "[Gen 9] Do Not Use Applin",
-		ruleset: ['Standard NatDex', '!Evasion Clause', 'Evasion Moves Clause', 'Evasion Items Clause', 'Mega Rayquaza Clause', 'Terastal Clause', 'Z-Move Clause'],
-		banlist: ['Vanilla', 'Huge Power', 'Pure Power', 'Baton Pass'],
-		unbanlist: ['Assist'],
-		section: "Do Not Use OMs",
-		teambuilder: {
-			defaultLevel: 100,
-			tierType: "applinTier",
-			formatType: "singles",
-			allowedTiers: ['DoNU Applin'],
-			isNatDex: true,
-		},
-	},
 };

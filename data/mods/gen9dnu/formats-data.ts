@@ -2,7 +2,6 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	applin: {
 		tier: "DoNU RU",
 		doublesTier: "DoNU Unrestricted",
-		applinTier: "Applin",
 	},
 	arrokuda: {
 		tier: "DoNU OU",

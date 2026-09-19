@@ -1,5 +1,5 @@
 export const Formats: import('../../../sim/dex-formats').CustomFormatList = {
-	gen93mdraftleagues2w1: {
+	gen93mdraftleagues2w2: {
 		name: "[Gen 9] 3M Draft League s2w2",
 		gameType: 'singles',
 		ruleset: ['Standard NatDex', 'Z-Move Clause', 'Tera Type Preview'],

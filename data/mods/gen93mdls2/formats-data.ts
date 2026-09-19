@@ -2216,7 +2216,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	eelektross: {
 		tier: "3M",
 	},
-	eeleketrossmega: {
+	eelektrossmega: {
 		isNonstandard: null,
 		tier: "3M",
 	},

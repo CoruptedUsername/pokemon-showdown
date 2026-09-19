@@ -105,9 +105,11 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: "3M",
 	},
 	raichumegax: {
+		isNonstandard: null,
 		tier: "3M",
 	},
 	raichumegay: {
+		isNonstandard: null,
 		tier: "3M",
 	},
 	sandshrew: {
@@ -144,6 +146,10 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: "3M",
 	},
 	clefable: {
+		tier: "3M",
+	},
+	clefablemega: {
+		isNonstandard: null,
 		tier: "3M",
 	},
 	vulpix: {
@@ -282,6 +288,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: "3M",
 	},
 	victreebelmega: {
+		isNonstandard: null,
 		tier: "3M",
 	},
 	tentacool: {
@@ -606,6 +613,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: "3M",
 	},
 	dragonitemega: {
+		isNonstandard: null,
 		tier: "3M",
 	},
 	mewtwo: {
@@ -630,6 +638,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: "3M",
 	},
 	meganiummega: {
+		isNonstandard: null,
 		tier: "3M",
 	},
 	cyndaquil: {
@@ -654,6 +663,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: "3M",
 	},
 	feraligatrmega: {
+		isNonstandard: null,
 		tier: "3M",
 	},
 	sentret: {
@@ -885,6 +895,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: "3M",
 	},
 	skarmorymega: {
+		isNonstandard: null,
 		tier: "3M",
 	},
 	houndour: {
@@ -1332,6 +1343,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: "3M",
 	},
 	chimechomega: {
+		isNonstandard: null,
 		tier: "3M",
 	},
 	absol: {
@@ -1644,6 +1656,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: "3M",
 	},
 	garchompmegaz: {
+		isNonstandard: null,
 		tier: "3M",
 	},
 	munchlax: {
@@ -1758,6 +1771,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: "3M",
 	},
 	froslassmega: {
+		isNonstandard: null,
 		tier: "3M",
 	},
 	rotom: {
@@ -1851,6 +1865,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: "3M",
 	},
 	emboarmega: {
+		isNonstandard: null,
 		tier: "3M",
 	},
 	oshawott: {
@@ -1947,6 +1962,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: "3M",
 	},
 	excadrillmega: {
+		isNonstandard: null,
 		tier: "3M",
 	},
 	audino: {
@@ -1998,6 +2014,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: "3M",
 	},
 	scolipedemega: {
+		isNonstandard: null,
 		tier: "3M",
 	},
 	cottonee: {
@@ -2055,6 +2072,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: "3M",
 	},
 	scraftymega: {
+		isNonstandard: null,
 		tier: "3M",
 	},
 	sigilyph: {
@@ -2217,6 +2235,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: "3M",
 	},
 	chandeluremega: {
+		isNonstandard: null,
 		tier: "3M",
 	},
 	axew: {
@@ -2265,6 +2284,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: "3M",
 	},
 	golurkmega: {
+		isNonstandard: null,
 		tier: "3M",
 	},
 	pawniard: {
@@ -2373,6 +2393,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: "3M",
 	},
 	chesnaughtmega: {
+		isNonstandard: null,
 		tier: "3M",
 	},
 	fennekin: {
@@ -2385,6 +2406,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: "3M",
 	},
 	delphoxmega: {
+		isNonstandard: null,
 		tier: "3M",
 	},
 	froakie: {
@@ -2397,6 +2419,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: "3M",
 	},
 	greninjamega: {
+		isNonstandard: null,
 		tier: "3M",
 	},
 	bunnelby: {
@@ -2430,12 +2453,17 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: "3M",
 	},
 	pyroarmega: {
+		isNonstandard: null,
 		tier: "3M",
 	},
 	flabebe: {
 		tier: "3M",
 	},
 	floette: {
+		tier: "3M",
+	},
+	floetteeternal: {
+		isNonstandard: null,
 		tier: "3M",
 	},
 	floettemega: {
@@ -2465,7 +2493,12 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	meowsticf: {
 		tier: "3M",
 	},
-	meowsticmega: {
+	meowsticmmega: {
+		isNonstandard: null,
+		tier: "3M",
+	},
+	meowsticfmega: {
+		isNonstandard: null,
 		tier: "3M",
 	},
 	honedge: {
@@ -2496,6 +2529,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: "3M",
 	},
 	malamarmega: {
+		isNonstandard: null,
 		tier: "3M",
 	},
 	binacle: {
@@ -2505,6 +2539,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: "3M",
 	},
 	barbaraclemega: {
+		isNonstandard: null,
 		tier: "3M",
 	},
 	skrelp: {
@@ -2514,6 +2549,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: "3M",
 	},
 	dragalgemega: {
+		isNonstandard: null,
 		tier: "3M",
 	},
 	clauncher: {
@@ -2547,6 +2583,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: "3M",
 	},
 	hawluchamega: {
+		isNonstandard: null,
 		tier: "3M",
 	},
 	dedenne: {
@@ -2694,6 +2731,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: "3M",
 	},
 	crabominablemega: {
+		isNonstandard: null,
 		tier: "3M",
 	},
 	oricorio: {
@@ -2787,7 +2825,8 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: "3M",
 	},
 	golisopodmega: {
-		tier: "Illegal",
+		isNonstandard: null,
+		tier: "3M",
 	},
 	sandygast: {
 		tier: "3M",
@@ -2826,6 +2865,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: "3M",
 	},
 	drampamega: {
+		isNonstandard: null,
 		tier: "3M",
 	},
 	dhelmise: {
@@ -3111,6 +3151,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: "3M",
 	},
 	falinksmega: {
+		isNonstandard: null,
 		tier: "3M",
 	},
 	pincurchin: {
@@ -3381,6 +3422,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: "3M",
 	},
 	scovillainmega: {
+		isNonstandard: null,
 		tier: "3M",
 	},
 	rellor: {
@@ -3438,6 +3480,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: "3M",
 	},
 	glimmoramega: {
+		isNonstandard: null,
 		tier: "3M",
 	},
 	greavard: {
@@ -3528,6 +3571,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: "3M",
 	},
 	baxcaliburmega: {
+		isNonstandard: null,
 		tier: "Illegal",
 	},
 	gimmighoul: {

@@ -12,9 +12,11 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		abilities: { 0: "Overgrow", H: "Scrappy", S: "Technician" },
 	},
 	megagarchompz: {
+		inherit: true,
 		abilities: { 0: "Levitate" },
 	},
 	megagolisopod: {
+		inherit: true,
 		abilities: { 0: "Tough Claws" },
 	},
 };

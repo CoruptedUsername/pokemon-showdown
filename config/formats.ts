@@ -29,6 +29,7 @@ export const FormatSections: import('../sim/dex-formats').FormatList = [
 	},
 	{
 		section: "Three Musketeers",
+		column: 2,
 	},
 ];
 

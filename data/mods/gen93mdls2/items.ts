@@ -1,154 +1,154 @@
 export const Items: import('../../../sim/dex-items').ModdedItemDataTable = {
 	barbaracite: {
 		inherit: true,
-		isNonStandard: null,
+		isNonstandard: null,
 	},
 	baxcalibrite: {
 		inherit: true,
-		isNonStandard: null,
+		isNonstandard: null,
 	},
 	chandelurite: {
 		inherit: true,
-		isNonStandard: null,
+		isNonstandard: null,
 	},
 	chesnaughtite: {
 		inherit: true,
-		isNonStandard: null,
+		isNonstandard: null,
 	},
 	chimechite: {
 		inherit: true,
-		isNonStandard: null,
+		isNonstandard: null,
 	},
 	clefablite: {
 		inherit: true,
-		isNonStandard: null,
+		isNonstandard: null,
 	},
 	crabominite: {
 		inherit: true,
-		isNonStandard: null,
+		isNonstandard: null,
 	},
 	delphoxite: {
 		inherit: true,
-		isNonStandard: null,
+		isNonstandard: null,
 	},
 	dragalgite: {
 		inherit: true,
-		isNonStandard: null,
+		isNonstandard: null,
 	},
 	dragoninite: {
 		inherit: true,
-		isNonStandard: null,
+		isNonstandard: null,
 	},
 	drampanite: {
 		inherit: true,
-		isNonStandard: null,
+		isNonstandard: null,
 	},
 	eelektrossite: {
 		inherit: true,
-		isNonStandard: null,
+		isNonstandard: null,
 	},
 	emboarite: {
 		inherit: true,
-		isNonStandard: null,
+		isNonstandard: null,
 	},
 	excadrite: {
 		inherit: true,
-		isNonStandard: null,
+		isNonstandard: null,
 	},
 	falinksite: {
 		inherit: true,
-		isNonStandard: null,
+		isNonstandard: null,
 	},
 	feraligite: {
 		inherit: true,
-		isNonStandard: null,
+		isNonstandard: null,
 	},
 	floettite: {
 		inherit: true,
-		isNonStandard: null,
+		isNonstandard: null,
 	},
 	froslassite: {
 		inherit: true,
-		isNonStandard: null,
+		isNonstandard: null,
 	},
 	garchompitez: {
 		inherit: true,
-		isNonStandard: null,
+		isNonstandard: null,
 	},
 	glimmoranite: {
 		inherit: true,
-		isNonStandard: null,
+		isNonstandard: null,
 	},
 	golisopite: {
 		inherit: true,
-		isNonStandard: null,
+		isNonstandard: null,
 	},
 	golurkite: {
 		inherit: true,
-		isNonStandard: null,
+		isNonstandard: null,
 	},
 	greninjite: {
 		inherit: true,
-		isNonStandard: null,
+		isNonstandard: null,
 	},
 	hawluchanite: {
 		inherit: true,
-		isNonStandard: null,
+		isNonstandard: null,
 	},
 	lucarionitez: {
 		inherit: true,
-		isNonStandard: null,
+		isNonstandard: null,
 	},
 	malamarite: {
 		inherit: true,
-		isNonStandard: null,
+		isNonstandard: null,
 	},
 	meganiumite: {
 		inherit: true,
-		isNonStandard: null,
+		isNonstandard: null,
 	},
 	meowsticite: {
 		inherit: true,
-		isNonStandard: null,
+		isNonstandard: null,
 	},
 	pyroarite: {
 		inherit: true,
-		isNonStandard: null,
+		isNonstandard: null,
 	},
 	raichunitex: {
 		inherit: true,
-		isNonStandard: null,
+		isNonstandard: null,
 	},
 	raichunitey: {
 		inherit: true,
-		isNonStandard: null,
+		isNonstandard: null,
 	},
 	scolipite: {
 		inherit: true,
-		isNonStandard: null,
+		isNonstandard: null,
 	},
 	scovillainite: {
 		inherit: true,
-		isNonStandard: null,
+		isNonstandard: null,
 	},
 	scraftinite: {
 		inherit: true,
-		isNonStandard: null,
+		isNonstandard: null,
 	},
 	skarmorite: {
 		inherit: true,
-		isNonStandard: null,
+		isNonstandard: null,
 	},
 	staraptite: {
 		inherit: true,
-		isNonStandard: null,
+		isNonstandard: null,
 	},
 	starminite: {
 		inherit: true,
-		isNonStandard: null,
+		isNonstandard: null,
 	},
 	victreebelite: {
 		inherit: true,
-		isNonStandard: null,
+		isNonstandard: null,
 	}
 };

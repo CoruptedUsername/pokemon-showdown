@@ -2217,6 +2217,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: "3M",
 	},
 	eeleketrossmega: {
+		isNonstandard: null,
 		tier: "3M",
 	},
 	elgyem: {
@@ -3572,7 +3573,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	},
 	baxcaliburmega: {
 		isNonstandard: null,
-		tier: "Illegal",
+		tier: "3M",
 	},
 	gimmighoul: {
 		tier: "3M",

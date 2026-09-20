@@ -1550,7 +1550,19 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	burmy: {
 		tier: "3M",
 	},
+	burmysandy: {
+		tier: "3M",
+	},
+	burmytrash: {
+		tier: "3M",
+	},
 	wormadam: {
+		tier: "3M",
+	},
+	wormadamsandy: {
+		tier: "3M",
+	},
+	wormadamtrash: {
 		tier: "3M",
 	},
 	mothim: {
@@ -1578,6 +1590,12 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: "3M",
 	},
 	shellos: {
+		tier: "3M",
+	},
+	shelloseast: {
+		tier: "3M",
+	},
+	gastrodon: {
 		tier: "3M",
 	},
 	gastrodon: {
@@ -2035,6 +2053,12 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	basculin: {
 		tier: "3M",
 	},
+	basculinbluestriped: {
+		tier: "3M",
+	},
+	basculinwhitestriped: {
+		tier: "3M",
+	},
 	sandile: {
 		tier: "3M",
 	},
@@ -2378,10 +2402,25 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	keldeo: {
 		tier: "3M",
 	},
+	keldeoresolute: {
+		tier: "3M",
+	},
 	meloetta: {
 		tier: "3M",
 	},
 	genesect: {
+		tier: "3M",
+	},
+	genesectburn: {
+		tier: "3M",
+	},
+	genesectchill: {
+		tier: "3M",
+	},
+	genesectdouse: {
+		tier: "3M",
+	},
+	genesectshock: {
 		tier: "3M",
 	},
 	chespin: {
@@ -2417,6 +2456,9 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: "3M",
 	},
 	greninja: {
+		tier: "3M",
+	},
+	greninjabond: {
 		tier: "3M",
 	},
 	greninjamega: {
@@ -2489,6 +2531,9 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: "3M",
 	},
 	espurr: {
+		tier: "3M",
+	},
+	meowstic: {
 		tier: "3M",
 	},
 	meowsticf: {
@@ -2620,7 +2665,25 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	pumpkaboo: {
 		tier: "3M",
 	},
+	pumpkaboosmall: {
+		tier: "3M",
+	},
+	pumpkaboolarge: {
+		tier: "3M",
+	},
+	pumpkaboosuper: {
+		tier: "3M",
+	},
 	gourgeist: {
+		tier: "3M",
+	},
+	gourgeistsmall: {
+		tier: "3M",
+	},
+	gourgeistlarge: {
+		tier: "3M",
+	},
+	gourgeistsuper: {
 		tier: "3M",
 	},
 	bergmite: {
@@ -2738,6 +2801,15 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	oricorio: {
 		tier: "3M",
 	},
+	oricoriopau: {
+		tier: "3M",
+	},
+	oricoriopompom: {
+		tier: "3M",
+	},
+	oricoriosensu: {
+		tier: "3M",
+	},
 	cutiefly: {
 		tier: "3M",
 	},
@@ -2842,6 +2914,57 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: "3M",
 	},
 	silvally: {
+		tier: "3M",
+	},
+	silvallybug: {
+		tier: "3M",
+	},
+	silvallydark: {
+		tier: "3M",
+	},
+	silvallydragon: {
+		tier: "3M",
+	},
+	silvallyelectric: {
+		tier: "3M",
+	},
+	silvallyfairy: {
+		tier: "3M",
+	},
+	silvallyfighting: {
+		tier: "3M",
+	},
+	silvallyfire: {
+		tier: "3M",
+	},
+	silvallyflying: {
+		tier: "3M",
+	},
+	silvallyghost: {
+		tier: "3M",
+	},
+	silvallygrass: {
+		tier: "3M",
+	},
+	silvallyground: {
+		tier: "3M",
+	},
+	silvallyice: {
+		tier: "3M",
+	},
+	silvallypoison: {
+		tier: "3M",
+	},
+	silvallypsychic: {
+		tier: "3M",
+	},
+	silvallyrock: {
+		tier: "3M",
+	},
+	silvallysteel: {
+		tier: "3M",
+	},
+	silvallywater: {
 		tier: "3M",
 	},
 	minior: {
@@ -3103,7 +3226,13 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	sinistea: {
 		tier: "3M",
 	},
+	sinisteaantique: {
+		tier: "3M",
+	},
 	polteageist: {
+		tier: "3M",
+	},
+	polteageistantique: {
 		tier: "3M",
 	},
 	hatenna: {
@@ -3168,6 +3297,9 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: "3M",
 	},
 	eiscue: {
+		tier: "3M",
+	},
+	indeedee: {
 		tier: "3M",
 	},
 	indeedeef: {
@@ -3236,6 +3368,9 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	zarude: {
 		tier: "3M",
 	},
+	zarudedada: {
+		tier: "3M",
+	},
 	regieleki: {
 		tier: "3M",
 	},
@@ -3267,6 +3402,9 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: "3M",
 	},
 	basculegion: {
+		tier: "3M",
+	},
+	basculegionf: {
 		tier: "3M",
 	},
 	sneasler: {
@@ -3314,6 +3452,9 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	oinkologne: {
 		tier: "3M",
 	},
+	oinkolognef: {
+		tier: "3M",
+	},
 	tarountula: {
 		tier: "3M",
 	},
@@ -3341,6 +3482,9 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	maushold: {
 		tier: "3M",
 	},
+	mausholdfour: {
+		tier: "3M",
+	},
 	fidough: {
 		tier: "3M",
 	},
@@ -3357,6 +3501,15 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: "3M",
 	},
 	squawkabilly: {
+		tier: "3M",
+	},
+	squawkabillyblue: {
+		tier: "3M",
+	},
+	squawkabillywhite: {
+		tier: "3M",
+	},
+	squawkabillyyellow: {
 		tier: "3M",
 	},
 	nacli: {
@@ -3508,6 +3661,12 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	tatsugiri: {
 		tier: "3M",
 	},
+	tatsugiridroopy: {
+		tier: "3M",
+	},
+	tatsugiristretchy: {
+		tier: "3M",
+	},
 	tatsugirimega: {
 		tier: "Illegal",
 	},
@@ -3521,6 +3680,9 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: "3M",
 	},
 	dudunsparce: {
+		tier: "3M",
+	},
+	dudunsparcethreesegment: {
 		tier: "3M",
 	},
 	kingambit: {
@@ -3578,6 +3740,9 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	gimmighoul: {
 		tier: "3M",
 	},
+	gimmighoulroaming: {
+		tier: "3M",
+	},
 	gholdengo: {
 		tier: "3M",
 	},
@@ -3617,7 +3782,13 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	poltchageist: {
 		tier: "3M",
 	},
+	poltchageistartisan: {
+		tier: "3M",
+	},
 	sinistcha: {
+		tier: "3M",
+	},
+	sinistchaartisan: {
 		tier: "3M",
 	},
 	okidogi: {

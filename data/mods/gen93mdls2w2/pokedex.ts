@@ -2077,9 +2077,11 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	},
 	burmysandy: {
 		inherit: true,
+		types: ["Bug", "Poison"],
 	},
 	burmytrash: {
 		inherit: true,
+		types: ["Bug", "Poison"],
 	},
 	wormadam: {
 		inherit: true,
@@ -2135,6 +2137,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	},
 	shelloseast: {
 		inherit: true,
+		types: ["Water", "Flying"],
 	},
 	gastrodon: {
 		inherit: true,
@@ -2142,6 +2145,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	},
 	gastrodoneast: {
 		inherit: true,
+		types: ["Water", "Ground", "Fighting"],
 	},
 	ambipom: {
 		inherit: true,
@@ -4079,6 +4083,10 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	mimikyu: {
 		inherit: true,
 		types: ["Ghost", "Fairy", "Psychic"],
+	},
+	mimimkyubusted: {
+		inherit: true,
+		types: ["Ghost", "Fairy", "Dark"],
 	},
 	bruxish: {
 		inherit: true,

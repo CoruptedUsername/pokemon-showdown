@@ -1598,7 +1598,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	gastrodon: {
 		tier: "3M",
 	},
-	gastrodon: {
+	gastrodoneast: {
 		tier: "3M",
 	},
 	ambipom: {

@@ -2729,7 +2729,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	},
 	samurott: {
 		inherit: true,
-		baseStats: { hp: 95, atk: 100, def: 85, spa: 108, spd: 70, spe: 70 },
+		baseStats: { hp: 105, atk: 110, def: 95, spa: 118, spd: 80, spe: 80 },
 	},
 	samurotthisui: {
 		inherit: true,
@@ -3937,7 +3937,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	},
 	decidueyehisui: {
 		inherit: true,
-		baseStats: { hp: 88, atk: 112, def: 80, spa: 95, spd: 95, spe: 60 },
+		baseStats: { hp: 98, atk: 122, def: 90, spa: 105, spd: 105, spe: 70 },
 	},
 	litten: {
 		inherit: true,
@@ -3949,7 +3949,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	},
 	incineroar: {
 		inherit: true,
-		baseStats: { hp: 95, atk: 115, def: 90, spa: 80, spd: 90, spe: 60 },
+		baseStats: { hp: 105, atk: 125, def: 100, spa: 90, spd: 100, spe: 70 },
 	},
 	popplio: {
 		inherit: true,

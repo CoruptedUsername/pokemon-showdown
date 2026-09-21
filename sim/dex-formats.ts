@@ -1205,5 +1205,5 @@ interface ModdedFormat {
 	formatType: "singles" | "doubles";
 	allowedTiers: string[];
 	isNatDex: boolean;
-	bonusRules?: string[]; // Implemented Bonus Rules: AAA, Balanced Hackmons, Custom Game, Hackmons, Metronome
+	bonusRules?: string[]; // Implemented Bonus Rules:
 }

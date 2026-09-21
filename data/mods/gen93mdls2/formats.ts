@@ -13,7 +13,8 @@ export const Formats: import('../../../sim/dex-formats').CustomFormatList = {
 			allowedTiers: ['3M Musks', '3M'],
 			isNatDex: true,
 		},
-	},	gen93mdraftleagues2w5: {
+	},
+	gen93mdraftleagues2w5: {
 		name: "[Gen 9] 3M Draft League s2w5",
 		gameType: 'singles',
 		ruleset: ['Standard NatDex', 'Z-Move Clause', 'Tera Type Preview', '!Obtainable Abilities', 'Ability Clause = 1'],
@@ -23,6 +24,14 @@ export const Formats: import('../../../sim/dex-formats').CustomFormatList = {
 			'Illusion', 'Imposter', 'Innards Out', 'Intrepid Sword', 'Magic Bounce', 'Magnet Pull', 'Moody', 'Neutralizing Gas',
 			'Orichalcum Pulse', 'Parental Bond', 'Poison Heal', 'Pure Power', 'Regenerator', 'Shadow Tag', 'Simple', 'Speed Boost',
 			'Stakeout', 'Triage', 'Unburden', 'Water Bubble', 'Wonder Guard', 'Assist', 'Electrify', 'Take Heart'],
+		// validateSet(set, teamHas) {
+		// 	const dex = this.dex
+		// 	const moves = set.moves;
+		// 	for (const move in moves) {
+		// 		const dexMove = dex.moves.get(move);
+		// 		if (dexMove.)
+		// 	}
+		// },
 		section: "Three Musketeers",
 		teambuilder: {
 			defaultLevel: 100,

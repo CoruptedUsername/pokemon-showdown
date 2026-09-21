@@ -3210,7 +3210,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	},
 	eelektrossmega: {
 		inherit: true,
-		baseStats: { hp: 85, atk: 145, def: 80, spa: 135, spd: 90, spe: 80 },
+		baseStats: { hp: 95, atk: 155, def: 90, spa: 145, spd: 100, spe: 90 },
 	},
 	elgyem: {
 		inherit: true,

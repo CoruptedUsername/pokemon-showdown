@@ -5,6 +5,12 @@ export const Formats: import('../../../sim/dex-formats').CustomFormatList = {
 		ruleset: ['Standard NatDex', 'Z-Move Clause', 'Tera Type Preview'],
 		banlist: ['Moody', 'Baton Pass', 'Swagger', 'Flatter', 'move:Metronome', 'Last Respects', 'Shed Tail', 'Rage Fist',
 			'Hidden Power', 'Power Construct', 'Revival Blessing + Leppa Berry', 'Shell Smash + Blastoise Mega'],
+		checkCanLearn(move, species, setSources, set) {
+			if (move.id === "coruptedblast") {
+				return null;
+			}
+			return this.checkCanLearn(move, species, setSources, set);
+		},
 		section: "Three Musketeers",
 		teambuilder: {
 			defaultLevel: 100,

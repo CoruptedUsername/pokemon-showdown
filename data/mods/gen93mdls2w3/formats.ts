@@ -2,8 +2,8 @@ export const Formats: import('../../../sim/dex-formats').CustomFormatList = {
 	gen93mdraftleagues2w3: {
 		name: "[Gen 9] 3M Draft League s2w3",
 		gameType: 'singles',
-		ruleset: ['Standard NatDex', 'Z-Move Clause', 'Tera Type Preview'],
-		banlist: ['Moody', 'Baton Pass', 'Swagger', 'Flatter', 'move:Metronome', 'Last Respects', 'Shed Tail', 'Rage Fist',
+		ruleset: ['Standard NatDex', 'Z-Move Clause', 'Tera Type Preview', 'DryPass Clause'],
+		banlist: ['Moody', 'Swagger', 'Flatter', 'move:Metronome', 'Last Respects', 'Shed Tail', 'Rage Fist',
 			'Hidden Power', 'Power Construct', 'Revival Blessing + Leppa Berry', 'Shell Smash + Blastoise Mega'],
 		restricted: [
 			'Agility', 'Assist', 'Baneful Bunker', 'Belly Drum', 'Block', 'Burning Bulwark', 'Chilly Reception', 'Confuse Ray', 'Copycat', 'Corrosive Gas', 'Dragon Dance', 'Detect', 'Destiny Bond',

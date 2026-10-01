@@ -2145,7 +2145,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	},
 	gastrodoneast: {
 		inherit: true,
-		types: ["Water", "Ground", "Fighting"],
+		types: ["Water", "Ground", "Dark"],
 	},
 	ambipom: {
 		inherit: true,
@@ -3990,74 +3990,92 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	},
 	silvally: {
 		inherit: true,
+		abilities: { 0: 'Run Away' },
 		types: ["Normal", "Ghost"],
 	},
 	silvallybug: {
 		inherit: true,
+		abilities: { 0: 'Run Away' },
 		types: ["Bug", "Rock"],
 	},
 	silvallydark: {
 		inherit: true,
+		abilities: { 0: 'Run Away' },
 		types: ["Dark", "Rock"],
 	},
 	silvallydragon: {
 		inherit: true,
+		abilities: { 0: 'Run Away' },
 		types: ["Dragon", "Fairy"],
 	},
 	silvallyelectric: {
 		inherit: true,
+		abilities: { 0: 'Run Away' },
 		types: ["Electric", "Fire"],
 	},
 	silvallyfairy: {
 		inherit: true,
+		abilities: { 0: 'Run Away' },
 		types: ["Fairy", "Bug"],
 	},
 	silvallyfighting: {
 		inherit: true,
+		abilities: { 0: 'Run Away' },
 		types: ["Fighting", "Fairy"],
 	},
 	silvallyfire: {
 		inherit: true,
+		abilities: { 0: 'Run Away' },
 		types: ["Fire", "Rock"],
 	},
 	silvallyflying: {
 		inherit: true,
+		abilities: { 0: 'Run Away' },
 		types: ["Flying", "Dark"],
 	},
 	silvallyghost: {
 		inherit: true,
+		abilities: { 0: 'Run Away' },
 		types: ["Ghost", "Fire"],
 	},
 	silvallygrass: {
 		inherit: true,
+		abilities: { 0: 'Run Away' },
 		types: ["Grass", "Flying"],
 	},
 	silvallyground: {
 		inherit: true,
+		abilities: { 0: 'Run Away' },
 		types: ["Ground", "Dark"],
 	},
 	silvallyice: {
 		inherit: true,
+		abilities: { 0: 'Run Away' },
 		types: ["Ice", "Water"],
 	},
 	silvallypoison: {
 		inherit: true,
+		abilities: { 0: 'Run Away' },
 		types: ["Poison", "Dark"],
 	},
 	silvallypsychic: {
 		inherit: true,
+		abilities: { 0: 'Run Away' },
 		types: ["Psychic", "Steel"],
 	},
 	silvallyrock: {
 		inherit: true,
+		abilities: { 0: 'Run Away' },
 		types: ["Rock", "Normal"],
 	},
 	silvallysteel: {
 		inherit: true,
+		abilities: { 0: 'Run Away' },
 		types: ["Steel", "Electric"],
 	},
 	silvallywater: {
 		inherit: true,
+		abilities: { 0: 'Run Away' },
 		types: ["Water", "Poison"],
 	},
 	minior: {

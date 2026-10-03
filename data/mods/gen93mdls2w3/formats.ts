@@ -6,9 +6,9 @@ export const Formats: import('../../../sim/dex-formats').CustomFormatList = {
 		banlist: ['Moody', 'Swagger', 'Flatter', 'move:Metronome', 'Last Respects', 'Shed Tail', 'Rage Fist',
 			'Hidden Power', 'Power Construct', 'Revival Blessing + Leppa Berry', 'Shell Smash + Blastoise Mega'],
 		restricted: [
-			'Agility', 'Assist', 'Baneful Bunker', 'Belly Drum', 'Block', 'Burning Bulwark', 'Chilly Reception', 'Confuse Ray', 'Copycat', 'Corrosive Gas', 'Dragon Dance', 'Detect', 'Destiny Bond',
-			'Endure', 'Encore', 'Fairy Lock', 'Flatter', 'Focus Energy', 'Glare', 'Heal Bell', 'Instruct', 'King\'s Shield', 'Mat Block', 'Mean Look', 'Me First', 'move:Metronome', 'Mirror Move', 'Nasty Plot', 'Nature Power', 'Obstruct', 'Octolock', 'Parting Shot',
-			'Poison Gas', 'Poison Powder', 'Psycho Shift', 'Protect', 'Roar', 'Silk Trap', 'Spider Web', 'Spikes', 'Spiky Shield', 'Sleep Talk', 'Shell Smash', 'Stun Spore', 'Substitute', 'Supersonic',
+			'Agility', 'Assist', 'Baneful Bunker', 'Belly Drum', 'Block', 'Burning Bulwark', 'Chilly Reception', 'Confuse Ray', 'Copycat', 'Corrosive Gas', 'Dark Void', 'Dragon Dance', 'Detect', 'Destiny Bond',
+			'Endure', 'Encore', 'Fairy Lock', 'Flatter', 'Focus Energy', 'Glare', 'Grass Whistle', 'Heal Bell', 'Hypnosis', 'Instruct', 'King\'s Shield', 'Lovely Kiss', 'Mat Block', 'Mean Look', 'Me First', 'move:Metronome', 'Mirror Move', 'Nasty Plot', 'Nature Power', 'Obstruct', 'Octolock', 'Parting Shot',
+			'Poison Gas', 'Poison Powder', 'Psycho Shift', 'Protect', 'Roar', 'Silk Trap', 'Sing', 'Spider Web', 'Spikes', 'Spiky Shield', 'Sleep Talk', 'Shell Smash', 'Sleep Powder', 'Spore', 'Stun Spore', 'Substitute', 'Supersonic',
 			'Swagger', 'Sweet Kiss', 'Switcheroo', 'Swords Dance', 'Tail Glow', 'Tailwind', 'Taunt', 'Teeter Dance', 'Teleport', 'Thunder Wave', 'Toxic', 'Toxic Thread',
 			'Trick', 'Trick Room', 'Will-O-Wisp', 'Wish', 'Whirlwind',
 		],

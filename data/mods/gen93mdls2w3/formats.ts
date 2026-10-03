@@ -67,6 +67,7 @@ export const Formats: import('../../../sim/dex-formats').CustomFormatList = {
 			formatType: "singles",
 			allowedTiers: ['3M Musks', '3M'],
 			isNatDex: true,
+			bonusRules: ['Trademarked'],
 		},
 	},
 };

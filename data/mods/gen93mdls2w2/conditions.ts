@@ -14,7 +14,7 @@ export const Conditions: import('../../../sim/dex-conditions').ModdedConditionDa
 					return ['Dark', 'Rock'];
 				case 'Dragon':
 					return ['Dragon', 'Fairy'];
-				case 'electric':
+				case 'Electric':
 					return ['Electric', 'Fire'];
 				case 'Fairy':
 					return ['Fairy', 'Bug'];
@@ -43,10 +43,10 @@ export const Conditions: import('../../../sim/dex-conditions').ModdedConditionDa
 				case 'Water':
 					return ['Water', 'Poison'];
 				default:
-					return ['Normal', 'Bug'];
+					return ['Normal', 'Ghost'];
 				}
 			}
-			return ['Normal', 'Bug'];
+			return ['Normal', 'Ghost'];
 		},
 	},
 };

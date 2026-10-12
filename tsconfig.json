@@ -1,13 +1,13 @@
 {
     "compilerOptions": {
-        "lib": ["es2022"],
+        "lib": ["ESNext"],
         "noEmit": true,
         "jsx": "react",
         "jsxFactory": "Chat.h",
         "jsxFragmentFactory": "Chat.Fragment",
-        "target": "es2022",
+        "target": "es2020",
         "skipLibCheck": true,
-        "module": "NodeNext",
+        "module": "CommonJS",
         "moduleResolution": "node",
         "strict": true,
         "allowJs": true,
@@ -28,7 +28,7 @@
     "include": [
         "./config/*.ts",
         "./data/*",
-        "./data/text/*",
+        "./data/text/**/*",
         "./data/random-battles/**/*",
         "./data/mods/*/*",
         "./dev-tools/*.ts",

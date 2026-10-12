@@ -132,7 +132,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		doublesTier: "DoNU Unrestricted",
 	},
 	kirlia: {
-		tier: "DoNU OU",
+		tier: "DoNU Uber",
 		doublesTier: "DoNU Unrestricted",
 	},
 	kricketot: {

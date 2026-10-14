@@ -70,7 +70,7 @@ export const Formats: import('../../../sim/dex-formats').CustomFormatList = {
 			defaultLevel: 50,
 			tierType: "champs",
 			formatType: "doubles",
-			allowedTiers: ['DoNU Restricted'],
+			allowedTiers: ['DoNU'],
 			bonusRules: ['NatDex', 'Champions'],
 		},
 	},

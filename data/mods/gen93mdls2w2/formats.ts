@@ -17,7 +17,7 @@ export const Formats: import('../../../sim/dex-formats').CustomFormatList = {
 			tierType: "tier",
 			formatType: "singles",
 			allowedTiers: ['3M Musks', '3M'],
-			isNatDex: true,
+			bonusRules: ['NatDex'],
 		},
 	},
 };

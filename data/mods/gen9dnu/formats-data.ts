@@ -2,6 +2,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	applin: {
 		tier: "DoNU RU",
 		doublesTier: "DoNU Unrestricted",
+		champs: "DoNU",
 	},
 	arrokuda: {
 		tier: "DoNU OU",
@@ -10,10 +11,12 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	azurill: {
 		tier: "DoNU UU",
 		doublesTier: "DoNU Unrestricted",
+		champs: "DoNU",
 	},
 	beldum: {
 		tier: "DoNU OU",
 		doublesTier: "DoNU Unrestricted",
+		champs: "DoNU",
 	},
 	bidoof: {
 		tier: "DoNU UUBL",
@@ -26,6 +29,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	bounsweet: {
 		tier: "DoNU UU",
 		doublesTier: "DoNU Unrestricted",
+		champs: "DoNU",
 	},
 	bramblin: {
 		tier: "DoNU OU",
@@ -34,10 +38,12 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	budew: {
 		tier: "DoNU OU",
 		doublesTier: "DoNU Unrestricted",
+		champs: "DoNU",
 	},
 	bunnelby: {
 		tier: "DoNU RU",
 		doublesTier: "DoNU Unrestricted",
+		champs: "DoNU",
 	},
 	burmy: {
 		tier: "DoNU RU",
@@ -54,6 +60,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	charcadet: {
 		tier: "DoNU RU",
 		doublesTier: "DoNU Unrestricted",
+		champs: "DoNU",
 	},
 	cherubi: {
 		tier: "DoNU UUBL",
@@ -62,6 +69,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	cleffa: {
 		tier: "DoNU OU",
 		doublesTier: "DoNU Unrestricted",
+		champs: "DoNU",
 	},
 	combee: {
 		tier: "DoNU RU",
@@ -74,6 +82,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	cottonee: {
 		tier: "DoNU OU",
 		doublesTier: "DoNU Restricted",
+		champs: "DoNU",
 	},
 	diglett: {
 		tier: "DoNU UU",
@@ -82,14 +91,17 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	dreepy: {
 		tier: "DoNU UUBL",
 		doublesTier: "DoNU Unrestricted",
+		champs: "DoNU",
 	},
 	feebas: {
 		tier: "DoNU RU",
 		doublesTier: "DoNU Unrestricted",
+		champs: "DoNU",
 	},
 	fletchling: {
 		tier: "DoNU UU",
 		doublesTier: "DoNU Unrestricted",
+		champs: "DoNU",
 	},
 	fomantis: {
 		tier: "DoNU UU",
@@ -106,6 +118,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	hatenna: {
 		tier: "DoNU OU",
 		doublesTier: "DoNU Unrestricted",
+		champs: "DoNU",
 	},
 	hoothoot: {
 		tier: "DoNU UU",
@@ -118,22 +131,27 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	igglybuff: {
 		tier: "DoNU RU",
 		doublesTier: "DoNU Unrestricted",
+		champs: "DoNU",
 	},
 	impidimp: {
 		tier: "DoNU OU",
 		doublesTier: "DoNU Unrestricted",
+		champs: "DoNU",
 	},
 	jigglypuff: {
 		tier: "DoNU OU",
 		doublesTier: "DoNU Unrestricted",
+		champs: "DoNU",
 	},
 	kakuna: {
 		tier: "DoNU RU",
 		doublesTier: "DoNU Unrestricted",
+		champs: "DoNU",
 	},
 	kirlia: {
 		tier: "DoNU Uber",
 		doublesTier: "DoNU Unrestricted",
+		champs: "DoNU",
 	},
 	kricketot: {
 		tier: "DoNU RU",
@@ -154,6 +172,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	litwick: {
 		tier: "DoNU OU",
 		doublesTier: "DoNU Unrestricted",
+		champs: "DoNU",
 	},
 	lotad: {
 		tier: "DoNU UU",
@@ -162,6 +181,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	magikarp: {
 		tier: "DoNU RU",
 		doublesTier: "DoNU Unrestricted",
+		champs: "DoNU",
 	},
 	makuhita: {
 		tier: "DoNU OU",
@@ -170,14 +190,17 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	mareep: {
 		tier: "DoNU UU",
 		doublesTier: "DoNU Unrestricted",
+		champs: "DoNU",
 	},
 	marill: {
 		tier: "DoNU OU",
 		doublesTier: "DoNU Unrestricted",
+		champs: "DoNU",
 	},
 	meditite: {
 		tier: "DoNU OU",
 		doublesTier: "DoNU Unrestricted",
+		champs: "DoNU",
 	},
 	metapod: {
 		tier: "DoNU RU",
@@ -186,14 +209,17 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	milcery: {
 		tier: "DoNU RU",
 		doublesTier: "DoNU Unrestricted",
+		champs: "DoNU",
 	},
 	nacli: {
 		tier: "DoNU OU",
 		doublesTier: "DoNU Unrestricted",
+		champs: "DoNU",
 	},
 	nickit: {
 		tier: "DoNU RU",
 		doublesTier: "DoNU Unrestricted",
+		champs: "DoNU",
 	},
 	nidoranf: {
 		tier: "DoNU UU",
@@ -210,6 +236,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	noibat: {
 		tier: "DoNU RU",
 		doublesTier: "DoNU Unrestricted",
+		champs: "DoNU",
 	},
 	nymble: {
 		tier: "DoNU UU",
@@ -222,6 +249,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	pawmi: {
 		tier: "DoNU RU",
 		doublesTier: "DoNU Unrestricted",
+		champs: "DoNU",
 	},
 	petilil: {
 		tier: "DoNU UU",
@@ -230,10 +258,12 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	pichu: {
 		tier: "DoNU RU",
 		doublesTier: "DoNU Unrestricted",
+		champs: "DoNU",
 	},
 	pidgey: {
 		tier: "DoNU RU",
 		doublesTier: "DoNU Unrestricted",
+		champs: "DoNU",
 	},
 	pidove: {
 		tier: "DoNU OU",
@@ -242,6 +272,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	pikipek: {
 		tier: "DoNU Uber",
 		doublesTier: "DoNU Unrestricted",
+		champs: "DoNU",
 	},
 	poochyena: {
 		tier: "DoNU RU",
@@ -250,6 +281,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	ralts: {
 		tier: "DoNU RU",
 		doublesTier: "DoNU Unrestricted",
+		champs: "DoNU",
 	},
 	rattata: {
 		tier: "DoNU OU",
@@ -266,6 +298,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	rockruff: {
 		tier: "DoNU OU",
 		doublesTier: "DoNU Unrestricted",
+		champs: "DoNU",
 	},
 	roggenrola: {
 		tier: "DoNU OU",
@@ -278,10 +311,12 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	rookidee: {
 		tier: "DoNU RU",
 		doublesTier: "DoNU Unrestricted",
+		champs: "DoNU",
 	},
 	scatterbug: {
 		tier: "DoNU RU",
 		doublesTier: "DoNU Unrestricted",
+		champs: "DoNU",
 	},
 	seedot: {
 		tier: "DoNU RU",
@@ -294,6 +329,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	shinx: {
 		tier: "DoNU UU",
 		doublesTier: "DoNU Unrestricted",
+		champs: "DoNU",
 	},
 	silcoon: {
 		tier: "DoNU RU",
@@ -318,6 +354,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	smoliv: {
 		tier: "DoNU RU",
 		doublesTier: "DoNU Unrestricted",
+		champs: "DoNU",
 	},
 	snom: {
 		tier: "DoNU RU",
@@ -330,14 +367,17 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	spewpa: {
 		tier: "DoNU RU",
 		doublesTier: "DoNU Unrestricted",
+		champs: "DoNU",
 	},
 	spinarak: {
 		tier: "DoNU OU",
 		doublesTier: "DoNU Unrestricted",
+		champs: "DoNU",
 	},
 	starly: {
 		tier: "DoNU UU",
 		doublesTier: "DoNU Unrestricted",
+		champs: "DoNU",
 	},
 	sunkern: {
 		tier: "DoNU RU",
@@ -350,10 +390,12 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	swinub: {
 		tier: "DoNU OU",
 		doublesTier: "DoNU Unrestricted",
+		champs: "DoNU",
 	},
 	tadbulb: {
 		tier: "DoNU UU",
 		doublesTier: "DoNU Unrestricted",
+		champs: "DoNU",
 	},
 	taillow: {
 		tier: "DoNU Uber",
@@ -370,10 +412,12 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	toxel: {
 		tier: "DoNU RU",
 		doublesTier: "DoNU Unrestricted",
+		champs: "DoNU",
 	},
 	tynamo: {
 		tier: "DoNU RU",
 		doublesTier: "DoNU Unrestricted",
+		champs: "DoNU",
 	},
 	tyrogue: {
 		tier: "DoNU UU",
@@ -382,10 +426,12 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	venipede: {
 		tier: "DoNU OU",
 		doublesTier: "DoNU Unrestricted",
+		champs: "DoNU",
 	},
 	weedle: {
 		tier: "DoNU RU",
 		doublesTier: "DoNU Unrestricted",
+		champs: "DoNU",
 	},
 	whismur: {
 		tier: "DoNU RU",
@@ -398,6 +444,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	wimpod: {
 		tier: "DoNU UU",
 		doublesTier: "DoNU Unrestricted",
+		champs: "DoNU",
 	},
 	wooloo: {
 		tier: "DoNU UU",
@@ -446,14 +493,17 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	capsakid: {
 		tier: "DoNU UU",
 		doublesTier: "DoNU Unrestricted",
+		champs: "DoNU",
 	},
 	snorunt: {
 		tier: "DoNU UUBL",
 		doublesTier: "DoNU Unrestricted",
+		champs: "DoNU",
 	},
 	swablu: {
 		tier: "DoNU OU",
 		doublesTier: "DoNU Unrestricted",
+		champs: "DoNU",
 	},
 
 	// Ubers
@@ -468,6 +518,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	flittle: {
 		tier: "DoNU Uber",
 		doublesTier: "DoNU Restricted",
+		champs: "DoNU",
 	},
 	goomy: {
 		tier: "DoNU Uber",
@@ -475,6 +526,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	gulpin: {
 		tier: "DoNU Uber",
 		doublesTier: "DoNU Unrestricted",
+		champs: "DoNU",
 	},
 	shedinja: {
 		tier: "DoNU Uber",
@@ -489,6 +541,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	wingull: {
 		tier: "DoNU Uber",
 		doublesTier: "DoNU Restricted",
+		champs: "DoNU",
 	},
 	zigzagoon: {
 		tier: "DoNU Uber",

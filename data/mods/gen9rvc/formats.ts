@@ -10,7 +10,7 @@ export const Formats: import('../../../sim/dex-formats').CustomFormatList = {
 			tierType: "tier",
 			formatType: "singles",
 			allowedTiers: ['RVC', "RVC NFE", "RVC LC"],
-			isNatDex: true,
+			bonusRules: ['NatDex'],
 		},
 	},
 };

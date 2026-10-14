@@ -11,7 +11,7 @@ export const Formats: import('../../../sim/dex-formats').CustomFormatList = {
 			tierType: "tier",
 			formatType: "singles",
 			allowedTiers: ['DoNU OU', 'DoNU UUBL', 'DoNU UU', 'DoNU RUBL', 'DoNU RU'],
-			isNatDex: true,
+			bonusRules: ['NatDex'],
 		},
 	},
 	gen9donotuseuu: {
@@ -25,7 +25,7 @@ export const Formats: import('../../../sim/dex-formats').CustomFormatList = {
 			tierType: "tier",
 			formatType: "singles",
 			allowedTiers: ['DoNU UU', 'DoNU RUBL', 'DoNU RU'],
-			isNatDex: true,
+			bonusRules: ['NatDex'],
 		},
 	},
 	gen9donotuseru: {
@@ -39,7 +39,7 @@ export const Formats: import('../../../sim/dex-formats').CustomFormatList = {
 			tierType: "tier",
 			formatType: "singles",
 			allowedTiers: ['DoNU RU'],
-			isNatDex: true,
+			bonusRules: ['NatDex'],
 		},
 	},
 	gen9donotusevgc: {
@@ -55,7 +55,23 @@ export const Formats: import('../../../sim/dex-formats').CustomFormatList = {
 			tierType: "doublesTier",
 			formatType: "doubles",
 			allowedTiers: ['DoNU Restricted', 'DoNU Unrestricted'],
-			isNatDex: true,
+			bonusRules: ['NatDex'],
+		},
+	},
+	gen9donotusevgcregmc: {
+		name: "[Gen 9] Do Not Use VGC Reg M-C",
+		gameType: 'doubles',
+		ruleset: ['Standard Doubles', 'NatDex Mod', 'Item Clause = 1', 'Adjust Level = 50', 'Picked Team Size = 4', 'VGC Timer', 'Force Open Team Sheets', 'Terastal Clause', 'Z-Move Clause', 'Best of = 3', 'Limit One Restricted', '!OHKO Clause', '!Evasion Moves Clause', '!Gravity Sleep Clause'],
+		restricted: ['Cottonee', 'Dewpider', 'Diglett-Alola', 'Flittle', 'Nidoran-M', 'Wattrel', 'Wingull', 'Zigzagoon'],
+		banlist: ['Vanilla Doubles', 'Huge Power', 'Pure Power'],
+		unbanlist: ['Assist'],
+		section: "Do Not Use",
+		teambuilder: {
+			defaultLevel: 50,
+			tierType: "champs",
+			formatType: "doubles",
+			allowedTiers: ['DoNU Restricted'],
+			bonusRules: ['NatDex', 'Champions'],
 		},
 	},
 	gen9donotuseag: {
@@ -67,7 +83,7 @@ export const Formats: import('../../../sim/dex-formats').CustomFormatList = {
 			tierType: "tier",
 			formatType: "singles",
 			allowedTiers: ['DoNU AG', 'DoNU Uber', 'DoNU OU', 'DoNU UUBL', 'DoNU UU', 'DoNU RUBL', 'DoNU RU'],
-			isNatDex: true,
+			bonusRules: ['NatDex'],
 		},
 	},
 	gen9donotuseubers: {
@@ -81,7 +97,7 @@ export const Formats: import('../../../sim/dex-formats').CustomFormatList = {
 			tierType: "tier",
 			formatType: "singles",
 			allowedTiers: ['DoNU Uber', 'DoNU OU', 'DoNU UUBL', 'DoNU UU', 'DoNU RUBL', 'DoNU RU'],
-			isNatDex: true,
+			bonusRules: ['NatDex'],
 		},
 	},
 };

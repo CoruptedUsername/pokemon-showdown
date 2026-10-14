@@ -9,7 +9,7 @@ export const Formats: import('../../../sim/dex-formats').CustomFormatList = {
 			tierType: "tier",
 			formatType: "singles",
 			allowedTiers: ["Jumptopia", "Jumptopia NFE", "Jumptopia LC"],
-			isNatDex: true,
+			bonusRules: ['NatDex'],
 		},
 	},
 };

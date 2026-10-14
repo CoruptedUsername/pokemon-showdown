@@ -1209,6 +1209,7 @@ interface ModdedFormat {
 	tierType: string;
 	formatType: "singles" | "doubles";
 	allowedTiers: string[];
-	isNatDex: boolean;
-	bonusRules?: string[]; // Implemented Bonus Rules:
+	bonusRules?: BonusRule[];
 }
+
+type BonusRule = 'NatDex' | 'Trademarked' | 'AAA' | 'Custom Game' | 'Metronome' | 'Champions';

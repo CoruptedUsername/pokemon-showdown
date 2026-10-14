@@ -13,7 +13,7 @@ export const Formats: import('../../../sim/dex-formats').CustomFormatList = {
 			tierType: "tier",
 			formatType: "singles",
 			allowedTiers: ["NatU", "NatU NFE", "NatU LC"],
-			isNatDex: true,
+			bonusRules: ['NatDex'],
 		},
 	},
 };

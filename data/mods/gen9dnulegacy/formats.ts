@@ -9,7 +9,7 @@ export const Formats: import('../../../sim/dex-formats').CustomFormatList = {
 			tierType: "tier",
 			formatType: "singles",
 			allowedTiers: ["DoNU OU", "DoNU UUBL", "DoNU UU", "DoNU RUBL", "DoNU RU"],
-			isNatDex: true,
+			bonusRules: ['NatDex'],
 		},
 	},
 	gen9donotuserulegacy: {
@@ -22,7 +22,7 @@ export const Formats: import('../../../sim/dex-formats').CustomFormatList = {
 			tierType: "tier",
 			formatType: "singles",
 			allowedTiers: ["DoNU RU"],
-			isNatDex: true,
+			bonusRules: ['NatDex'],
 		},
 	},
 };

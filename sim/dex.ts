@@ -546,6 +546,54 @@ export class ModdedDex {
 		return (dexes['base'].textCache[cacheKey] = returnTable);
 	}
 
+	loadAllTextData(lang: TextLanguage = 'en'): TextTableData {
+		if (!this.gen) this.loadData();
+		lang ||= 'en';
+
+		const englishData = DexText.loadRawTextData();
+		const localizedData = lang === 'en' ? englishData : DexText.loadRawTextData(lang);
+		const returnTable = {
+			Pokedex: this.resolvePokedexTable(englishData.Pokedex, localizedData.Pokedex),
+			Tags: DexText.resolveTagsTable(englishData.Tags, localizedData.Tags),
+			Moves: this.resolveTextTable(englishData.Moves, localizedData.Moves),
+			Abilities: this.resolveTextTable(englishData.Abilities, localizedData.Abilities),
+			Items: this.resolveTextTable(englishData.Items, localizedData.Items),
+			Default: localizedData.Default,
+			...DexText.resolveOtherNameTables(englishData, localizedData),
+		};
+		for (const mod of Object.keys(dexes)) {
+			if (mod === 'base' || mod === 'gen9') continue;
+			const englishModData = DexText.loadModTextData('en', mod);
+			const localizedModData = lang === 'en' ? englishModData : DexText.loadModTextData(lang, mod);
+			const modTable = {
+				Pokedex: this.resolvePokedexTable(englishModData.Pokedex, localizedModData.Pokedex),
+				Tags: DexText.resolveTagsTable(englishModData.Tags, localizedModData.Tags),
+				Moves: this.resolveTextTable(englishModData.Moves, localizedModData.Moves),
+				Abilities: this.resolveTextTable(englishModData.Abilities, localizedModData.Abilities),
+				Items: this.resolveTextTable(englishModData.Items, localizedModData.Items),
+				Default: localizedModData.Default,
+				...DexText.resolveOtherNameTables(englishModData, localizedModData),
+			};
+			for (const table in returnTable) {
+				for (const id in returnTable[table]) {
+					if (modTable[table][id]) {
+						returnTable[table][id][mod] = modTable[table][id];
+					}
+				}
+			}
+			for (const table in modTable) {
+				for (const id in modTable[table]) {
+					if (!returnTable[table][id]) {
+						returnTable[table][id] = {};
+						returnTable[table][id][mod] = modTable[table][id];
+					}
+				}
+			}
+		}
+
+		return returnTable;
+	}
+
 	private resolvePokedexTable(
 		englishTable: DexTable<SpeciesText>, localizedTable: DexTable<SpeciesText>
 	): DexTable<ResolvedSpeciesText> {

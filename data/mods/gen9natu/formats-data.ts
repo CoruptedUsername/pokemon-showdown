@@ -518,4 +518,10 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	zapdos: {
 		tier: "NatU",
 	},
+	starmie: {
+		tier: "NatU",
+	},
+	starmiemega: {
+		tier: "NatU",
+	},
 };

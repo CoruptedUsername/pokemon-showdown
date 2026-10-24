@@ -93,4 +93,14 @@ export const Rulesets: import('../../../sim/dex-formats').ModdedFormatDataTable 
 			}
 		},
 	},
+	finalgunkshot: {
+		effectType: 'ValidatorRule',
+		name: 'Final Gunkshot',
+		desc: 'Your last slot must have the move gunk shot',
+		onValidateTeam(team, format) {
+			if (!team[7].moves.includes(this.dex.moves.get('gunkshot'))) {
+				return ['Your team\'s final slot must know the move Gunk Shot'];
+			}
+		},
+	},
 };

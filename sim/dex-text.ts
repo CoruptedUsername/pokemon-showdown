@@ -13,6 +13,7 @@ import type { DexTable } from './dex';
 import type { TagData } from '../data/tags';
 
 const TEXT_DIR = path.resolve(__dirname, '../data/text');
+const MOD_DIR = path.resolve(__dirname, '../data/mods');
 
 interface RawTextTableData extends Record<OtherNameTable, DexTable<TranslationString>> {
 	Abilities: DexTable<AbilityText>;
@@ -55,6 +56,7 @@ TEXT_LANGUAGE_TABLE['en-afd'] = {
 
 export class DexText {
 	private static rawTextCache: { [lang: string]: RawTextTableData | undefined } = {};
+	private static modTextCache: { [mod: string]: { [lang: string]: RawTextTableData | undefined } } = {};
 	readonly dex: ModdedDex;
 
 	constructor(dex: ModdedDex) {
@@ -65,6 +67,21 @@ export class DexText {
 		name: string, exportName: string, optional = false
 	): DexTable<MoveText | ItemText | AbilityText | TranslationString> {
 		const filePath = `${TEXT_DIR}/${name}`;
+		if (optional) {
+			try {
+				require.resolve(filePath);
+			} catch (e: any) {
+				if (e.code === 'MODULE_NOT_FOUND' || e.code === 'ENOENT') return {};
+				throw e;
+			}
+		}
+		return require(filePath)[exportName];
+	}
+
+	static loadModTextFile(
+		name: string, exportName: string, optional = false
+	): DexTable<MoveText | ItemText | AbilityText | TranslationString> {
+		const filePath = `${MOD_DIR}/${name}`;
 		if (optional) {
 			try {
 				require.resolve(filePath);
@@ -98,6 +115,32 @@ export class DexText {
 		};
 		if (lang !== 'en') this.validateTranslations(data, lang);
 		return (this.rawTextCache[lang] = data);
+	}
+
+	static loadModTextData(lang: TextLanguage = 'en', modid: string): RawTextTableData {
+		lang ||= 'en';
+		if (!this.modTextCache[modid]) {
+			this.modTextCache[modid] = {};
+		}
+		const cached = this.modTextCache[modid][lang];
+		if (cached) return cached;
+		const langDir = lang === 'en' ? `${modid}/text/` : `${modid}/text/${lang}/`;
+		const otherNameTables = Object.fromEntries(OTHER_NAME_TABLES.map(table => [
+			table, this.loadModTextFile(`${langDir}names`, table, true) || {},
+		])) as Pick<RawTextTableData, OtherNameTable>;
+		const data: RawTextTableData = {
+			Pokedex: this.loadModTextFile(
+				`${langDir}pokedex`, 'PokedexText', true
+			) as DexTable<SpeciesText>,
+			Tags: (this.loadModTextFile(`${langDir}tags`, 'TagsText', true) || {}) as DexTable<TagText>,
+			...otherNameTables,
+			Moves: this.loadModTextFile(`${langDir}moves`, 'MovesText', true) as DexTable<MoveText>,
+			Abilities: this.loadModTextFile(`${langDir}abilities`, 'AbilitiesText', true) as DexTable<AbilityText>,
+			Items: this.loadModTextFile(`${langDir}items`, 'ItemsText', true) as DexTable<ItemText>,
+			Default: this.loadModTextFile(`${langDir}default`, 'DefaultText', true) as DexTable<DefaultText>,
+		};
+		if (lang !== 'en') this.validateTranslations(data, lang);
+		return (this.modTextCache[modid][lang] = data);
 	}
 
 	static resolveTagsTable(
@@ -183,21 +226,34 @@ export class DexText {
 	get(
 		effect: TextEffect, lang: TextLanguage = 'en'
 	): EffectText {
+		const mod = this.dex.currentMod;
 		if (!('effectType' in effect)) {
-			return { name: DexText.tagName(effect.name, lang) };
+			const entry = this.dex.loadTextData(lang).Tags[effect.name];
+			return { name: (entry?.[mod]?.name ?? entry?.name) || effect.name };
 		}
 		let table: EffectTextTable;
 		switch (effect.effectType) {
 		case 'Pokemon': {
 			const species = effect;
-			return this.dex.loadTextData(lang).Pokedex[effect.id] || {
+			const monText = this.dex.loadTextData(lang).Pokedex[effect.id];
+			return monText?.[mod] ?? (monText || {
 				name: species.name,
 				baseSpecies: species.baseSpecies,
 				...(species.forme ? { forme: species.forme } : {}),
-			};
+			});
 		}
-		case 'Nature': return { name: DexText.otherName('NatureNames', effect.name, lang) };
-		case 'Type': case 'EffectType': return { name: DexText.otherName('TypeNames', effect.name, lang) };
+		case 'Nature': {
+			const entry = this.dex.loadTextData(lang).NatureNames[effect.name];
+			return { name: (entry?.[mod]?.name ?? entry?.name) || effect.name };
+		}
+		case 'Type': {
+			const entry = this.dex.loadTextData(lang).TypeNames[effect.name];
+			return { name: (entry?.[mod]?.name ?? entry?.name) || effect.name };
+		}
+		case 'EffectType': {
+			const entry = this.dex.loadTextData(lang).TypeNames[effect.name];
+			return { name: (entry?.[mod]?.name ?? entry?.name) || effect.name };
+		}
 		case 'Item': table = 'Items'; break;
 		case 'Ability': table = 'Abilities'; break;
 		case 'Move': table = 'Moves'; break;
@@ -205,21 +261,22 @@ export class DexText {
 		}
 
 		const entry = this.dex.loadTextData(lang)[table][effect.id];
+		const entry2 = entry?.[mod] ?? entry;
 		const customText = effect as ModdedEffectText;
 		if (customText.desc !== undefined || customText.shortDesc !== undefined) {
 			const desc = customText.desc || customText.shortDesc || '';
 			const shortDesc = customText.shortDesc || customText.desc || '';
-			return { ...entry, name: effect.name, desc, shortDesc };
+			return { ...entry2, name: effect.name, desc, shortDesc };
 		}
 
-		return entry || {
+		return entry2 || {
 			name: effect.name,
 			desc: '',
 			shortDesc: '',
 		};
 	}
 
-	private static tagName(name: string, lang: TextLanguage): string {
+	private static tagName(name: string, lang: TextLanguage, mod?: string): string {
 		const id = toID(name);
 		return (this.loadRawTextData(lang).Tags[id]?.name ?? this.loadRawTextData().Tags[id]?.name) || name;
 	}

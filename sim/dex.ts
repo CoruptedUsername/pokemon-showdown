@@ -506,7 +506,7 @@ export class ModdedDex {
 
 		const englishData = DexText.loadRawTextData();
 		const localizedData = lang === 'en' ? englishData : DexText.loadRawTextData(lang);
-		return (dexes['base'].textCache[cacheKey] = {
+		const returnTable = {
 			Pokedex: this.resolvePokedexTable(englishData.Pokedex, localizedData.Pokedex),
 			Tags: DexText.resolveTagsTable(englishData.Tags, localizedData.Tags),
 			Moves: this.resolveTextTable(englishData.Moves, localizedData.Moves),
@@ -514,7 +514,36 @@ export class ModdedDex {
 			Items: this.resolveTextTable(englishData.Items, localizedData.Items),
 			Default: localizedData.Default,
 			...DexText.resolveOtherNameTables(englishData, localizedData),
-		});
+		};
+		if (this.currentMod !== 'base') {
+			const englishModData = DexText.loadModTextData('en', this.currentMod);
+			const localizedModData = lang === 'en' ? englishModData : DexText.loadModTextData(lang, this.currentMod);
+			const modTable = {
+				Pokedex: this.resolvePokedexTable(englishModData.Pokedex, localizedModData.Pokedex),
+				Tags: DexText.resolveTagsTable(englishModData.Tags, localizedModData.Tags),
+				Moves: this.resolveTextTable(englishModData.Moves, localizedModData.Moves),
+				Abilities: this.resolveTextTable(englishModData.Abilities, localizedModData.Abilities),
+				Items: this.resolveTextTable(englishModData.Items, localizedModData.Items),
+				Default: localizedModData.Default,
+				...DexText.resolveOtherNameTables(englishModData, localizedModData),
+			};
+			for (const table in returnTable) {
+				for (const id in returnTable[table]) {
+					if (modTable[table][id]) {
+						returnTable[table][id][this.currentMod] = modTable[table][id];
+					}
+				}
+			}
+			for (const table in modTable) {
+				for (const id in modTable[table]) {
+					if (!returnTable[table][id]) {
+						returnTable[table][id] = {};
+						returnTable[table][id][this.currentMod] = modTable[table][id];
+					}
+				}
+			}
+		}
+		return (dexes['base'].textCache[cacheKey] = returnTable);
 	}
 
 	private resolvePokedexTable(

@@ -326,7 +326,7 @@ function createTL(language: string, modid = 'base') {
 		});
 	}
 
-	const table = DextExt.loadTextData(language as TextLanguage, modid);
+	const table = DexText.loadTextData(language as TextLanguage, modid);
 	const TL = Object.assign(translate, {
 		/** `TL.label("Ability", "Intimidate")` === `"Ability: Intimidate"` */
 		label(label: string, value?: unknown) {

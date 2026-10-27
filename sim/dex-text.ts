@@ -9,7 +9,7 @@ import {
 	OTHER_NAME_TABLES, toID,
 	type EffectText, type ModdedEffectText, type OtherNameTable, type TextEffect, type TextLanguage,
 } from './dex-data';
-import type { DexTable, loadTextData } from './dex';
+import type { DexTable } from './dex';
 import type { TagData } from '../data/tags';
 
 const TEXT_DIR = path.resolve(__dirname, '../data/text');
@@ -325,8 +325,7 @@ function createTL(language: string, modid = 'base') {
 			return index < values.length ? String(values[index]) : placeholder;
 		});
 	}
-
-	const table = this.dex.loadTextData(language as TextLanguage, modid);
+	const table = textData(language as TextLanguage, modid);
 	const TL = Object.assign(translate, {
 		/** `TL.label("Ability", "Intimidate")` === `"Ability: Intimidate"` */
 		label(label: string, value?: unknown) {
@@ -381,6 +380,49 @@ function createTL(language: string, modid = 'base') {
 		ui: tableCleanup(table.Default.ui, modid),
 	});
 	return TL;
+}
+
+function textData(lang: TextLanguage = 'en', modid = 'base'): TextTableData {
+	const englishData = DexText.loadRawTextData();
+	const localizedData = lang === 'en' ? englishData : DexText.loadRawTextData(lang);
+	const returnTable = {
+		Pokedex: this.resolvePokedexTable(englishData.Pokedex, localizedData.Pokedex),
+		Tags: DexText.resolveTagsTable(englishData.Tags, localizedData.Tags),
+		Moves: this.resolveTextTable(englishData.Moves, localizedData.Moves),
+		Abilities: this.resolveTextTable(englishData.Abilities, localizedData.Abilities),
+		Items: this.resolveTextTable(englishData.Items, localizedData.Items),
+		Default: DexText.resolveNameTable(englishData.Default, localizedData.Default),
+		...DexText.resolveOtherNameTables(englishData, localizedData),
+	};
+	if (modid !== 'base') {
+		const englishModData = DexText.loadModTextData('en', modid);
+		const localizedModData = lang === 'en' ? englishModData : DexText.loadModTextData(lang, modid);
+		const modTable = {
+			Pokedex: this.resolvePokedexTable(englishModData.Pokedex, localizedModData.Pokedex),
+			Tags: DexText.resolveTagsTable(englishModData.Tags, localizedModData.Tags),
+			Moves: this.resolveTextTable(englishModData.Moves, localizedModData.Moves),
+			Abilities: this.resolveTextTable(englishModData.Abilities, localizedModData.Abilities),
+			Items: this.resolveTextTable(englishModData.Items, localizedModData.Items),
+			Default: DexText.resolveNameTable(englishModData.Default, localizedModData.Default),
+			...DexText.resolveOtherNameTables(englishModData, localizedModData),
+		};
+		for (const table in returnTable) {
+			for (const id in returnTable[table]) {
+				if (modTable[table][id]) {
+					returnTable[table][id][modid] = modTable[table][id];
+				}
+			}
+		}
+		for (const table in modTable) {
+			for (const id in modTable[table]) {
+				if (!returnTable[table][id]) {
+					returnTable[table][id] = {};
+					returnTable[table][id][modid] = modTable[table][id];
+				}
+			}
+		}
+	}
+	return returnTable;
 }
 
 function tagField(tags: DexTable<ResolvedTagText>, field: 'name' | 'hint' | 'desc') {

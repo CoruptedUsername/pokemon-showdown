@@ -512,7 +512,7 @@ export class ModdedDex {
 			Moves: this.resolveTextTable(englishData.Moves, localizedData.Moves),
 			Abilities: this.resolveTextTable(englishData.Abilities, localizedData.Abilities),
 			Items: this.resolveTextTable(englishData.Items, localizedData.Items),
-			Default: localizedData.Default,
+			Default: DexText.resolveNameTable(englishData.Default, localizedData.Default),
 			...DexText.resolveOtherNameTables(englishData, localizedData),
 		};
 		if (this.currentMod !== 'base') {
@@ -524,7 +524,7 @@ export class ModdedDex {
 				Moves: this.resolveTextTable(englishModData.Moves, localizedModData.Moves),
 				Abilities: this.resolveTextTable(englishModData.Abilities, localizedModData.Abilities),
 				Items: this.resolveTextTable(englishModData.Items, localizedModData.Items),
-				Default: localizedModData.Default,
+				Default: DexText.resolveNameTable(englishModData.Default, localizedModData.Default),
 				...DexText.resolveOtherNameTables(englishModData, localizedModData),
 			};
 			for (const table in returnTable) {
@@ -558,7 +558,7 @@ export class ModdedDex {
 			Moves: this.resolveTextTable(englishData.Moves, localizedData.Moves),
 			Abilities: this.resolveTextTable(englishData.Abilities, localizedData.Abilities),
 			Items: this.resolveTextTable(englishData.Items, localizedData.Items),
-			Default: localizedData.Default,
+			Default: DexText.resolveNameTable(englishData.Default, localizedData.Default),
 			...DexText.resolveOtherNameTables(englishData, localizedData),
 		};
 		for (const mod of Object.keys(dexes)) {
@@ -571,7 +571,7 @@ export class ModdedDex {
 				Moves: this.resolveTextTable(englishModData.Moves, localizedModData.Moves),
 				Abilities: this.resolveTextTable(englishModData.Abilities, localizedModData.Abilities),
 				Items: this.resolveTextTable(englishModData.Items, localizedModData.Items),
-				Default: localizedModData.Default,
+				Default: DexText.resolveNameTable(englishModData.Default, localizedModData.Default),
 				...DexText.resolveOtherNameTables(englishModData, localizedModData),
 			};
 			for (const table in returnTable) {

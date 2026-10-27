@@ -164,11 +164,11 @@ export class DexText {
 	): Record<string, string> {
 		const table: Record<string, string> = {};
 		for (const id in englishTable) {
-			table[id] = localizedTable[id] ?? englishTable[id]!;
+			table[id] = { name: localizedTable[id] ?? englishTable[id]! };
 		}
 		for (const id in localizedTable) {
 			if (!(id in englishTable) && localizedTable[id] !== null) {
-				table[id] = localizedTable[id]!;
+				table[id] = { name: localizedTable[id] };
 			}
 		}
 		return table;
@@ -179,7 +179,7 @@ export class DexText {
 	): Record<OtherNameTable, DexTable<string>> {
 		return Object.fromEntries(OTHER_NAME_TABLES.map(table => [
 			table, this.resolveNameTable(englishData[table], localizedData[table]),
-		])) as Record<OtherNameTable, DexTable<string>>;
+		])) as Record<OtherNameTable, DexTable<ResolvedNameText>>;
 	}
 
 	private static validateTranslations(value: unknown, lang: string, keyPath = ''): void {
@@ -300,6 +300,7 @@ function createTL(language: string) {
 	function translate(strings: TemplateStringsArray, ...values: unknown[]): string;
 	function translate(text: string | TextEffect, context?: string): string;
 	function translate(strings: TemplateStringsArray | string | TextEffect, ...values: unknown[]): string {
+		console.trace("Translating");
 		if (typeof strings !== 'string' && !Array.isArray(strings)) {
 			return DexText.getName(strings as TextEffect, language as TextLanguage);
 		}
@@ -396,11 +397,12 @@ function tagField(tags: DexTable<ResolvedTagText>, field: 'name' | 'hint' | 'des
 
 export type Translator = ReturnType<typeof createTL>;
 
-export function TLfor(language: string): Translator {
-	let translator = TLs.get(language);
+export function TLfor(language: string, modid: string): Translator {
+	const cacheKey = `${language}:${modid}`;
+	let translator = TLs.get(cacheKey);
 	if (!translator) {
 		translator = createTL(language);
-		TLs.set(language, translator);
+		TLs.set(cacheKey, translator);
 	}
 	return translator;
 }

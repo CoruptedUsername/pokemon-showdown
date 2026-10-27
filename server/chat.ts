@@ -372,7 +372,12 @@ export abstract class MessageContext {
 		return Users.get(target, exactName);
 	}
 	get TL(): Translator {
+		console.log("Getting Translator");
 		return Chat.getTranslator(this.language);
+	}
+
+	modTL(modid: string): Translator {
+		return Chat.getModTranslator(this.language, modid);
 	}
 }
 
@@ -1746,7 +1751,11 @@ export const Chat = new class {
 	}
 	getTranslator(language: ID | null = null): Translator {
 		const code = Dex.text.findLanguage(language || 'english')?.code || 'en';
-		return TLfor(code);
+		return TLfor(code, 'base');
+	}
+	getModTranslator(language: ID | null = null, modid: string): Translator {
+		const code = Dex.text.findLanguage(language || 'english')?.code || 'en';
+		return TLfor(code, modid);
 	}
 	getLanguageName(language: ID): string {
 		return Dex.text.findLanguage(language)?.fullName || "Unknown Language";

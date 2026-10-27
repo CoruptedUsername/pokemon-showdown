@@ -9,7 +9,7 @@ import {
 	OTHER_NAME_TABLES, toID,
 	type EffectText, type ModdedEffectText, type OtherNameTable, type TextEffect, type TextLanguage,
 } from './dex-data';
-import type { DexTable } from './dex';
+import type { DexTable, loadTextData } from './dex';
 import type { TagData } from '../data/tags';
 
 const TEXT_DIR = path.resolve(__dirname, '../data/text');
@@ -326,7 +326,7 @@ function createTL(language: string, modid = 'base') {
 		});
 	}
 
-	const table = DexText.loadTextData(language as TextLanguage, modid);
+	const table = this.dex.loadTextData(language as TextLanguage, modid);
 	const TL = Object.assign(translate, {
 		/** `TL.label("Ability", "Intimidate")` === `"Ability: Intimidate"` */
 		label(label: string, value?: unknown) {

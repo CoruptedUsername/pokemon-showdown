@@ -386,11 +386,7 @@ function textData(lang: TextLanguage = 'en', modid = 'base'): TextTableData {
 	const englishData = DexText.loadRawTextData();
 	const localizedData = lang === 'en' ? englishData : DexText.loadRawTextData(lang);
 	const returnTable = {
-		Pokedex: this.resolvePokedexTable(englishData.Pokedex, localizedData.Pokedex),
 		Tags: DexText.resolveTagsTable(englishData.Tags, localizedData.Tags),
-		Moves: this.resolveTextTable(englishData.Moves, localizedData.Moves),
-		Abilities: this.resolveTextTable(englishData.Abilities, localizedData.Abilities),
-		Items: this.resolveTextTable(englishData.Items, localizedData.Items),
 		Default: DexText.resolveNameTable(englishData.Default, localizedData.Default),
 		...DexText.resolveOtherNameTables(englishData, localizedData),
 	};
@@ -398,11 +394,7 @@ function textData(lang: TextLanguage = 'en', modid = 'base'): TextTableData {
 		const englishModData = DexText.loadModTextData('en', modid);
 		const localizedModData = lang === 'en' ? englishModData : DexText.loadModTextData(lang, modid);
 		const modTable = {
-			Pokedex: this.resolvePokedexTable(englishModData.Pokedex, localizedModData.Pokedex),
 			Tags: DexText.resolveTagsTable(englishModData.Tags, localizedModData.Tags),
-			Moves: this.resolveTextTable(englishModData.Moves, localizedModData.Moves),
-			Abilities: this.resolveTextTable(englishModData.Abilities, localizedModData.Abilities),
-			Items: this.resolveTextTable(englishModData.Items, localizedModData.Items),
 			Default: DexText.resolveNameTable(englishModData.Default, localizedModData.Default),
 			...DexText.resolveOtherNameTables(englishModData, localizedModData),
 		};

@@ -296,7 +296,7 @@ function inLanguage(source: string, language: string, context = ''): string {
 	return (typeof translation === 'string' ? translation : translation?.[context]) ?? source;
 }
 
-function createTL(language: string) {
+function createTL(language: string, modid = 'base') {
 	function translate(strings: TemplateStringsArray, ...values: unknown[]): string;
 	function translate(text: string | TextEffect, context?: string): string;
 	function translate(strings: TemplateStringsArray | string | TextEffect, ...values: unknown[]): string {
@@ -326,10 +326,7 @@ function createTL(language: string) {
 		});
 	}
 
-	const english = DexText.loadRawTextData();
-	const localized = DexText.loadRawTextData(language as TextLanguage);
-	const text = DexText.resolveOtherNameTables(english, localized);
-	const tags = DexText.resolveTagsTable(english.Tags, localized.Tags);
+	const table = DextExt.loadTextData(language as TextLanguage, modid);
 	const TL = Object.assign(translate, {
 		/** `TL.label("Ability", "Intimidate")` === `"Ability: Intimidate"` */
 		label(label: string, value?: unknown) {
@@ -369,19 +366,19 @@ function createTL(language: string) {
 			}
 			return TL.andList(items);
 		},
-		type: text.TypeNames,
-		nature: text.NatureNames,
-		gender: text.GenderNames,
-		egggroup: text.EggGroupNames,
-		tag: tagField(tags, 'name'),
-		tagHint: tagField(tags, 'hint'),
-		color: text.ColorNames,
-		status: text.StatusNames,
-		target: text.TargetNames,
-		stat: text.StatNames,
-		statShort: text.StatShortNames,
-		statMedium: text.StatMediumNames,
-		ui: DexText.resolveNameTable(english.Default.ui, localized.Default.ui ?? {}),
+		type: tableCleanup(table.TypeNames, modid),
+		nature: tableCleanup(table.NatureNames, modid),
+		gender: tableCleanup(table.GenderNames, modid),
+		egggroup: tableCleanup(table.EggGroupNames, modid),
+		tag: tableCleanup(tagField(table.Tags, 'name'), modid),
+		tagHint: tableCleanup(tagField(table.Tags, 'hint'), modid),
+		color: tableCleanup(table.ColorNames, modid),
+		status: tableCleanup(table.StatusNames, modid),
+		target: tableCleanup(table.TargetNames, modid),
+		stat: tableCleanup(table.StatNames, modid),
+		statShort: tableCleanup(table.StatShortNames, modid),
+		statMedium: tableCleanup(table.StatMediumNames, modid),
+		ui: tableCleanup(table.Default.ui, modid),
 	});
 	return TL;
 }
@@ -395,13 +392,25 @@ function tagField(tags: DexTable<ResolvedTagText>, field: 'name' | 'hint' | 'des
 	return table;
 }
 
+function tableCleanup(text: DexTable<any>, modid: string) {
+	const returnTable = {};
+	for (const id in text) {
+		if (text[id][modid]) {
+			returnTable[id] = text[id][modid].name;
+		} else {
+			returnTable[id] = text[id].name;
+		}
+	}
+	return returnTable;
+}
+
 export type Translator = ReturnType<typeof createTL>;
 
 export function TLfor(language: string, modid: string): Translator {
 	const cacheKey = `${language}:${modid}`;
 	let translator = TLs.get(cacheKey);
 	if (!translator) {
-		translator = createTL(language);
+		translator = createTL(language, modid);
 		TLs.set(cacheKey, translator);
 	}
 	return translator;

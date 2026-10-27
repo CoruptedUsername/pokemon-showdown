@@ -497,10 +497,11 @@ export class ModdedDex {
 		return this;
 	}
 
-	loadTextData(lang: TextLanguage = 'en'): TextTableData {
+	loadTextData(lang: TextLanguage = 'en', modid = 'base'): TextTableData {
 		if (!this.gen) this.loadData();
 		lang ||= 'en';
-		const cacheKey = `${this.currentMod}:${lang}`;
+		modid = modid !== 'base' ? modid : this.currentMod;
+		const cacheKey = `${modid}:${lang}`;
 		const cached = dexes['base'].textCache[cacheKey];
 		if (cached) return cached;
 
@@ -515,9 +516,9 @@ export class ModdedDex {
 			Default: DexText.resolveNameTable(englishData.Default, localizedData.Default),
 			...DexText.resolveOtherNameTables(englishData, localizedData),
 		};
-		if (this.currentMod !== 'base') {
-			const englishModData = DexText.loadModTextData('en', this.currentMod);
-			const localizedModData = lang === 'en' ? englishModData : DexText.loadModTextData(lang, this.currentMod);
+		if (modid !== 'base') {
+			const englishModData = DexText.loadModTextData('en', modid);
+			const localizedModData = lang === 'en' ? englishModData : DexText.loadModTextData(lang, modid);
 			const modTable = {
 				Pokedex: this.resolvePokedexTable(englishModData.Pokedex, localizedModData.Pokedex),
 				Tags: DexText.resolveTagsTable(englishModData.Tags, localizedModData.Tags),
@@ -530,7 +531,7 @@ export class ModdedDex {
 			for (const table in returnTable) {
 				for (const id in returnTable[table]) {
 					if (modTable[table][id]) {
-						returnTable[table][id][this.currentMod] = modTable[table][id];
+						returnTable[table][id][modid] = modTable[table][id];
 					}
 				}
 			}
@@ -538,7 +539,7 @@ export class ModdedDex {
 				for (const id in modTable[table]) {
 					if (!returnTable[table][id]) {
 						returnTable[table][id] = {};
-						returnTable[table][id][this.currentMod] = modTable[table][id];
+						returnTable[table][id][modid] = modTable[table][id];
 					}
 				}
 			}

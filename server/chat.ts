@@ -372,12 +372,11 @@ export abstract class MessageContext {
 		return Users.get(target, exactName);
 	}
 	get TL(): Translator {
-		console.log("Getting Translator");
-		return Chat.getTranslator(this.language);
+		return Chat.getTranslator(this.language, Dex.mod('base'));
 	}
 
-	modTL(modid: string): Translator {
-		return Chat.getModTranslator(this.language, modid);
+	modTL(dex: ModdedDex): Translator {
+		return Chat.getModTranslator(this.language, dex);
 	}
 }
 
@@ -1751,11 +1750,11 @@ export const Chat = new class {
 	}
 	getTranslator(language: ID | null = null): Translator {
 		const code = Dex.text.findLanguage(language || 'english')?.code || 'en';
-		return TLfor(code, 'base');
+		return TLfor(code, Dex.mod('base'));
 	}
-	getModTranslator(language: ID | null = null, modid: string): Translator {
+	getModTranslator(language: ID | null = null, dex: ModdedDex): Translator {
 		const code = Dex.text.findLanguage(language || 'english')?.code || 'en';
-		return TLfor(code, modid);
+		return TLfor(code, dex);
 	}
 	getLanguageName(language: ID): string {
 		return Dex.text.findLanguage(language)?.fullName || "Unknown Language";
@@ -2413,6 +2412,8 @@ export const Chat = new class {
 		const lang = Chat.getDexLanguage(options.language);
 		const gen = dex.gen;
 		const text = dex.text.get(species, lang);
+		const modid = dex.currentMod;
+		const TL = Chat.getModTranslator(lang, dex);
 		let buf = '<li class="result">';
 		buf += `<span class="col numcol">${tier || species.tier}</span> `;
 		buf += `<span class="col iconcol"><psicon pokemon="${species.id}"/></span> `;
@@ -2444,16 +2445,16 @@ export const Chat = new class {
 			buf += '</span>';
 		}
 		buf += '<span style="float:left;min-height:26px">';
-		buf += `<span class="col statcol"><em>HP</em><br />${species.baseStats.hp}</span> `;
-		buf += `<span class="col statcol"><em>Atk</em><br />${species.baseStats.atk}</span> `;
-		buf += `<span class="col statcol"><em>Def</em><br />${species.baseStats.def}</span> `;
+		buf += `<span class="col statcol"><em>${TL.statShort.hp}</em><br />${species.baseStats.hp}</span> `;
+		buf += `<span class="col statcol"><em>${TL.statShort.atk}</em><br />${species.baseStats.atk}</span> `;
+		buf += `<span class="col statcol"><em>${TL.statShort.def}</em><br />${species.baseStats.def}</span> `;
 		if (gen <= 1) {
-			buf += `<span class="col statcol"><em>Spc</em><br />${species.baseStats.spa}</span> `;
+			buf += `<span class="col statcol"><em>${TL.statShort.spc}</em><br />${species.baseStats.spa}</span> `;
 		} else {
-			buf += `<span class="col statcol"><em>SpA</em><br />${species.baseStats.spa}</span> `;
-			buf += `<span class="col statcol"><em>SpD</em><br />${species.baseStats.spd}</span> `;
+			buf += `<span class="col statcol"><em>${TL.statShort.spa}</em><br />${species.baseStats.spa}</span> `;
+			buf += `<span class="col statcol"><em>${TL.statShort.spd}</em><br />${species.baseStats.spd}</span> `;
 		}
-		buf += `<span class="col statcol"><em>Spe</em><br />${species.baseStats.spe}</span> `;
+		buf += `<span class="col statcol"><em>${TL.statShort.spe}</em><br />${species.baseStats.spe}</span> `;
 		buf += `<span class="col bstcol"><em>BST<br />${species.bst}</em></span> `;
 		buf += '</span>';
 		buf += '</li>';

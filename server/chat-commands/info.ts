@@ -604,7 +604,7 @@ export const commands: Chat.ChatCommands = {
 		const newTargets = dex.dataSearch(target);
 		const showDetails = (cmd.startsWith('dt') || cmd === 'details');
 		const textLanguage = Chat.getDexLanguage(this.language);
-		const TL = this.TL;
+		const TL = this.modTL(dex);
 		if (!newTargets?.length) {
 			throw new Chat.ErrorMessage(`'${target}' doesn't match any Pok\u00e9mon, item, move, ability or nature${Dex.gen > dex.gen ? ` in Gen ${dex.gen}` : ""}. (Check your spelling?)`);
 		}
@@ -621,7 +621,7 @@ export const commands: Chat.ChatCommands = {
 			switch (newTarget.searchType) {
 			case 'nature':
 				const nature = Dex.natures.get(newTarget.name);
-				buffer += `${nature.name} nature: `;
+				buffer += `${TL.nature[nature.name]} nature: `;
 				if (nature.plus) {
 					buffer += `+10% ${Dex.stats.names[nature.plus]}, -10% ${Dex.stats.names[nature.minus!]}.`;
 				} else {
@@ -931,6 +931,8 @@ export const commands: Chat.ChatCommands = {
 		if (!this.runBroadcast()) return;
 		const { format, dex, targets } = this.splitFormat(target.split(/[,/]/).map(toID));
 
+		const TL = this.modTL(dex);
+
 		let isInverse = false;
 		if (format && Dex.formats.getRuleTable(format).has('inversemod')) {
 			isInverse = true;
@@ -1029,26 +1031,26 @@ export const commands: Chat.ChatCommands = {
 				typeMod += (isInverse ? -1 : 1) * dex.getEffectiveness(type, types);
 				switch (typeMod) {
 				case 1:
-					weaknesses.push(type);
+					weaknesses.push(TL.type[type]);
 					break;
 				case 2:
-					weaknesses.push(`<b>${type}</b>`);
+					weaknesses.push(`<b>${TL.type[type]}</b>`);
 					break;
 				case 3:
-					weaknesses.push(`<b><i>${type}</i></b>`);
+					weaknesses.push(`<b><i>${TL.type[type]}</i></b>`);
 					break;
 				case -1:
-					resistances.push(type);
+					resistances.push(TL.type[type]);
 					break;
 				case -2:
-					resistances.push(`<b>${type}</b>`);
+					resistances.push(`<b>${TL.type[type]}</b>`);
 					break;
 				case -3:
-					resistances.push(`<b><i>${type}</i></b>`);
+					resistances.push(`<b><i>${TL.type[type]}</i></b>`);
 					break;
 				}
 			} else {
-				immunities.push(type);
+				immunities.push(TL.type[type]);
 			}
 		}
 
@@ -1070,7 +1072,7 @@ export const commands: Chat.ChatCommands = {
 		}
 
 		const buffer = [];
-		buffer.push(`${species.exists ? `${target} (ignoring abilities):` : `${target}:`}`);
+		buffer.push(`${species.exists ? `${TL(species)} (ignoring abilities):` : `${target}:`}`);
 		buffer.push(`<span class="message-effect-weak">Weaknesses</span>: ${weaknesses.join(', ') || '<span class="gray">None</span>'}`);
 		buffer.push(`<span class="message-effect-resist">Resistances</span>: ${resistances.join(', ') || '<span class="gray">None</span>'}`);
 		buffer.push(`<span class="message-effect-immune">Immunities</span>: ${immunities.join(', ') || '<span class="gray">None</span>'}`);

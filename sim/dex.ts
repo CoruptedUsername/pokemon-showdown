@@ -497,10 +497,10 @@ export class ModdedDex {
 		return this;
 	}
 
-	loadTextData(lang: TextLanguage = 'en', modid = 'base'): TextTableData {
+	loadTextData(lang: TextLanguage = 'en'): TextTableData {
 		if (!this.gen) this.loadData();
 		lang ||= 'en';
-		modid = modid !== 'base' ? modid : this.currentMod;
+		const modid = this.currentMod;
 		const cacheKey = `${modid}:${lang}`;
 		const cached = dexes['base'].textCache[cacheKey];
 		if (cached) return cached;

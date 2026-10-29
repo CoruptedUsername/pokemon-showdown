@@ -192,9 +192,9 @@ export class DexText {
 		}
 	}
 
-	static getName(effect: TextEffect, lang: TextLanguage = 'en'): string {
+	static getName(effect: TextEffect, lang: TextLanguage = 'en', dex: ModdedDex): string {
 		if (!('effectType' in effect)) {
-			return this.tagName(effect.name, lang);
+			return this.tagName(effect.name, lang, dex);
 		}
 		let table: EffectTextTable | 'Pokedex';
 		switch (effect.effectType) {
@@ -202,12 +202,12 @@ export class DexText {
 		case 'Move': table = 'Moves'; break;
 		case 'Item': table = 'Items'; break;
 		case 'Ability': table = 'Abilities'; break;
-		case 'Nature': return this.otherName('NatureNames', effect.name, lang);
-		case 'Type': case 'EffectType': return this.otherName('TypeNames', effect.name, lang);
+		case 'Nature': return this.otherName('NatureNames', effect.name, lang, dex);
+		case 'Type': case 'EffectType': return this.otherName('TypeNames', effect.name, lang, dex);
 		default: throw new Error(`Unsupported effect type`);
 		}
-		return (this.loadRawTextData(lang)[table][effect.id]?.name ??
-			this.loadRawTextData()[table][effect.id]?.name) || effect.name;
+		const entry = dex.loadTextData(lang)[table][effect.id];
+		return (entry?.[dex.currentMod]?.name || entry?.name || effect.name);
 	}
 
 	languages() {
@@ -276,13 +276,15 @@ export class DexText {
 		};
 	}
 
-	private static tagName(name: string, lang: TextLanguage, mod?: string): string {
+	private static tagName(name: string, lang: TextLanguage, dex: ModdedDex): string {
 		const id = toID(name);
-		return (this.loadRawTextData(lang).Tags[id]?.name ?? this.loadRawTextData().Tags[id]?.name) || name;
+		const entry = dex.loadTextData(lang).Tags[id];
+		return (entry?.[dex.currentMod]?.name ?? entry?.name) || name;
 	}
 
-	private static otherName(table: OtherNameTable, name: string, lang: TextLanguage): string {
-		return (this.loadRawTextData(lang)[table][name] ?? this.loadRawTextData()[table][name]) || name;
+	private static otherName(table: OtherNameTable, name: string, lang: TextLanguage, dex: ModdedDex): string {
+		const entry = dex.loadTextData(lang)[table][name];
+		return (entry?.[dex.currentMod]?.name ?? entry?.name) || name;
 	}
 }
 
@@ -296,13 +298,12 @@ function inLanguage(source: string, language: string, context = ''): string {
 	return (typeof translation === 'string' ? translation : translation?.[context]) ?? source;
 }
 
-function createTL(language: string, modid = 'base') {
+function createTL(language: string, dex: ModdedDex) {
 	function translate(strings: TemplateStringsArray, ...values: unknown[]): string;
 	function translate(text: string | TextEffect, context?: string): string;
 	function translate(strings: TemplateStringsArray | string | TextEffect, ...values: unknown[]): string {
-		console.trace("Translating");
 		if (typeof strings !== 'string' && !Array.isArray(strings)) {
-			return DexText.getName(strings as TextEffect, language as TextLanguage);
+			return DexText.getName(strings as TextEffect, language as TextLanguage, dex);
 		}
 
 		let source: string;
@@ -319,13 +320,14 @@ function createTL(language: string, modid = 'base') {
 			}
 		}
 
-		const translated = inLanguage(source, language, context);
+		const translated = inLanguage(source, language, context, dex);
 		return translated.replace(/\{(\d+)\}/g, (placeholder, indexText) => {
 			const index = Number(indexText);
 			return index < values.length ? String(values[index]) : placeholder;
 		});
 	}
-	const table = textData(language as TextLanguage, modid);
+	const modid = dex.currentMod;
+	const table = dex.loadTextData(language);
 	const TL = Object.assign(translate, {
 		/** `TL.label("Ability", "Intimidate")` === `"Ability: Intimidate"` */
 		label(label: string, value?: unknown) {
@@ -382,41 +384,6 @@ function createTL(language: string, modid = 'base') {
 	return TL;
 }
 
-function textData(lang: TextLanguage = 'en', modid = 'base'): TextTableData {
-	const englishData = DexText.loadRawTextData();
-	const localizedData = lang === 'en' ? englishData : DexText.loadRawTextData(lang);
-	const returnTable = {
-		Tags: DexText.resolveTagsTable(englishData.Tags, localizedData.Tags),
-		Default: DexText.resolveNameTable(englishData.Default, localizedData.Default),
-		...DexText.resolveOtherNameTables(englishData, localizedData),
-	};
-	if (modid !== 'base') {
-		const englishModData = DexText.loadModTextData('en', modid);
-		const localizedModData = lang === 'en' ? englishModData : DexText.loadModTextData(lang, modid);
-		const modTable = {
-			Tags: DexText.resolveTagsTable(englishModData.Tags, localizedModData.Tags),
-			Default: DexText.resolveNameTable(englishModData.Default, localizedModData.Default),
-			...DexText.resolveOtherNameTables(englishModData, localizedModData),
-		};
-		for (const table in returnTable) {
-			for (const id in returnTable[table]) {
-				if (modTable[table][id]) {
-					returnTable[table][id][modid] = modTable[table][id];
-				}
-			}
-		}
-		for (const table in modTable) {
-			for (const id in modTable[table]) {
-				if (!returnTable[table][id]) {
-					returnTable[table][id] = {};
-					returnTable[table][id][modid] = modTable[table][id];
-				}
-			}
-		}
-	}
-	return returnTable;
-}
-
 function tagField(tags: DexTable<ResolvedTagText>, field: 'name' | 'hint' | 'desc') {
 	const table: Record<string, string> = {};
 	for (const id in tags) {
@@ -440,11 +407,11 @@ function tableCleanup(text: DexTable<any>, modid: string) {
 
 export type Translator = ReturnType<typeof createTL>;
 
-export function TLfor(language: string, modid: string): Translator {
-	const cacheKey = `${language}:${modid}`;
+export function TLfor(language: string, dex: ModdedDex): Translator {
+	const cacheKey = `${language}:${dex.currentMod}`;
 	let translator = TLs.get(cacheKey);
 	if (!translator) {
-		translator = createTL(language, modid);
+		translator = createTL(language, dex);
 		TLs.set(cacheKey, translator);
 	}
 	return translator;
